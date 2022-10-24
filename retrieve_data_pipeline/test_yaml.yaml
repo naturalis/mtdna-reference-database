@@ -1,0 +1,9 @@
+sra_folder: input/test/
+result_folder: result/test/
+intermediar_folder: intermediaries/test/
+breed_folder: result/breeds/test/
+breed_file: result/all_breed_counts.txt
+description_folder: result/biosample_descriptions/test/
+script_folder: scripts/
+    
+

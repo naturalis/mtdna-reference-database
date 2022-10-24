@@ -1,0 +1,2306 @@
+Identifiers: BioSample: SAMN01163917; Sample name: Angus Genome Sequence; SRA: SRS362056
+Identifiers: BioSample: SAMN01163918; Sample name: Nellore Genome Sequence; SRA: SRS362057
+Identifiers: BioSample: SAMN01915337; Sample name: AANCANM000001256842; SRA: SRS428672
+    /breed="Angus"
+Identifiers: BioSample: SAMN01915339; Sample name: AANCANM000000976295; SRA: SRS428675
+    /breed="Angus"
+Identifiers: BioSample: SAMN01915340; Sample name: XXXCANM00000CM53871; SRA: SRS428659
+    /breed="Crossbred (50% Red Angus, 50% Limousin)"
+Identifiers: BioSample: SAMN01915341; Sample name: AANCANM000000912768; SRA: SRS428668
+    /breed="Angus"
+Identifiers: BioSample: SAMN01915343; Sample name: XXXUSAM000002247636; SRA: SRS428661
+    /breed="Crossbred (50% Simmental, 50% Angus)"
+Identifiers: BioSample: SAMN01915345; Sample name: PIEITAM0000CN49471C; SRA: SRS428662
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN01915346; Sample name: RANCANM0000GOLD690F; SRA: SRS428664
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN01915347; Sample name: XXXCANM000GOLD8104H; SRA: SRS428677
+    /breed="Crossbred (62.5% Red Angus, 37.5% Gelbvieh)"
+Identifiers: BioSample: SAMN01915348; Sample name: XXXCANM0000GOLD858H; SRA: SRS428680
+    /breed="Crossbred (50% South Devon, 25% Red Angus, 25% Gelbvieh)"
+Identifiers: BioSample: SAMN01915349; Sample name: PIEITAM0000CN3516ID; SRA: SRS428665
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN01915350; Sample name: RANCANM000000914772; SRA: SRS428676
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN01915351; Sample name: XXXCANM000000630201; SRA: SRS428671
+    /breed="Crossbred (50% Simmental, 50% Red Angus)"
+Identifiers: BioSample: SAMN01915352; Sample name: CHACANM0000RMC28323; SRA: SRS428660
+    /breed="Charolais"
+Identifiers: BioSample: SAMN01915353; Sample name: HERCANM000C02699070; SRA: SRS428669
+    /breed="Hereford"
+Identifiers: BioSample: SAMN01915354; Sample name: CHACANM00000FMC5641; SRA: SRS428678
+    /breed="Charolais"
+Identifiers: BioSample: SAMN01915355; Sample name: BAQCANM0000000R8616; SRA: SRS428663
+    /breed="Blonde d'Aquitaine"
+Identifiers: BioSample: SAMN02142982; Sample name: AANCANM000000561205; SRA: SRS428684
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142983; Sample name: AANUSAM000002719761; SRA: SRS428685
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142984; Sample name: AANUSAM000010398616; SRA: SRS428683
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142985; Sample name: AANCANM000000355459; SRA: SRS428689
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142986; Sample name: AANCANM000000564202; SRA: SRS428690
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142987; Sample name: AANUSAM000002677295; SRA: SRS428691
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142988; Sample name: AANCANM000001169224; SRA: SRS428687
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142989; Sample name: AANCANM000001072819; SRA: SRS428688
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142990; Sample name: AANCANM000001303204; SRA: SRS428686
+    /breed="Angus"
+Identifiers: BioSample: SAMN02142991; Sample name: CHAUSAM00000M244289; SRA: SRS428698
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02142992; Sample name: CHAFRAM005872122876; SRA: SRS428699
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02142993; Sample name: CHAFRAM005882101816; SRA: SRS428700
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02142994; Sample name: CHAUSAM0000MC190391; SRA: SRS428702
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02142995; Sample name: CHAUSAM0000MC243075; SRA: SRS428703
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02142996; Sample name: HERUSAM000015587538; SRA: SRS428701
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02142997; Sample name: HERCANM000C02356049; SRA: SRS647349
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02143002; Sample name: HERUSAM000021219843; SRA: SRS428705
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02143003; Sample name: HERUSAM000023495300; SRA: SRS428710
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02143004; Sample name: HERUSAM000022957495; SRA: SRS428704
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02225723; Sample name: LHJ_308; SRA: SRS455375
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225724; Sample name: LHJ_313; SRA: SRS455399
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225725; Sample name: LHJ_26093; SRA: SRS457507
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225726; Sample name: LHJ_26100; SRA: SRS457506
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225727; Sample name: LHJ_26104; SRA: SRS457508
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225728; Sample name: LHJ_26113; SRA: SRS560840
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225729; Sample name: LHJ_27007; SRA: SRS457509
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225730; Sample name: LHJ_27010; SRA: SRS457513
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225731; Sample name: LHJ_29016; SRA: SRS457512
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225732; Sample name: LHJ_29079; SRA: SRS457511
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225733; Sample name: LHJ_29080; SRA: SRS457510
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225734; Sample name: LHJ_09044; SRA: SRS457514
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225735; Sample name: LHJ_09046; SRA: SRS457515
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225736; Sample name: LHJ_09057; SRA: SRS457516
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225737; Sample name: LHJ_09060; SRA: SRS457517
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225738; Sample name: LHJ_09123; SRA: SRS457518
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225739; Sample name: LHJ_10068; SRA: SRS457519
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225740; Sample name: LHJ_10078; SRA: SRS457520
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225741; Sample name: LHJ_10090; SRA: SRS457521
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225742; Sample name: LHJ_10099; SRA: SRS457522
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225743; Sample name: LHJ_10100; SRA: SRS457523
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02225744; Sample name: Yoon_A01; SRA: SRS457524
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225745; Sample name: Yoon_A05; SRA: SRS457525
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225746; Sample name: Yoon_A12; SRA: SRS457526
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225747; Sample name: Yoon_A14; SRA: SRS457527
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225748; Sample name: Yoon_A16; SRA: SRS457528
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225750; Sample name: Yoon_A27; SRA: SRS457529
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225751; Sample name: Yoon_A28; SRA: SRS457530
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225752; Sample name: Yoon_A44; SRA: SRS457531
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225753; Sample name: Yoon_A45; SRA: SRS457532
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225754; Sample name: Yoon_A46; SRA: SRS457533
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02225755; Sample name: Yoon_A48; SRA: SRS457534
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN02671482; Sample name: Btau_HOL_0088; SRA: SRS597709
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02671596; Sample name: Btau_HOL_0059; SRA: SRS597680
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02839600; Sample name: GVHCANM000CDGV79007; SRA: SRS628366
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02839601; Sample name: GVHCANM000CDGV94481; SRA: SRS628363
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02839602; Sample name: GVHDEUM000000606526; SRA: SRS628364
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02839603; Sample name: GVHDEUM000000CGA88C; SRA: SRS628367
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02839604; Sample name: GVHDEUM000000LAF01M; SRA: SRS628368
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02839605; Sample name: HERCANM000C02755740; SRA: SRS628365
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02839606; Sample name: HERCANM000C02828255; SRA: SRS628362
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02839607; Sample name: AANCANM000001267535; SRA: SRS628375
+    /breed="Angus"
+Identifiers: BioSample: SAMN02839608; Sample name: CHACANM0000MC140502; SRA: SRS628369
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02839609; Sample name: CHACANM0000MC299727; SRA: SRS628370
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02839610; Sample name: CHACANM0000RMC30160; SRA: SRS628372
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02839611; Sample name: CHAFRAM004240299352; SRA: SRS628376
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02839613; Sample name: RANCANM000001228327; SRA: SRS628373
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02839614; Sample name: RANCANM000001450934; SRA: SRS628374
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02841104; Sample name: BBRCANM000001122453; SRA: SRS629089
+    /breed="Composite"
+Identifiers: BioSample: SAMN02841105; Sample name: DEVGBRM000000015072; SRA: SRS629090
+    /breed="Devon"
+Identifiers: BioSample: SAMN02841106; Sample name: AANCANM000001121114; SRA: SRS629088
+    /breed="Angus"
+Identifiers: BioSample: SAMN02841107; Sample name: GVHCANM000CDGV38968; SRA: SRS629100
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02841108; Sample name: HERCANM000C02020446; SRA: SRS629099
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02841109; Sample name: HOLCANM000006026421; SRA: SRS629098
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02841111; Sample name: HERCANM000C02764160; SRA: SRS629095
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02841112; Sample name: HERCANM000C02764939; SRA: SRS629094
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02841113; Sample name: HERCANM000C02789138; SRA: SRS629092
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02841114; Sample name: HERUSAM000018829210; SRA: SRS629097
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02841115; Sample name: HERUSAM000018837770; SRA: SRS629093
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02841116; Sample name: AANCANM000001413589; SRA: SRS629103
+    /breed="Angus"
+Identifiers: BioSample: SAMN02841117; Sample name: HOLCANM000000327279; SRA: SRS629104
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02841118; Sample name: HOLCANM000000334489; SRA: SRS629102
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02841119; Sample name: HOLCANM000100745543; SRA: SRS629101
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02842697; Sample name: BBRCANM000001116394; SRA: SRS629337
+    /breed="Composite"
+Identifiers: BioSample: SAMN02842698; Sample name: BBRCANM000001124865; SRA: SRS629336
+    /breed="Composite"
+Identifiers: BioSample: SAMN02842699; Sample name: BBRCANM000001202878; SRA: SRS629335
+    /breed="Composite"
+Identifiers: BioSample: SAMN02842700; Sample name: CHACANM0000MC293022; SRA: SRS629334
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02842701; Sample name: HOLCANM000000376455; SRA: SRS629333
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02842702; Sample name: RANCANM000001379655; SRA: SRS629338
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02842703; Sample name: BBRCANM000001208601; SRA: SRS629319
+    /breed="Composite"
+Identifiers: BioSample: SAMN02842704; Sample name: CHAAUSM000002UPP46E; SRA: SRS629324
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02842705; Sample name: CHACANM000000FMC409; SRA: SRS629327
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02842706; Sample name: CHACANM00000MC64448; SRA: SRS629328
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02842707; Sample name: GVHCANM0000000CDGV4; SRA: SRS629325
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02842709; Sample name: HERCANM000C02900324; SRA: SRS629339
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02842710; Sample name: HERCANM000C02906123; SRA: SRS629340
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02842711; Sample name: HOLCANM000005757117; SRA: SRS629342
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02842713; Sample name: BBRCANM000001120939; SRA: SRS629320
+    /breed="Composite"
+Identifiers: BioSample: SAMN02842714; Sample name: AANCANM000000583665; SRA: SRS629322
+    /breed="Angus"
+Identifiers: BioSample: SAMN02842715; Sample name: CHACANM0000MC236083; SRA: SRS629321
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02842717; Sample name: AANCANM0000KINKA133; SRA: SRS629331
+    /breed="Angus"
+Identifiers: BioSample: SAMN02842718; Sample name: AANCANM0000KINKA135; SRA: SRS629330
+    /breed="Angus"
+Identifiers: BioSample: SAMN02842719; Sample name: HYBCANM00000KIN2094; SRA: SRS629332
+    /breed="Composite"
+Identifiers: BioSample: SAMN02842720; Sample name: HYBCANM0000KINCB467; SRA: SRS629329
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843054; Sample name: AANCANM0000KINKA149; SRA: SRS629688
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843055; Sample name: AANCANM0000KINKA281; SRA: SRS629690
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843056; Sample name: CHACANM0000MC226735; SRA: SRS629687
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02843057; Sample name: HYBCANM000KINKB1174; SRA: SRS629689
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843058; Sample name: CHACANM0000MC250513; SRA: SRS629686
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02843059; Sample name: GVHCANM000CDGV38715; SRA: SRS629685
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843062; Sample name: GVHCANM000CDGV38819; SRA: SRS629669
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843064; Sample name: RDPCANM000000000041; SRA: SRS629671
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843065; Sample name: RDPCANM000000000002; SRA: SRS629678
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843066; Sample name: CHACANM0000MC178117; SRA: SRS629691
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02843068; Sample name: HERCANM000C02170890; SRA: SRS629694
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843069; Sample name: RDPCANM000000000034; SRA: SRS629692
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843070; Sample name: GVHCANM000CDGV86544; SRA: SRS629682
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843071; Sample name: GVHCANM00CDGV104143; SRA: SRS629679
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843072; Sample name: GVHCANM00CDGV121304; SRA: SRS629683
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843073; Sample name: GVHUSAM00AMGV405990; SRA: SRS629681
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843075; Sample name: GVHCANM000CDGV94510; SRA: SRS629675
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843076; Sample name: GVHCANM00CDGV107639; SRA: SRS629674
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843077; Sample name: GVHCANM00CDGV108847; SRA: SRS629676
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843079; Sample name: AANCANM000001067384; SRA: SRS629677
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843088; Sample name: GVHCANM00CDGV101001; SRA: SRS631222
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843089; Sample name: GVHCANM00CDGV108879; SRA: SRS631221
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843090; Sample name: HERCANM000C01047851; SRA: SRS631223
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843091; Sample name: HERCANM000C01335977; SRA: SRS631225
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843092; Sample name: HERCANM000C02250230; SRA: SRS631224
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843093; Sample name: HERUSAM000021098173; SRA: SRS631218
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843095; Sample name: LIMFRAM008780001156; SRA: SRS631219
+    /breed="Limousin"
+Identifiers: BioSample: SAMN02843097; Sample name: HERCANM000C01589795; SRA: SRS631195
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843098; Sample name: HERCANM000C02268244; SRA: SRS631198
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843099; Sample name: HERCANM000C02738219; SRA: SRS631194
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843100; Sample name: RDPCANM000000000005; SRA: SRS631193
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843101; Sample name: AANCANM000001067440; SRA: SRS631217
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843104; Sample name: BBRCANM000001122240; SRA: SRS631231
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843105; Sample name: BBRCANM000001122554; SRA: SRS631233
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843106; Sample name: BBRCANM000001207149; SRA: SRS631227
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843107; Sample name: BBRCANM000001209142; SRA: SRS631228
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843108; Sample name: CHACANM0000MC106929; SRA: SRS631230
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02843109; Sample name: HERCANM000C01456610; SRA: SRS631226
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843110; Sample name: HOLUSAM000132973942; SRA: SRS631232
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843111; Sample name: HERCANM000C02509999; SRA: SRS631192
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843112; Sample name: HERCANM000C02698670; SRA: SRS631190
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843113; Sample name: HERCANM000C02728663; SRA: SRS631191
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843114; Sample name: HOLITAM006001001962; SRA: SRS631189
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843115; Sample name: BBRCANM000001098046; SRA: SRS631183
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843116; Sample name: BBRCANM000001100016; SRA: SRS631184
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843117; Sample name: BBRCANM000001111526; SRA: SRS631182
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843118; Sample name: BBRCANM000001113008; SRA: SRS631181
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843119; Sample name: BBRCANM000001115559; SRA: SRS631185
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843120; Sample name: HOLCANM000009324236; SRA: SRS631186
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843123; Sample name: CHAFRAM005874114052; SRA: SRS631207
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02843124; Sample name: HOLCANM000007329252; SRA: SRS631206
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843125; Sample name: HOLCANM000007816429; SRA: SRS631204
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843126; Sample name: HOLITAM017990915143; SRA: SRS631209
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843127; Sample name: HOLUSAM000017349617; SRA: SRS631205
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843128; Sample name: HOLUSAM000069080973; SRA: SRS631202
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843129; Sample name: HOLUSAM000123066734; SRA: SRS631201
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843130; Sample name: HOLUSAM000133573930; SRA: SRS631203
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843131; Sample name: AANCANM000001295406; SRA: SRS631214
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843132; Sample name: HERCANM000C00523214; SRA: SRS631213
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843133; Sample name: HERCANM000C01886795; SRA: SRS631216
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843134; Sample name: HERCANM000C02319508; SRA: SRS631211
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843135; Sample name: HERUSAM000019219455; SRA: SRS631208
+    /breed="Hereford"
+Identifiers: BioSample: SAMN02843136; Sample name: RDPCANM000000000024; SRA: SRS631212
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843137; Sample name: RDPCANM000000000029; SRA: SRS631210
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843138; Sample name: RDPCANM000000000035; SRA: SRS631215
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN02843139; Sample name: HOLCANM000006820564; SRA: SRS631199
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843140; Sample name: HOLUSAM000002234121; SRA: SRS631200
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843141; Sample name: AANCANM000001047219; SRA: SRS641713
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843142; Sample name: AANCANM000001077210; SRA: SRS641738
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843143; Sample name: AANCANM000001086586; SRA: SRS641740
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843144; Sample name: AANCANM000001504907; SRA: SRS641739
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843145; Sample name: AANCANM000001545531; SRA: SRS641732
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843146; Sample name: BBRCANM000001116624; SRA: SRS641733
+    /breed="Composite"
+Identifiers: BioSample: SAMN02843147; Sample name: RANCANM000001016963; SRA: SRS641736
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02843148; Sample name: RANCANM000001316097; SRA: SRS641734
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02843149; Sample name: RANCANM000001577397; SRA: SRS641737
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02843150; Sample name: GVHCANM0000CDGV1038; SRA: SRS641742
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843152; Sample name: AANCANM000000631887; SRA: SRS641715
+    /breed="Angus"
+Identifiers: BioSample: SAMN02843153; Sample name: GVHCANM000CDGV30956; SRA: SRS641714
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN02843154; Sample name: HOLCANM000009428124; SRA: SRS641754
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843155; Sample name: HOLUSAM000002284915; SRA: SRS641753
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843156; Sample name: HOLCANM000000335966; SRA: SRS641722
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843157; Sample name: HOLCANM000005279989; SRA: SRS641727
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843158; Sample name: HOLCANM000005402550; SRA: SRS641719
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843160; Sample name: HOLCANM000006790237; SRA: SRS641723
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843161; Sample name: HOLCANM000006830327; SRA: SRS641725
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843162; Sample name: HOLCANM000006947936; SRA: SRS641718
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843163; Sample name: HOLCANM000007746123; SRA: SRS641720
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843164; Sample name: HOLUSAM000017129288; SRA: SRS641716
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843165; Sample name: HOLUSAM000050750432; SRA: SRS641721
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843166; Sample name: HOLUSAM000130588960; SRA: SRS641724
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843167; Sample name: HOLUSAM000137974489; SRA: SRS641717
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843168; Sample name: HOLCANM000000290516; SRA: SRS641735
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843169; Sample name: HOLCANM000007220817; SRA: SRS641750
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843170; Sample name: HOLCANM000101098586; SRA: SRS641748
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843171; Sample name: HOLUSAM000002266677; SRA: SRS641749
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843172; Sample name: HOLUSAM000017131025; SRA: SRS641745
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843173; Sample name: HOLUSAM000062065919; SRA: SRS641752
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843174; Sample name: HOLUSAM000062768990; SRA: SRS641747
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843175; Sample name: HOLUSAM000065258473; SRA: SRS641751
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843176; Sample name: HOLUSAM000130161253; SRA: SRS641743
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843177; Sample name: HOLUSAM000138738583; SRA: SRS641746
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843178; Sample name: HOLUSAM000139471179; SRA: SRS641744
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843180; Sample name: HOLUSAM000002265005; SRA: SRS641728
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843181; Sample name: HOLUSAM000002297473; SRA: SRS641731
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02843182; Sample name: HOLUSAM000132967734; SRA: SRS641730
+    /breed="Holstein"
+Identifiers: BioSample: SAMN02941168; Sample name: AANCANM000001356841; SRA: SRS666693
+    /breed="Angus"
+Identifiers: BioSample: SAMN02941169; Sample name: AANUSAM000010586502; SRA: SRS666774
+    /breed="Angus"
+Identifiers: BioSample: SAMN02941176; Sample name: CHACANM00000FMC6365; SRA: SRS666720
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02941177; Sample name: CHACANM00000MC62739; SRA: SRS666715
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02941178; Sample name: CHACANM0000MC226738; SRA: SRS666710
+    /breed="Charolais"
+Identifiers: BioSample: SAMN02941179; Sample name: SIMCANM000000140262; SRA: SRS666734
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941180; Sample name: SIMCANM000000216954; SRA: SRS666729
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941181; Sample name: SIMCANM000000287068; SRA: SRS666727
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941182; Sample name: SIMCANM000000293252; SRA: SRS666731
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941183; Sample name: SIMCANM000000345090; SRA: SRS666730
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941184; Sample name: SIMCANM000000361254; SRA: SRS666735
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941185; Sample name: SIMCANM000000400874; SRA: SRS666732
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941186; Sample name: SIMCANM000000596928; SRA: SRS666728
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941187; Sample name: SIMCANM000000623092; SRA: SRS666725
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941188; Sample name: SIMUSAM000001006805; SRA: SRS666781
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941190; Sample name: SIMUSAM000001600900; SRA: SRS666782
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941191; Sample name: SIMUSAM000001716917; SRA: SRS666789
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941192; Sample name: SIMUSAM000001791082; SRA: SRS666794
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941193; Sample name: SIMUSAM000001818026; SRA: SRS666793
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941194; Sample name: SIMUSAM000001884316; SRA: SRS666790
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941195; Sample name: SIMUSAM000001907954; SRA: SRS666791
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941196; Sample name: SIMUSAM000002002092; SRA: SRS666784
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941197; Sample name: SIMUSAM000002044500; SRA: SRS666785
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941198; Sample name: SIMUSAM000002068996; SRA: SRS666776
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941199; Sample name: SIMUSAM000002081939; SRA: SRS666780
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941200; Sample name: SIMUSAM000002257912; SRA: SRS666786
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941201; Sample name: SIMUSAM000002289889; SRA: SRS666783
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941202; Sample name: SIMUSAM000009617179; SRA: SRS666779
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941207; Sample name: RANCANM000000929890; SRA: SRS666691
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02941208; Sample name: XXXCANM0000GVMM16HC; SRA: SRS666705
+    /breed="Crossbred (75% Gelbvieh, 25% Limousin)"
+Identifiers: BioSample: SAMN02941209; Sample name: RANCANMONGOLD7141GC; SRA: SRS666708
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN02941210; Sample name: AANCANM00ONGOLD87HC; SRA: SRS666773
+    /breed="Angus"
+Identifiers: BioSample: SAMN02941211; Sample name: XXXCANM0ONNLDF329MC; SRA: SRS666689
+    /breed="Crossbred (50% Simmental, 25% Red Angus, 25% Charolais)"
+Identifiers: BioSample: SAMN02941212; Sample name: XXXCANM0ONNLDF332MC; SRA: SRS666719
+    /breed="Crossbred (37.5% Gelbvieh, 25% Red Angus, 12.5% Simmental, 12.5% Limousin)"
+Identifiers: BioSample: SAMN02941213; Sample name: XXXCANMONTESO4460KC; SRA: SRS666713
+    /breed="Crossbred (25% Red Angus, 25% Simmental, 25% Gelbvieh, 25% Hereford)"
+Identifiers: BioSample: SAMN02941214; Sample name: XXXCANMONTESO5452KC; SRA: SRS666706
+    /breed="Crossbred (62.5% Angus, 12.5% Simmental, 12.5% Gelbvieh, 12.5% Hereford)"
+Identifiers: BioSample: SAMN02941215; Sample name: PIEITAM078CN161C037; SRA: SRS666714
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN02941216; Sample name: PIEITAM004901026491; SRA: SRS666704
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN02941217; Sample name: PIEITAM040CN010B014; SRA: SRS666711
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN02941218; Sample name: PIEITAM004902068467; SRA: SRS666707
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN02941219; Sample name: PIEITAM004901028698; SRA: SRS666712
+    /breed="Piedmontese"
+Identifiers: BioSample: SAMN02941220; Sample name: SALCANM0000SG42255B; SRA: SRS666716
+    /breed="Salers"
+Identifiers: BioSample: SAMN02941221; Sample name: XXXUSAM000002153974; SRA: SRS666694
+    /breed="Crossbred (50% Simmental, 50% Angus)"
+Identifiers: BioSample: SAMN02941222; Sample name: SIMUSAM000001308819; SRA: SRS666775
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941223; Sample name: SIMCANM000000172281; SRA: SRS666726
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941224; Sample name: SIMUSAM000001282876; SRA: SRS666788
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941225; Sample name: SIMUSAM000002240471; SRA: SRS666778
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941226; Sample name: XXXCANM00SMJJMC57FC; SRA: SRS666718
+    /breed="Crossbred (50% Simmental, 50% Red Angus)"
+Identifiers: BioSample: SAMN02941227; Sample name: XXXCANM00SMJJMC61HC; SRA: SRS666717
+    /breed="Crossbred (50% Simmental, 25% Red Angus, 25% Angus)"
+Identifiers: BioSample: SAMN02941228; Sample name: XXXCANM00SMJJMC85GC; SRA: SRS666709
+    /breed="Crossbred (50% Simmental, 37.5% Red Angus, 12.5% Angus)"
+Identifiers: BioSample: SAMN02941229; Sample name: SIMUSAM000000901761; SRA: SRS666777
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941230; Sample name: SIMUSAM000000760099; SRA: SRS666792
+    /breed="Simmental"
+Identifiers: BioSample: SAMN02941231; Sample name: SIMCANM000SMRJW46JC; SRA: SRS666733
+    /breed="Simmental"
+Identifiers: BioSample: SAMN03387020; Sample name: BTAN; SRA: SRS909348
+    /breed="Angus"
+Identifiers: BioSample: SAMN03447086; Sample name: TMP29; SRA: SRS884347
+    /breed="Bos taurus turano-mongolicus"
+Identifiers: BioSample: SAMN03465694; Sample name: Dominette L1 014490; SRA: SRS908101
+    /breed="Herford"
+Identifiers: BioSample: SAMN03652922; Sample name: BGI-QC70A; SRA: SRS933328
+Identifiers: BioSample: SAMN03652923; Sample name: BGI-AGS7A; SRA: SRS933329
+Identifiers: BioSample: SAMN03652924; Sample name: BGI-QC2A; SRA: SRS933330
+Identifiers: BioSample: SAMN03652925; Sample name: BGI-QC3A; SRA: SRS933331
+Identifiers: BioSample: SAMN03652926; Sample name: BGI-QC4A; SRA: SRS933332
+Identifiers: BioSample: SAMN03652927; Sample name: BGI-QC5A; SRA: SRS933333
+Identifiers: BioSample: SAMN03652928; Sample name: BGI-QC6A; SRA: SRS933334
+Identifiers: BioSample: SAMN03652929; Sample name: BGI-QC8A; SRA: SRS933335
+Identifiers: BioSample: SAMN03652930; Sample name: BGI-QC10A; SRA: SRS933336
+Identifiers: BioSample: SAMN03652931; Sample name: BGI-QC11A; SRA: SRS933337
+Identifiers: BioSample: SAMN03652932; Sample name: BGI-QC12A; SRA: SRS933338
+Identifiers: BioSample: SAMN03652933; Sample name: BGI-QC14A; SRA: SRS933339
+Identifiers: BioSample: SAMN03652934; Sample name: BGI-QC15A; SRA: SRS933340
+Identifiers: BioSample: SAMN03652935; Sample name: BGI-QC21A; SRA: SRS933341
+Identifiers: BioSample: SAMN03652936; Sample name: BGI-QC22A; SRA: SRS933342
+Identifiers: BioSample: SAMN03652937; Sample name: BGI-QC23A; SRA: SRS933343
+Identifiers: BioSample: SAMN03652938; Sample name: BGI-QC24A; SRA: SRS933344
+Identifiers: BioSample: SAMN03652939; Sample name: BGI-QC25A; SRA: SRS933345
+Identifiers: BioSample: SAMN03652940; Sample name: BGI-QC27A; SRA: SRS933346
+Identifiers: BioSample: SAMN03652941; Sample name: BGI-QC29A; SRA: SRS933347
+Identifiers: BioSample: SAMN03652942; Sample name: BGI-QC30A; SRA: SRS933348
+Identifiers: BioSample: SAMN03652943; Sample name: BGI-QC53A; SRA: SRS933349
+Identifiers: BioSample: SAMN03652944; Sample name: BGI-QC65A; SRA: SRS933350
+Identifiers: BioSample: SAMN03652945; Sample name: BGI-QC66A; SRA: SRS933351
+Identifiers: BioSample: SAMN03652946; Sample name: BGI-QC69A; SRA: SRS933352
+Identifiers: BioSample: SAMN03652947; Sample name: BGI-QC71A; SRA: SRS933353
+Identifiers: BioSample: SAMN03652948; Sample name: BGI-QC75A; SRA: SRS933354
+Identifiers: BioSample: SAMN03652949; Sample name: BGI-QC78A; SRA: SRS933355
+Identifiers: BioSample: SAMN03652950; Sample name: BGI-QC79A; SRA: SRS933356
+Identifiers: BioSample: SAMN03652951; Sample name: BGI-QC80A; SRA: SRS933357
+Identifiers: BioSample: SAMN03652952; Sample name: BGI-QC85A; SRA: SRS933358
+Identifiers: BioSample: SAMN03652953; Sample name: BGI-QC86A; SRA: SRS933359
+Identifiers: BioSample: SAMN03652954; Sample name: BGI-QC87A; SRA: SRS933360
+Identifiers: BioSample: SAMN03652955; Sample name: BGI-QC90A; SRA: SRS933361
+Identifiers: BioSample: SAMN03652956; Sample name: BGI-QC93A; SRA: SRS933362
+Identifiers: BioSample: SAMN03652957; Sample name: BGI-QC100A; SRA: SRS933363
+Identifiers: BioSample: SAMN03652958; Sample name: BGI-QC101A; SRA: SRS933364
+Identifiers: BioSample: SAMN03652959; Sample name: BGI-QC102A; SRA: SRS933365
+Identifiers: BioSample: SAMN03652960; Sample name: BGI-AGS1A; SRA: SRS933366
+Identifiers: BioSample: SAMN03652961; Sample name: BGI-AGS2A; SRA: SRS933367
+Identifiers: BioSample: SAMN03652962; Sample name: BGI-AGS3A; SRA: SRS933368
+Identifiers: BioSample: SAMN03652963; Sample name: BGI-AGS4A; SRA: SRS933369
+Identifiers: BioSample: SAMN03652964; Sample name: BGI-AGS9A; SRA: SRS933370
+Identifiers: BioSample: SAMN03652965; Sample name: BGI-AGS10A; SRA: SRS933371
+Identifiers: BioSample: SAMN03652966; Sample name: BGI-AGS11A; SRA: SRS933372
+Identifiers: BioSample: SAMN03652967; Sample name: BGI-AGS12A; SRA: SRS933373
+Identifiers: BioSample: SAMN03652968; Sample name: BGI-AGS16A; SRA: SRS933374
+Identifiers: BioSample: SAMN03652969; Sample name: BGI-AGS19A; SRA: SRS933375
+Identifiers: BioSample: SAMN03652970; Sample name: BGI-AGS20A; SRA: SRS933376
+Identifiers: BioSample: SAMN03652971; Sample name: BGI-AGS24A; SRA: SRS933377
+Identifiers: BioSample: SAMN03652972; Sample name: BGI-AGS25A; SRA: SRS933378
+Identifiers: BioSample: SAMN03652973; Sample name: BGI-AGS26A; SRA: SRS933379
+Identifiers: BioSample: SAMN03652974; Sample name: BGI-AGS27A; SRA: SRS933380
+Identifiers: BioSample: SAMN03652975; Sample name: BGI-AGS28A; SRA: SRS933381
+Identifiers: BioSample: SAMN03652976; Sample name: BGI-AGS30A; SRA: SRS933382
+Identifiers: BioSample: SAMN03652977; Sample name: BGI-HN1A; SRA: SRS933383
+Identifiers: BioSample: SAMN03652978; Sample name: BGI-HN2A; SRA: SRS933384
+Identifiers: BioSample: SAMN03652979; Sample name: BGI-HN3A; SRA: SRS933385
+Identifiers: BioSample: SAMN03652980; Sample name: BGI-HN6A; SRA: SRS933386
+Identifiers: BioSample: SAMN03652981; Sample name: BGI-HN9A; SRA: SRS933387
+Identifiers: BioSample: SAMN03652982; Sample name: BGI-HN12A; SRA: SRS933388
+Identifiers: BioSample: SAMN03652983; Sample name: BGI-HN14A; SRA: SRS933389
+Identifiers: BioSample: SAMN03652984; Sample name: BGI-HN22A; SRA: SRS933390
+Identifiers: BioSample: SAMN03652985; Sample name: BGI-HN23A; SRA: SRS933391
+Identifiers: BioSample: SAMN03652986; Sample name: BGI-HN24A; SRA: SRS933392
+Identifiers: BioSample: SAMN03652987; Sample name: BGI-HN26A; SRA: SRS933393
+Identifiers: BioSample: SAMN03652988; Sample name: BGI-NY440A; SRA: SRS933394
+Identifiers: BioSample: SAMN03652989; Sample name: BGI-NY878A; SRA: SRS933395
+Identifiers: BioSample: SAMN03652990; Sample name: BGI-LX4A; SRA: SRS933396
+Identifiers: BioSample: SAMN03652991; Sample name: BGI-LQ686A; SRA: SRS933397
+Identifiers: BioSample: SAMN03652992; Sample name: BGI-LQ733A; SRA: SRS933398
+Identifiers: BioSample: SAMN03652993; Sample name: BGI-YN233A; SRA: SRS933399
+Identifiers: BioSample: SAMN03652994; Sample name: BGI-YN234A; SRA: SRS933400
+Identifiers: BioSample: SAMN03652995; Sample name: BGI-YB2A; SRA: SRS933401
+Identifiers: BioSample: SAMN03652996; Sample name: BGI-YB4A; SRA: SRS933402
+Identifiers: BioSample: SAMN03839032; Sample name: Tail vein blood; SRA: SRS979597
+    /breed="Hanwoo"
+Identifiers: BioSample: SAMN04028906; Sample name: CPC98; SRA: SRS1073463
+Identifiers: BioSample: SAMN04201345; Sample name: DK_SDM_44-6; SRA: SRS1127138
+    /breed="Holstein"
+Identifiers: BioSample: SAMN04545530; Sample name: Bo_2612; SRA: SRS1335347
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545531; Sample name: Bo_37506E; SRA: SRS1338703
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545532; Sample name: Bo_392205G; SRA: SRS1429391
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545533; Sample name: Bo_439; SRA: SRS1346805
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545534; Sample name: Bo_467; SRA: SRS1429491
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545535; Sample name: Bo_563005K; SRA: SRS1437860
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545537; Sample name: Bo_672; SRA: SRS1468768
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545538; Sample name: Bow_1304; SRA: SRS1468771
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545539; Sample name: Bow_1688; SRA: SRS1468770
+    /breed="Boran"
+Identifiers: BioSample: SAMN04545540; Sample name: BT200001; SRA: SRS1338704
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545541; Sample name: BT200015; SRA: SRS1496254
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545542; Sample name: BT200030; SRA: SRS1496257
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545543; Sample name: BT200050; SRA: SRS1496259
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545544; Sample name: BT200073; SRA: SRS1496260
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545545; Sample name: BT200109; SRA: SRS1496261
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545546; Sample name: BT200111; SRA: SRS1496262
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545547; Sample name: BT200122; SRA: SRS1496264
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545548; Sample name: BT200123; SRA: SRS1496265
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545549; Sample name: BT200135; SRA: SRS1496266
+    /breed="Ankole"
+Identifiers: BioSample: SAMN04545560; Sample name: ND064; SRA: SRS1512380
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545561; Sample name: ND118; SRA: SRS1512399
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545562; Sample name: ND131; SRA: SRS1512404
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545563; Sample name: ND148; SRA: SRS1512405
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545564; Sample name: ND158; SRA: SRS1512406
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545565; Sample name: ND166; SRA: SRS1512407
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545566; Sample name: ND169; SRA: SRS1512417
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545567; Sample name: ND183; SRA: SRS1512418
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545568; Sample name: ND719; SRA: SRS1512498
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545569; Sample name: ND730; SRA: SRS1512514
+    /breed="N'Dama"
+Identifiers: BioSample: SAMN04545570; Sample name: OgD1; SRA: SRS1512518
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545571; Sample name: OgD2; SRA: SRS1512519
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545573; Sample name: OgD4; SRA: SRS1512520
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545574; Sample name: OgD5; SRA: SRS1512521
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545575; Sample name: OgD6; SRA: SRS1512522
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545576; Sample name: OgD7; SRA: SRS1512523
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545577; Sample name: OgD8; SRA: SRS1512524
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545578; Sample name: OgS1; SRA: SRS1512525
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04545579; Sample name: OgS2; SRA: SRS1512526
+    /breed="Ogaden"
+Identifiers: BioSample: SAMN04576207; Sample name: RCI_001; SRA: SRS1357841
+Identifiers: BioSample: SAMN04576211; Sample name: RCI_002; SRA: SRS1360344
+Identifiers: BioSample: SAMN04576212; Sample name: Parental cell line 2120; SRA: SRS1360346
+Identifiers: BioSample: SAMN04576214; Sample name: parental celline 2122; SRA: SRS1360345
+Identifiers: BioSample: SAMN04978239; Sample name: 50; SRA: SRS1437808
+Identifiers: BioSample: SAMN04978240; Sample name: 56; SRA: SRS1437810
+Identifiers: BioSample: SAMN04978241; Sample name: 60; SRA: SRS1437811
+Identifiers: BioSample: SAMN04978250; Sample name: 296; SRA: SRS1432781
+Identifiers: BioSample: SAMN04978251; Sample name: 2040; SRA: SRS1432811
+Identifiers: BioSample: SAMN04978252; Sample name: 3310; SRA: SRS1432878
+Identifiers: BioSample: SAMN04978253; Sample name: 3344; SRA: SRS1432904
+Identifiers: BioSample: SAMN04978254; Sample name: 3352; SRA: SRS1432913
+Identifiers: BioSample: SAMN04978255; Sample name: 3369; SRA: SRS1432920
+Identifiers: BioSample: SAMN04978256; Sample name: 3377; SRA: SRS1432923
+Identifiers: BioSample: SAMN04978257; Sample name: 3454; SRA: SRS1432926
+Identifiers: BioSample: SAMN04978258; Sample name: 4252; SRA: SRS1433018
+Identifiers: BioSample: SAMN04978259; Sample name: 4718; SRA: SRS1433020
+Identifiers: BioSample: SAMN05199550; Sample name: 19969812; SRA: SRS1497847
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05199614; Sample name: 19989863; SRA: SRS1497857
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05199629; Sample name: 19989880; SRA: SRS1497861
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05199676; Sample name: 20049811; SRA: SRS1497871
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05199680; Sample name: 20069802; SRA: SRS1497906
+    /breed="Braunveih"
+Identifiers: BioSample: SAMN05199681; Sample name: 20069805; SRA: SRS1497907
+    /breed="Braunveih"
+Identifiers: BioSample: SAMN05199688; Sample name: 20069843; SRA: SRS1497912
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN05199689; Sample name: 20069845; SRA: SRS1497913
+    /breed="Maine Anjou"
+Identifiers: BioSample: SAMN05199693; Sample name: 20069855; SRA: SRS1497917
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05199698; Sample name: 20069869; SRA: SRS1497924
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05199699; Sample name: 20069870; SRA: SRS1497923
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05199706; Sample name: 20079858; SRA: SRS1497931
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05199707; Sample name: 20079865; SRA: SRS1497932
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05199708; Sample name: 20079908; SRA: SRS1497934
+    /breed="Chi-Angus"
+Identifiers: BioSample: SAMN05199710; Sample name: 20079915; SRA: SRS1497936
+    /breed="Salers"
+Identifiers: BioSample: SAMN05199762; Sample name: 20011147; SRA: SRS1497870
+    /breed="Limousin x Hereford"
+Identifiers: BioSample: SAMN05199766; Sample name: 20061011; SRA: SRS1497874
+    /breed="Limousin x Hereford"
+Identifiers: BioSample: SAMN05199780; Sample name: 20061210; SRA: SRS1497885
+    /breed="Charolais x Angus"
+Identifiers: BioSample: SAMN05216009; Sample name: 19879801; SRA: SRS1604188
+    /breed="Angus"
+Identifiers: BioSample: SAMN05216010; Sample name: 19939802; SRA: SRS1604187
+    /breed="Angus"
+Identifiers: BioSample: SAMN05216011; Sample name: 19999821; SRA: SRS1604241
+    /breed="Angus"
+Identifiers: BioSample: SAMN05216012; Sample name: 19999822; SRA: SRS1604240
+    /breed="Angus"
+Identifiers: BioSample: SAMN05216013; Sample name: 19999823; SRA: SRS1604239
+    /breed="Angus"
+Identifiers: BioSample: SAMN05216014; Sample name: 19999825; SRA: SRS1604238
+    /breed="Angus"
+Identifiers: BioSample: SAMN05216015; Sample name: 19969811; SRA: SRS1604236
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05216016; Sample name: 19969812; SRA: SRS1604231
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05216017; Sample name: 19989837; SRA: SRS1604220
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05216018; Sample name: 19999828; SRA: SRS1604219
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05216019; Sample name: 19999829; SRA: SRS1604217
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05216020; Sample name: 20049808; SRA: SRS1604215
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05216021; Sample name: 19989863; SRA: SRS1604213
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05216022; Sample name: 19999833; SRA: SRS1604212
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05216023; Sample name: 19999834; SRA: SRS1604211
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05216024; Sample name: 19999835; SRA: SRS1604208
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05216025; Sample name: 19999837; SRA: SRS1604207
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05216026; Sample name: 19999838; SRA: SRS1604206
+    /breed="Limousin"
+Identifiers: BioSample: SAMN05216027; Sample name: 19929810; SRA: SRS1604205
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05216028; Sample name: 19999842; SRA: SRS1604204
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05216029; Sample name: 19999843; SRA: SRS1604202
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05216030; Sample name: 19999846; SRA: SRS1604201
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05216031; Sample name: 19999847; SRA: SRS1604199
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05216032; Sample name: 19999848; SRA: SRS1604197
+    /breed="Simmental"
+Identifiers: BioSample: SAMN05216033; Sample name: 19939808; SRA: SRS1604195
+    /breed="Charolais"
+Identifiers: BioSample: SAMN05216034; Sample name: 19969825; SRA: SRS1604194
+    /breed="Charolais"
+Identifiers: BioSample: SAMN05216035; Sample name: 19989916; SRA: SRS1604193
+    /breed="Charolais"
+Identifiers: BioSample: SAMN05216036; Sample name: 19989919; SRA: SRS1604190
+    /breed="Charolais"
+Identifiers: BioSample: SAMN05216037; Sample name: 19999851; SRA: SRS1604243
+    /breed="Charolais"
+Identifiers: BioSample: SAMN05216038; Sample name: 19999852; SRA: SRS1604242
+    /breed="Charolais"
+Identifiers: BioSample: SAMN05216040; Sample name: 19999855; SRA: SRS1604222
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN05216041; Sample name: 19999856; SRA: SRS1604203
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN05216042; Sample name: 19999857; SRA: SRS1604192
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN05216043; Sample name: 19999859; SRA: SRS1604189
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN05216044; Sample name: 19999860; SRA: SRS1603313
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN05216045; Sample name: 19929826; SRA: SRS1603311
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05216046; Sample name: 19989876; SRA: SRS1603310
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05216047; Sample name: 19999863; SRA: SRS1603309
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05216048; Sample name: 19999864; SRA: SRS1603308
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05216049; Sample name: 19999865; SRA: SRS1603307
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05216050; Sample name: 19999866; SRA: SRS1603305
+    /breed="Gelbvieh"
+Identifiers: BioSample: SAMN05216051; Sample name: 19999925; SRA: SRS1603304
+    /breed="Beefmaster"
+Identifiers: BioSample: SAMN05216052; Sample name: 19999926; SRA: SRS1603303
+    /breed="Beefmaster"
+Identifiers: BioSample: SAMN05216053; Sample name: 19999927; SRA: SRS1603302
+    /breed="Beefmaster"
+Identifiers: BioSample: SAMN05216054; Sample name: 19999928; SRA: SRS1603301
+    /breed="Beefmaster"
+Identifiers: BioSample: SAMN05216055; Sample name: 19999929; SRA: SRS1603300
+    /breed="Beefmaster"
+Identifiers: BioSample: SAMN05216056; Sample name: 19999909; SRA: SRS1603299
+    /breed="Brangus"
+Identifiers: BioSample: SAMN05216057; Sample name: 19999910; SRA: SRS1603298
+    /breed="Brangus"
+Identifiers: BioSample: SAMN05216058; Sample name: 19999911; SRA: SRS1603297
+    /breed="Brangus"
+Identifiers: BioSample: SAMN05216059; Sample name: 19999912; SRA: SRS1603296
+    /breed="Brangus"
+Identifiers: BioSample: SAMN05216060; Sample name: 19999913; SRA: SRS1603295
+    /breed="Brangus"
+Identifiers: BioSample: SAMN05216061; Sample name: 19999874; SRA: SRS1603294
+    /breed="Salers"
+Identifiers: BioSample: SAMN05216062; Sample name: 19999875; SRA: SRS1603293
+    /breed="Salers"
+Identifiers: BioSample: SAMN05216063; Sample name: 19999876; SRA: SRS1603292
+    /breed="Salers"
+Identifiers: BioSample: SAMN05216064; Sample name: 19999880; SRA: SRS1603291
+    /breed="Salers"
+Identifiers: BioSample: SAMN05216065; Sample name: 19999882; SRA: SRS1603290
+    /breed="Salers"
+Identifiers: BioSample: SAMN05216066; Sample name: 19919842; SRA: SRS1603289
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05216067; Sample name: 19999811; SRA: SRS1603288
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05216068; Sample name: 19999812; SRA: SRS1603286
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05216069; Sample name: 19999813; SRA: SRS1603285
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05216070; Sample name: 19999819; SRA: SRS1603315
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05216071; Sample name: 19999891; SRA: SRS1603314
+    /breed="Shorthorn"
+Identifiers: BioSample: SAMN05216072; Sample name: 19999892; SRA: SRS1603312
+    /breed="Shorthorn"
+Identifiers: BioSample: SAMN05216073; Sample name: 19999893; SRA: SRS1603306
+    /breed="Shorthorn"
+Identifiers: BioSample: SAMN05216074; Sample name: 19999894; SRA: SRS1603287
+    /breed="Shorthorn"
+Identifiers: BioSample: SAMN05216075; Sample name: 19999895; SRA: SRS1603284
+    /breed="Shorthorn"
+Identifiers: BioSample: SAMN05216076; Sample name: 19999900; SRA: SRS1602502
+    /breed="Maine-Anjou"
+Identifiers: BioSample: SAMN05216077; Sample name: 19999901; SRA: SRS1602501
+    /breed="Maine-Anjou"
+Identifiers: BioSample: SAMN05216078; Sample name: 19999902; SRA: SRS1602500
+    /breed="Maine-Anjou"
+Identifiers: BioSample: SAMN05216079; Sample name: 19999903; SRA: SRS1602499
+    /breed="Maine-Anjou"
+Identifiers: BioSample: SAMN05216080; Sample name: 19999904; SRA: SRS1602498
+    /breed="Maine-Anjou"
+Identifiers: BioSample: SAMN05216081; Sample name: 19999870; SRA: SRS1602496
+    /breed="Texas Longhorn"
+Identifiers: BioSample: SAMN05216082; Sample name: 19999871; SRA: SRS1602495
+    /breed="Texas Longhorn"
+Identifiers: BioSample: SAMN05216083; Sample name: 19999872; SRA: SRS1602494
+    /breed="Texas Longhorn"
+Identifiers: BioSample: SAMN05216084; Sample name: 19999873; SRA: SRS1602493
+    /breed="Texas Longhorn"
+Identifiers: BioSample: SAMN05216085; Sample name: 19999905; SRA: SRS1602492
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05216086; Sample name: 19999906; SRA: SRS1602491
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05216087; Sample name: 19999907; SRA: SRS1602490
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05216088; Sample name: 19999908; SRA: SRS1602488
+    /breed="Santa Gertrudis"
+Identifiers: BioSample: SAMN05216089; Sample name: 19999914; SRA: SRS1602487
+    /breed="Chianina"
+Identifiers: BioSample: SAMN05216090; Sample name: 19999918; SRA: SRS1602486
+    /breed="Chianina"
+Identifiers: BioSample: SAMN05216091; Sample name: 19999923; SRA: SRS1602485
+    /breed="Chianina"
+Identifiers: BioSample: SAMN05216092; Sample name: 19999924; SRA: SRS1602484
+    /breed="Chianina"
+Identifiers: BioSample: SAMN05216093; Sample name: 19220065; SRA: SRS1602483
+    /breed="Braunvieh"
+Identifiers: BioSample: SAMN05216094; Sample name: 19220072; SRA: SRS1602482
+    /breed="Braunvieh"
+Identifiers: BioSample: SAMN05216095; Sample name: 19220079; SRA: SRS1602481
+    /breed="Braunvieh"
+Identifiers: BioSample: SAMN05216096; Sample name: 19220086; SRA: SRS1602480
+    /breed="Braunvieh"
+Identifiers: BioSample: SAMN05216097; Sample name: 19202900; SRA: SRS1602479
+    /breed="Corriente"
+Identifiers: BioSample: SAMN05216098; Sample name: 19202901; SRA: SRS1602477
+    /breed="Corriente"
+Identifiers: BioSample: SAMN05216099; Sample name: 19202902; SRA: SRS1602476
+    /breed="Corriente"
+Identifiers: BioSample: SAMN05216100; Sample name: 19202903; SRA: SRS1602503
+    /breed="Corriente"
+Identifiers: BioSample: SAMN05216101; Sample name: 19293032; SRA: SRS1602497
+    /breed="Tarentaise"
+Identifiers: BioSample: SAMN05216102; Sample name: 19293033; SRA: SRS1602489
+    /breed="Tarentaise"
+Identifiers: BioSample: SAMN05216103; Sample name: 19293034; SRA: SRS1602478
+    /breed="Tarentaise"
+Identifiers: BioSample: SAMN05216104; Sample name: 19293035; SRA: SRS1602475
+    /breed="Tarentaise"
+Identifiers: BioSample: SAMN05217649; Sample name: Bovine Leukocyte 3 Cells (BL3); SRA: SRS3744005
+    /breed="Hereford"
+Identifiers: BioSample: SAMN05788490; Sample name: 1918; SRA: SRS1705813
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05788495; Sample name: 3014; SRA: SRS1705818
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05788496; Sample name: 3037; SRA: SRS1705819
+    /breed="Brahman"
+Identifiers: BioSample: SAMN05803879; Sample name: BTAUGLWAUSF000000AG0134; SRA: SRS1714254
+    /breed="Belted Galloway"
+Identifiers: BioSample: SAMN05803880; Sample name: BTAUGLWAUSF000000AG0135; SRA: SRS1714255
+    /breed="Belted Galloway"
+Identifiers: BioSample: SAMN05803881; Sample name: BTAUHERAUSF000000AG0137; SRA: SRS1714256
+    /breed="Hereford miniature"
+Identifiers: BioSample: SAMN05803882; Sample name: BTAUHERAUSF000000AG0139; SRA: SRS1714257
+    /breed="Hereford miniature"
+Identifiers: BioSample: SAMN05803883; Sample name: BTAUDXTAUSM000000AG0144; SRA: SRS1714258
+    /breed="Dexter"
+Identifiers: BioSample: SAMN05803884; Sample name: BTAUAANAUSF000000AG0149; SRA: SRS1714260
+    /breed="Angus lowline"
+Identifiers: BioSample: SAMN05803885; Sample name: BTAUAANAUSF000000AG0150; SRA: SRS1714261
+    /breed="Angus lowline"
+Identifiers: BioSample: SAMN05803886; Sample name: BTAUAANAUSM000000AG0152; SRA: SRS1714259
+    /breed="Angus lowline"
+Identifiers: BioSample: SAMN05803887; Sample name: BTAUAANAUSM000000AG0154; SRA: SRS1714262
+    /breed="Angus lowline"
+Identifiers: BioSample: SAMN05803888; Sample name: BTAUDXTAUSF000000AG0156; SRA: SRS1714263
+    /breed="Dexter"
+Identifiers: BioSample: SAMN05862018; Sample name: Bo_587; SRA: SRS1727978
+    /breed="Boran"
+Identifiers: BioSample: SAMN05929796; Sample name: nainiu1.sort.rmdup.bam; SRA: SRS1754132
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05938744; Sample name: NGSCATTLE1014; SRA: SRS1759155
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05939266; Sample name: NGSCATTLE1015; SRA: SRS1759167
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05939364; Sample name: NGSCATTLE1016; SRA: SRS1759168
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05942192; Sample name: NGSCATTLE1017; SRA: SRS1759814
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05942193; Sample name: NGSCATTLE1018; SRA: SRS1759815
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05942194; Sample name: NGSCATTLE1019; SRA: SRS1759816
+    /breed="Holstein"
+Identifiers: BioSample: SAMN05945846; Sample name: NGSCATTLE1020; SRA: SRS1761947
+    /breed="Fleckvieh"
+Identifiers: BioSample: SAMN05945848; Sample name: NGSCATTLE1021; SRA: SRS1761948
+    /breed="Fleckvieh"
+Identifiers: BioSample: SAMN05945849; Sample name: NGSCATTLE1024; SRA: SRS1761949
+    /breed="Fleckvieh"
+Identifiers: BioSample: SAMN06161576; Sample name: Low-altitude_cattle; SRA: SRS1899982
+    /breed="Sichuan indigenous cattle"
+Identifiers: BioSample: SAMN06282405; Sample name: HOLPOL1; SRA: SRS1948864
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282407; Sample name: HOLPOL3; SRA: SRS1948878
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282408; Sample name: HOLPOL4; SRA: SRS1948879
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282409; Sample name: HOLPOL5; SRA: SRS1948880
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282410; Sample name: HOLPOL6; SRA: SRS1948881
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282411; Sample name: HOLPOL7; SRA: SRS1948882
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282412; Sample name: HOLPOL8; SRA: SRS1948883
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282413; Sample name: HOLPOL9; SRA: SRS1948884
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282414; Sample name: HOLPOL10; SRA: SRS1948854
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282415; Sample name: HOLPOL11; SRA: SRS1948855
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282416; Sample name: HOLPOL12; SRA: SRS1948856
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282417; Sample name: HOLPOL13; SRA: SRS1948857
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282418; Sample name: HOLPOL14; SRA: SRS1948858
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282419; Sample name: HOLPOL15; SRA: SRS1948859
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282420; Sample name: HOLPOL16; SRA: SRS1948860
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282421; Sample name: HOLPOL17; SRA: SRS1948861
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282422; Sample name: HOLPOL18; SRA: SRS1948862
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282423; Sample name: HOLPOL19; SRA: SRS1948863
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282424; Sample name: HOLPOL20; SRA: SRS1948865
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282425; Sample name: HOLPOL21; SRA: SRS1948866
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282426; Sample name: HOLPOL22; SRA: SRS1948867
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282427; Sample name: HOLPOL23; SRA: SRS1948868
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282428; Sample name: HOLPOL24; SRA: SRS1948869
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282429; Sample name: HOLPOL25; SRA: SRS1948870
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282430; Sample name: HOLPOL26; SRA: SRS1948871
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282431; Sample name: HOLPOL27; SRA: SRS1948872
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282432; Sample name: HOLPOL28; SRA: SRS1948873
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282433; Sample name: HOLPOL29; SRA: SRS1948874
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282434; Sample name: HOLPOL30; SRA: SRS1948875
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282435; Sample name: HOLPOL31; SRA: SRS1948876
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06282436; Sample name: HOLPOL32; SRA: SRS1948877
+    /breed="Polish Holstein-Friesian"
+Identifiers: BioSample: SAMN06698973; Sample name: A83; SRA: SRS2165168
+    /breed="Yanbian Cattle"
+Identifiers: BioSample: SAMN06698974; Sample name: CDM3; SRA: SRS2165167
+    /breed="Chaidamu Yellow Cattle"
+Identifiers: BioSample: SAMN06698975; Sample name: CDM4; SRA: SRS2165166
+    /breed="Chaidamu Yellow Cattle"
+Identifiers: BioSample: SAMN06698976; Sample name: CDM6; SRA: SRS2165165
+    /breed="Chaidamu Yellow Cattle"
+Identifiers: BioSample: SAMN06698977; Sample name: CDM7; SRA: SRS2165164
+    /breed="Chaidamu Yellow Cattle"
+Identifiers: BioSample: SAMN06698978; Sample name: CDM8; SRA: SRS2165163
+    /breed="Chaidamu Yellow Cattle"
+Identifiers: BioSample: SAMN06698979; Sample name: MG49M; SRA: SRS2165162
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698980; Sample name: MG45M; SRA: SRS2165161
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698981; Sample name: MG12M-1; SRA: SRS2165160
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698982; Sample name: MG14M-2; SRA: SRS2165159
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698983; Sample name: MG17M; SRA: SRS2165158
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698984; Sample name: MG35M; SRA: SRS2165157
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698985; Sample name: MG37M; SRA: SRS2165156
+    /breed="Mongolian Cattle"
+Identifiers: BioSample: SAMN06698986; Sample name: HSK25M; SRA: SRS2165155
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698987; Sample name: HSK36M; SRA: SRS2165154
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698988; Sample name: HSK42M; SRA: SRS2165153
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698989; Sample name: HSK1M; SRA: SRS2165152
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698990; Sample name: HSK8M; SRA: SRS2165151
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698991; Sample name: HSK26M; SRA: SRS2165150
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698992; Sample name: HSK29M; SRA: SRS2165149
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698993; Sample name: HSK32M; SRA: SRS2165148
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06698994; Sample name: HSK34M; SRA: SRS2165147
+    /breed="Kazakh Cattle"
+Identifiers: BioSample: SAMN06699004; Sample name: LX78; SRA: SRS2165137
+    /breed="Luxi Cattle"
+Identifiers: BioSample: SAMN06699005; Sample name: LX79; SRA: SRS2165136
+    /breed="Luxi Cattle"
+Identifiers: BioSample: SAMN06699006; Sample name: LX80; SRA: SRS2165135
+    /breed="Luxi Cattle"
+Identifiers: BioSample: SAMN06699007; Sample name: LX83; SRA: SRS2165134
+    /breed="Luxi Cattle"
+Identifiers: BioSample: SAMN06699008; Sample name: LX85; SRA: SRS2165132
+    /breed="Luxi Cattle"
+Identifiers: BioSample: SAMN06699009; Sample name: NY89; SRA: SRS2165133
+    /breed="Nanyang Cattle"
+Identifiers: BioSample: SAMN06699010; Sample name: HNNY21-M; SRA: SRS2165131
+    /breed="Nanyang Cattle"
+Identifiers: BioSample: SAMN06699011; Sample name: NY22-2-M; SRA: SRS2165130
+    /breed="Nanyang Cattle"
+Identifiers: BioSample: SAMN06699012; Sample name: NY23-2-M; SRA: SRS2165129
+    /breed="Nanyang Cattle"
+Identifiers: BioSample: SAMN06699013; Sample name: HNNY25-M; SRA: SRS2165128
+    /breed="Nanyang Cattle"
+Identifiers: BioSample: SAMN06699014; Sample name: JX1M; SRA: SRS2165127
+    /breed="Jiaxian Red Cattle"
+Identifiers: BioSample: SAMN06699015; Sample name: JX8M; SRA: SRS2165126
+    /breed="Jiaxian Red Cattle"
+Identifiers: BioSample: SAMN06699016; Sample name: JX10M; SRA: SRS2165125
+    /breed="Jiaxian Red Cattle"
+Identifiers: BioSample: SAMN06699017; Sample name: JX6M; SRA: SRS2165124
+    /breed="Jiaxian Red Cattle"
+Identifiers: BioSample: SAMN06699018; Sample name: JX21; SRA: SRS2165123
+    /breed="Jiaxian Red Cattle"
+Identifiers: BioSample: SAMN06699019; Sample name: BH1; SRA: SRS2165122
+    /breed="Bohai Black Cattle"
+Identifiers: BioSample: SAMN06699020; Sample name: BH2; SRA: SRS2165121
+    /breed="Bohai Black Cattle"
+Identifiers: BioSample: SAMN06699021; Sample name: BH4; SRA: SRS2165119
+    /breed="Bohai Black Cattle"
+Identifiers: BioSample: SAMN06699022; Sample name: BH5; SRA: SRS2165120
+    /breed="Bohai Black Cattle"
+Identifiers: BioSample: SAMN06699023; Sample name: BH8; SRA: SRS2165118
+    /breed="Bohai Black Cattle"
+Identifiers: BioSample: SAMN06699024; Sample name: SXLN13-M; SRA: SRS2165117
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699025; Sample name: SXLN17-2; SRA: SRS2165116
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699026; Sample name: SXLN19-M; SRA: SRS2165115
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699027; Sample name: SXLN26-M; SRA: SRS2165114
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699028; Sample name: SXLN35-M; SRA: SRS2165113
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699029; Sample name: SXLN45-M; SRA: SRS2165112
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699030; Sample name: SXLN60-M; SRA: SRS2165111
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699031; Sample name: SXLN6-2M; SRA: SRS2165110
+    /breed="Lingnan Cattle"
+Identifiers: BioSample: SAMN06699032; Sample name: ZB1; SRA: SRS2165109
+    /breed="Zaobei Cattle"
+Identifiers: BioSample: SAMN06699033; Sample name: ZB2; SRA: SRS2165108
+    /breed="Zaobei Cattle"
+Identifiers: BioSample: SAMN06699034; Sample name: ZB3; SRA: SRS2165107
+    /breed="Zaobei Cattle"
+Identifiers: BioSample: SAMN06699035; Sample name: ZB5; SRA: SRS2165106
+    /breed="Zaobei Cattle"
+Identifiers: BioSample: SAMN06699036; Sample name: ZB7; SRA: SRS2165105
+    /breed="Zaobei Cattle"
+Identifiers: BioSample: SAMN06699037; Sample name: XH8; SRA: SRS2165104
+    /breed="Xuanhan Cattle"
+Identifiers: BioSample: SAMN06699038; Sample name: XH9; SRA: SRS2165103
+    /breed="Xuanhan Cattle"
+Identifiers: BioSample: SAMN06699039; Sample name: XZ1; SRA: SRS2165102
+    /breed="Xuanhan Cattle"
+Identifiers: BioSample: SAMN06699040; Sample name: XZ2; SRA: SRS2165100
+    /breed="Xuanhan Cattle"
+Identifiers: BioSample: SAMN06699041; Sample name: XZ3; SRA: SRS2165101
+    /breed="Xuanhan Cattle"
+Identifiers: BioSample: SAMN06699042; Sample name: GZWN5; SRA: SRS2165099
+    /breed="Weining Cattle"
+Identifiers: BioSample: SAMN06699043; Sample name: GZWN6M; SRA: SRS2165098
+    /breed="Weining Cattle"
+Identifiers: BioSample: SAMN06699044; Sample name: GZWN7M; SRA: SRS2165097
+    /breed="Weining Cattle"
+Identifiers: BioSample: SAMN06699045; Sample name: GZWN18M; SRA: SRS2165096
+    /breed="Weining Cattle"
+Identifiers: BioSample: SAMN06699046; Sample name: GZWN19-M; SRA: SRS2165095
+    /breed="Weining Cattle"
+Identifiers: BioSample: SAMN06699047; Sample name: WN4M; SRA: SRS2165094
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN06699048; Sample name: WN8M; SRA: SRS2165093
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN06699049; Sample name: WN9M; SRA: SRS2165092
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN06699050; Sample name: WN10M; SRA: SRS2165091
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN06699051; Sample name: WN11M; SRA: SRS2165090
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN06699052; Sample name: AHDBS1-M; SRA: SRS2165089
+    /breed="Wandong Cattle"
+Identifiers: BioSample: SAMN06699053; Sample name: AHDBS2M-2; SRA: SRS2165088
+    /breed="Wandong Cattle"
+Identifiers: BioSample: SAMN06699054; Sample name: AHWD1; SRA: SRS2165087
+    /breed="Dabieshan Cattle"
+Identifiers: BioSample: SAMN06699055; Sample name: AHWD2-M; SRA: SRS2165086
+    /breed="Dabieshan Cattle"
+Identifiers: BioSample: SAMN06699056; Sample name: JXGF1; SRA: SRS2165180
+    /breed="Guangfeng Cattle"
+Identifiers: BioSample: SAMN06699057; Sample name: JXGF2; SRA: SRS2165179
+    /breed="Guangfeng Cattle"
+Identifiers: BioSample: SAMN06699058; Sample name: JXGF3; SRA: SRS2165178
+    /breed="Guangfeng Cattle"
+Identifiers: BioSample: SAMN06699059; Sample name: JXGF4; SRA: SRS2165177
+    /breed="Guangfeng Cattle"
+Identifiers: BioSample: SAMN06699060; Sample name: JXJA1; SRA: SRS2165176
+    /breed="Jian Cattle"
+Identifiers: BioSample: SAMN06699061; Sample name: JXJA2; SRA: SRS2165175
+    /breed="Jian Cattle"
+Identifiers: BioSample: SAMN06699062; Sample name: JXJA3; SRA: SRS2165174
+    /breed="Jian Cattle"
+Identifiers: BioSample: SAMN06699063; Sample name: JXJA4; SRA: SRS2165173
+    /breed="Jian Cattle"
+Identifiers: BioSample: SAMN06699064; Sample name: JXJJ1; SRA: SRS2165172
+    /breed="Jinjiang Cattle"
+Identifiers: BioSample: SAMN06699065; Sample name: JXJJ2; SRA: SRS2165171
+    /breed="Jinjiang Cattle"
+Identifiers: BioSample: SAMN06699066; Sample name: JXJJ3; SRA: SRS2165170
+    /breed="Jinjiang Cattle"
+Identifiers: BioSample: SAMN06699067; Sample name: JXJJ4; SRA: SRS2165169
+    /breed="Jinjiang Cattle"
+Identifiers: BioSample: SAMN06699068; Sample name: HN5M; SRA: SRS2165085
+    /breed="Leiqiong Cattle"
+Identifiers: BioSample: SAMN06699069; Sample name: HN12M; SRA: SRS2165084
+    /breed="Leiqiong Cattle"
+Identifiers: BioSample: SAMN06699070; Sample name: LZ15; SRA: SRS2165083
+    /breed="Leiqiong Cattle"
+Identifiers: BioSample: SAMN07622450; Sample name: DZ2; SRA: SRS2505196
+    /breed="Dianzhong Cattle"
+Identifiers: BioSample: SAMN07622451; Sample name: DZ3; SRA: SRS2505195
+    /breed="Dianzhong Cattle"
+Identifiers: BioSample: SAMN07622452; Sample name: DZ4; SRA: SRS2505198
+    /breed="Dianzhong Cattle"
+Identifiers: BioSample: SAMN07622453; Sample name: DZ7; SRA: SRS2505197
+    /breed="Dianzhong Cattle"
+Identifiers: BioSample: SAMN07622454; Sample name: DZ9; SRA: SRS2505200
+    /breed="Dianzhong Cattle"
+Identifiers: BioSample: SAMN07622455; Sample name: DZ12; SRA: SRS2505199
+    /breed="Dianzhong Cattle"
+Identifiers: BioSample: SAMN07622456; Sample name: WS1; SRA: SRS2505202
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622457; Sample name: WS3; SRA: SRS2505201
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622458; Sample name: WS4; SRA: SRS2505194
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622459; Sample name: WS7; SRA: SRS2505192
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622460; Sample name: WS8; SRA: SRS2505186
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622461; Sample name: WS10; SRA: SRS2505185
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622462; Sample name: WS12; SRA: SRS2505188
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622463; Sample name: WS17; SRA: SRS2505187
+    /breed="Wenshan Cattle"
+Identifiers: BioSample: SAMN07622464; Sample name: WN4M_add; SRA: SRS2505190
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN07622465; Sample name: WN8M_add; SRA: SRS2505189
+    /breed="Wannan Cattle"
+Identifiers: BioSample: SAMN07692225; Sample name: BV-ALBINO1; SRA: SRS2534722
+    /breed="Brown Suisse"
+Identifiers: BioSample: SAMN08166127; Sample name: Limonero-12313046105-0105; SRA: SRS2754199
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166128; Sample name: Limonero-12313046111-0111; SRA: SRS2754195
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166129; Sample name: Limonero-12313046137-0137; SRA: SRS2754196
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166130; Sample name: Limonero-12313046184-0184; SRA: SRS2754197
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166131; Sample name: Limonero-12313046187-0187; SRA: SRS2754203
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166132; Sample name: Limonero-12313046207-0207; SRA: SRS2754200
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166133; Sample name: Limonero-12313046209-0209; SRA: SRS2754198
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166134; Sample name: Limonero-12313046212-0212; SRA: SRS2754202
+    /breed="limonero"
+Identifiers: BioSample: SAMN08166135; Sample name: Limonero-12313046156-0156; SRA: SRS2754201
+    /breed="limonero"
+Identifiers: BioSample: SAMN08225763; Sample name: Gir (Gopal); SRA: SRS2926021
+    /breed="Gir"
+Identifiers: BioSample: SAMN08242174; Sample name: ypr114; SRA: SRS2791081
+    /breed="Indian Zebu"
+Identifiers: BioSample: SAMN08242175; Sample name: ypr115; SRA: SRS2791080
+    /breed="Indian Zebu"
+Identifiers: BioSample: SAMN08242176; Sample name: ypr117; SRA: SRS2791079
+    /breed="Indian Zebu"
+Identifiers: BioSample: SAMN08242177; Sample name: ypr119; SRA: SRS2791078
+    /breed="Indian Zebu"
+Identifiers: BioSample: SAMN08242223; Sample name: ms1; SRA: SRS2791115
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242224; Sample name: ms2; SRA: SRS2791114
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242225; Sample name: ms3; SRA: SRS2791113
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242227; Sample name: ms17; SRA: SRS2791119
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242229; Sample name: ms24; SRA: SRS2791116
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242230; Sample name: ms25; SRA: SRS2791117
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242231; Sample name: ms29; SRA: SRS2791118
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242232; Sample name: ms30; SRA: SRS2791112
+    /breed="Mangshi Zebu"
+Identifiers: BioSample: SAMN08242323; Sample name: t100; SRA: SRS2791123
+    /breed="Tibetan Cattle"
+Identifiers: BioSample: SAMN08242327; Sample name: t114; SRA: SRS2791133
+    /breed="Tibetan Cattle"
+Identifiers: BioSample: SAMN08242330; Sample name: t117; SRA: SRS2791127
+    /breed="Tibetan Cattle"
+Identifiers: BioSample: SAMN08435279; Sample name: BRAAUSM001; SRA: SRS2894461
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435280; Sample name: BRAAUSM002; SRA: SRS2894460
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435281; Sample name: BRAAUSM003; SRA: SRS2894462
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435282; Sample name: BRAAUSM004; SRA: SRS2894463
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435283; Sample name: BRAAUSM005; SRA: SRS2894464
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435284; Sample name: BRAAUSM006; SRA: SRS2894466
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435285; Sample name: BRAAUSM007; SRA: SRS2894467
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435286; Sample name: BRAAUSM008; SRA: SRS2894465
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435287; Sample name: BRAAUSM009; SRA: SRS2894470
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435288; Sample name: BRAAUSM010; SRA: SRS2894468
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435289; Sample name: BRAAUSM011; SRA: SRS2894482
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435290; Sample name: BRAAUSM012; SRA: SRS2894478
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435291; Sample name: BRAAUSM013; SRA: SRS2894484
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435292; Sample name: BRAAUSM014; SRA: SRS2894480
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435293; Sample name: BRAAUSM015; SRA: SRS2894481
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435295; Sample name: BRAAUSM017; SRA: SRS2894485
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435296; Sample name: BRAAUSM018; SRA: SRS2894483
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435297; Sample name: BRAAUSM019; SRA: SRS2894471
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435298; Sample name: BRAAUSM020; SRA: SRS2894469
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435299; Sample name: BRAAUSM021; SRA: SRS2894441
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435300; Sample name: BRAAUSM022; SRA: SRS2894444
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435301; Sample name: BRAAUSM023; SRA: SRS2894440
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435302; Sample name: BRAAUSM024; SRA: SRS2894439
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435303; Sample name: BRAAUSM025; SRA: SRS2894443
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435304; Sample name: BRAAUSM026; SRA: SRS2894445
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435305; Sample name: BRAAUSM027; SRA: SRS2894442
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435306; Sample name: BRAAUSM028; SRA: SRS2894446
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435307; Sample name: BRAAUSM029; SRA: SRS2894449
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435308; Sample name: BRAAUSM030; SRA: SRS2894447
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435310; Sample name: BRAAUSM032; SRA: SRS2894476
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435311; Sample name: BRAAUSM033; SRA: SRS2894473
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435312; Sample name: BRAAUSM034; SRA: SRS2894475
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435313; Sample name: BRAAUSM035; SRA: SRS2894474
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435314; Sample name: BRAAUSM036; SRA: SRS2894472
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435315; Sample name: BRAAUSM037; SRA: SRS2894487
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435316; Sample name: BRAAUSM038; SRA: SRS2894486
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435317; Sample name: BRAAUSM039; SRA: SRS2894459
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435318; Sample name: BRAAUSM040; SRA: SRS2894457
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435319; Sample name: BRAAUSM041; SRA: SRS2894455
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435320; Sample name: BRAAUSM042; SRA: SRS2894456
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435321; Sample name: BRAAUSM043; SRA: SRS2894452
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435322; Sample name: BRAAUSM044; SRA: SRS2894454
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435323; Sample name: BRAAUSM045; SRA: SRS2894450
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435324; Sample name: BRAAUSM046; SRA: SRS2894451
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435326; Sample name: BRAAUSM048; SRA: SRS2894453
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08435327; Sample name: BRAAUSM049; SRA: SRS2894458
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08473803; Sample name: DamF97; SRA: SRS2928488
+    /breed="Brahman"
+Identifiers: BioSample: SAMN08473804; Sample name: SireF97; SRA: SRS2928487
+    /breed="Angus"
+Identifiers: BioSample: SAMN08612380; Sample name: AgVic_Btau_HOL_0001; SRA: SRS3416977
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612381; Sample name: AgVic_Btau_HOL_0002; SRA: SRS3416976
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612382; Sample name: AgVic_Btau_HOL_0003; SRA: SRS3416979
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612383; Sample name: AgVic_Btau_HOL_0004; SRA: SRS3416978
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612384; Sample name: AgVic_Btau_HOL_0005; SRA: SRS3416980
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612385; Sample name: AgVic_Btau_HOL_0006; SRA: SRS3416981
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612386; Sample name: AgVic_Btau_HOL_0007; SRA: SRS3416983
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612387; Sample name: AgVic_Btau_HOL_0008; SRA: SRS3416982
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612388; Sample name: AgVic_Btau_HOL_0009; SRA: SRS3416975
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612389; Sample name: AgVic_Btau_HOL_0010; SRA: SRS3416974
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612390; Sample name: AgVic_Btau_HOL_0011; SRA: SRS3416849
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612392; Sample name: AgVic_Btau_HOL_0013; SRA: SRS3416851
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612393; Sample name: AgVic_Btau_HOL_0014; SRA: SRS3416850
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612394; Sample name: AgVic_Btau_HOL_0015; SRA: SRS3416853
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612395; Sample name: AgVic_Btau_HOL_0016; SRA: SRS3416852
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612396; Sample name: AgVic_Btau_HOL_0017; SRA: SRS3416855
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612397; Sample name: AgVic_Btau_HOL_0018; SRA: SRS3416854
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612398; Sample name: AgVic_Btau_HOL_0019; SRA: SRS3416857
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612399; Sample name: AgVic_Btau_HOL_0020; SRA: SRS3416856
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612400; Sample name: AgVic_Btau_HOL_0021; SRA: SRS3416926
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612401; Sample name: AgVic_Btau_HOL_0022; SRA: SRS3416927
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612402; Sample name: AgVic_Btau_HOL_0023; SRA: SRS3416928
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612403; Sample name: AgVic_Btau_HOL_0024; SRA: SRS3416929
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612404; Sample name: AgVic_Btau_HOL_0025; SRA: SRS3416930
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612405; Sample name: AgVic_Btau_HOL_0026; SRA: SRS3416931
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612406; Sample name: AgVic_Btau_HOL_0027; SRA: SRS3416932
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612407; Sample name: AgVic_Btau_HOL_0028; SRA: SRS3416935
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612408; Sample name: AgVic_Btau_HOL_0029; SRA: SRS3416924
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612409; Sample name: AgVic_Btau_HOL_0030; SRA: SRS3416925
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612410; Sample name: AgVic_Btau_HOL_0031; SRA: SRS3416903
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612411; Sample name: AgVic_Btau_HOL_0032; SRA: SRS3416902
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612412; Sample name: AgVic_Btau_HOL_0033; SRA: SRS3416901
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612413; Sample name: AgVic_Btau_HOL_0034; SRA: SRS3416900
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612414; Sample name: AgVic_Btau_HOL_0035; SRA: SRS3416895
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612415; Sample name: AgVic_Btau_HOL_0036; SRA: SRS3416899
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612416; Sample name: AgVic_Btau_HOL_0037; SRA: SRS3416898
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612417; Sample name: AgVic_Btau_HOL_0038; SRA: SRS3416897
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612418; Sample name: AgVic_Btau_HOL_0039; SRA: SRS3416896
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612419; Sample name: AgVic_Btau_HOL_0041; SRA: SRS3416894
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612420; Sample name: AgVic_Btau_HOL_0042; SRA: SRS3416972
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612421; Sample name: AgVic_Btau_HOL_0043; SRA: SRS3416973
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612422; Sample name: AgVic_Btau_HOL_0044; SRA: SRS3416970
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612423; Sample name: AgVic_Btau_HOL_0045; SRA: SRS3416971
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612424; Sample name: AgVic_Btau_HOL_0046; SRA: SRS3416968
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612425; Sample name: AgVic_Btau_HOL_0047; SRA: SRS3416969
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612426; Sample name: AgVic_Btau_HOL_0048; SRA: SRS3416966
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612427; Sample name: AgVic_Btau_HOL_0049; SRA: SRS3416967
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612428; Sample name: AgVic_Btau_HOL_0050; SRA: SRS3416964
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612429; Sample name: AgVic_Btau_HOL_0051; SRA: SRS3416965
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612430; Sample name: AgVic_Btau_HOL_0052; SRA: SRS3416951
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612431; Sample name: AgVic_Btau_HOL_0053; SRA: SRS3416950
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612432; Sample name: AgVic_Btau_HOL_0054; SRA: SRS3416953
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612433; Sample name: AgVic_Btau_HOL_0055; SRA: SRS3416952
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612434; Sample name: AgVic_Btau_HOL_0056; SRA: SRS3416947
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612435; Sample name: AgVic_Btau_HOL_0057; SRA: SRS3416946
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612436; Sample name: AgVic_Btau_HOL_0058; SRA: SRS3416949
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612437; Sample name: AgVic_Btau_HOL_0059; SRA: SRS3416948
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612438; Sample name: AgVic_Btau_HOL_0125; SRA: SRS3416944
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612439; Sample name: AgVic_Btau_HOL_0126; SRA: SRS3416945
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612440; Sample name: AgVic_Btau_HOL_0127; SRA: SRS3416822
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612441; Sample name: AgVic_Btau_HOL_0128; SRA: SRS3416823
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612442; Sample name: AgVic_Btau_HOL_0129; SRA: SRS3416824
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612443; Sample name: AgVic_Btau_HOL_0130; SRA: SRS3416825
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612444; Sample name: AgVic_Btau_HOL_0131; SRA: SRS3416818
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612445; Sample name: AgVic_Btau_HOL_0132; SRA: SRS3416819
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612446; Sample name: AgVic_Btau_HOL_0133; SRA: SRS3416820
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612447; Sample name: AgVic_Btau_HOL_0134; SRA: SRS3416821
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612448; Sample name: AgVic_Btau_HOL_0135; SRA: SRS3416826
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612449; Sample name: AgVic_Btau_HOL_0136; SRA: SRS3416827
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612450; Sample name: AgVic_Btau_HOL_0137; SRA: SRS3416803
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612451; Sample name: AgVic_Btau_HOL_0138; SRA: SRS3416802
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612452; Sample name: AgVic_Btau_HOL_0139; SRA: SRS3416801
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612453; Sample name: AgVic_Btau_HOL_0140; SRA: SRS3416800
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612454; Sample name: AgVic_Btau_HOL_0141; SRA: SRS3416807
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612455; Sample name: AgVic_Btau_HOL_0142; SRA: SRS3416806
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612456; Sample name: AgVic_Btau_HOL_0143; SRA: SRS3416805
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612457; Sample name: AgVic_Btau_HOL_0144; SRA: SRS3416804
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612458; Sample name: AgVic_Btau_HOL_0145; SRA: SRS3416799
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612459; Sample name: AgVic_Btau_HOL_0146; SRA: SRS3416798
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612460; Sample name: AgVic_Btau_HOL_0147; SRA: SRS3416918
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612461; Sample name: AgVic_Btau_HOL_0148; SRA: SRS3416919
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612462; Sample name: AgVic_Btau_HOL_0149; SRA: SRS3416916
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612463; Sample name: AgVic_Btau_HOL_0150; SRA: SRS3416917
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612464; Sample name: AgVic_Btau_HOL_0151; SRA: SRS3416922
+    /breed="Holstein"
+Identifiers: BioSample: SAMN08612465; Sample name: AgVic_Btau_JER_0001; SRA: SRS3416923
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612466; Sample name: AgVic_Btau_JER_0002; SRA: SRS3416920
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612467; Sample name: AgVic_Btau_JER_0003; SRA: SRS3416921
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612468; Sample name: AgVic_Btau_JER_0004; SRA: SRS3416914
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612469; Sample name: AgVic_Btau_JER_0005; SRA: SRS3416915
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612470; Sample name: AgVic_Btau_JER_0006; SRA: SRS3416887
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612471; Sample name: AgVic_Btau_JER_0007; SRA: SRS3416886
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612472; Sample name: AgVic_Btau_JER_0008; SRA: SRS3416888
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612473; Sample name: AgVic_Btau_JER_0009; SRA: SRS3416889
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612474; Sample name: AgVic_Btau_JER_0010; SRA: SRS3416890
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612475; Sample name: AgVic_Btau_JER_0011; SRA: SRS3416891
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612476; Sample name: AgVic_Btau_JER_0012; SRA: SRS3416893
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612477; Sample name: AgVic_Btau_JER_0013; SRA: SRS3416892
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612478; Sample name: AgVic_Btau_JER_0014; SRA: SRS3416885
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612479; Sample name: AgVic_Btau_JER_0015; SRA: SRS3416884
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612480; Sample name: AgVic_Btau_JER_0016; SRA: SRS3416878
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612481; Sample name: AgVic_Btau_JER_0017; SRA: SRS3416879
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612482; Sample name: AgVic_Btau_JER_0018; SRA: SRS3416876
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612483; Sample name: AgVic_Btau_JER_0019; SRA: SRS3416877
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612484; Sample name: AgVic_Btau_JER_0020; SRA: SRS3416882
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612485; Sample name: AgVic_Btau_JER_0021; SRA: SRS3416883
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612486; Sample name: AgVic_Btau_JER_0022; SRA: SRS3416880
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612487; Sample name: AgVic_Btau_JER_0023; SRA: SRS3416881
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612488; Sample name: AgVic_Btau_JER_0024; SRA: SRS3416874
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612489; Sample name: AgVic_Btau_JER_0025; SRA: SRS3416875
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612490; Sample name: AgVic_Btau_JER_0026; SRA: SRS3416907
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612491; Sample name: AgVic_Btau_JER_0027; SRA: SRS3416906
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612492; Sample name: AgVic_Btau_JER_0028; SRA: SRS3416909
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612493; Sample name: AgVic_Btau_JER_0029; SRA: SRS3416908
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612494; Sample name: AgVic_Btau_JER_0030; SRA: SRS3416911
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612495; Sample name: AgVic_Btau_JER_0031; SRA: SRS3416910
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612496; Sample name: AgVic_Btau_JER_0032; SRA: SRS3416913
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612497; Sample name: AgVic_Btau_JER_0033; SRA: SRS3416912
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612498; Sample name: AgVic_Btau_JER_0034; SRA: SRS3416905
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612499; Sample name: AgVic_Btau_JER_0035; SRA: SRS3416904
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612501; Sample name: AgVic_Btau_JER_0037; SRA: SRS3416939
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612503; Sample name: AgVic_Btau_JER_0039; SRA: SRS3416941
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612504; Sample name: AgVic_Btau_JER_0040; SRA: SRS3416940
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612505; Sample name: AgVic_Btau_JER_0041; SRA: SRS3416936
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612526; Sample name: AgVic_Btau_JER_0062; SRA: SRS3416937
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612527; Sample name: AgVic_Btau_JER_0063; SRA: SRS3416933
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612528; Sample name: AgVic_Btau_JER_0064; SRA: SRS3416934
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612529; Sample name: AgVic_Btau_JER_0065; SRA: SRS3416943
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612530; Sample name: AgVic_Btau_JER_0066; SRA: SRS3416942
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612531; Sample name: AgVic_Btau_JER_0067; SRA: SRS3416957
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612532; Sample name: AgVic_Btau_JER_0068; SRA: SRS3416956
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612533; Sample name: AgVic_Btau_JER_0069; SRA: SRS3416955
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612534; Sample name: AgVic_Btau_JER_0070; SRA: SRS3416954
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612535; Sample name: AgVic_Btau_JER_0071; SRA: SRS3416961
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612537; Sample name: AgVic_Btau_JER_0073; SRA: SRS3416959
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612538; Sample name: AgVic_Btau_JER_0074; SRA: SRS3416958
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612539; Sample name: AgVic_Btau_JER_0075; SRA: SRS3416963
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612540; Sample name: AgVic_Btau_JER_0076; SRA: SRS3416962
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612541; Sample name: AgVic_Btau_JER_0077; SRA: SRS3416990
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612542; Sample name: AgVic_Btau_JER_0078; SRA: SRS3416991
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612543; Sample name: AgVic_Btau_JER_0079; SRA: SRS3416988
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612544; Sample name: AgVic_Btau_JER_0080; SRA: SRS3416989
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612545; Sample name: AgVic_Btau_JER_0081; SRA: SRS3416987
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612546; Sample name: AgVic_Btau_JER_0082; SRA: SRS3416986
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612547; Sample name: AgVic_Btau_JER_0083; SRA: SRS3416984
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08612548; Sample name: AgVic_Btau_JER_0084; SRA: SRS3416985
+    /breed="Jersey"
+Identifiers: BioSample: SAMN08724707; Sample name: SNU-SB-1; SRA: SRS3056207
+Identifiers: BioSample: SAMN08724708; Sample name: SNU-PB-1; SRA: SRS3056208
+Identifiers: BioSample: SAMN08724709; Sample name: SNU-F1-1; SRA: SRS3056209
+Identifiers: BioSample: SAMN08767044; Sample name: NGSCATTLE1051; SRA: SRS3090132
+    /breed="German Angus"
+Identifiers: BioSample: SAMN08810150; Sample name: Animal 1: DNA; SRA: SRS3102292
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810152; Sample name: Animal 2: DNA; SRA: SRS3102291
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810154; Sample name: Animal 3: DNA; SRA: SRS3102294
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810156; Sample name: Animal 4: DNA; SRA: SRS3102293
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810158; Sample name: Animal 5: DNA; SRA: SRS3102296
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810160; Sample name: Animal 6: DNA; SRA: SRS3102295
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810162; Sample name: Animal 7: DNA; SRA: SRS3102298
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810164; Sample name: Animal 8: DNA; SRA: SRS3102297
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN08810166; Sample name: Animal 9: DNA; SRA: SRS3102289
+    /breed="Friesian-Jersey cross"
+Identifiers: BioSample: SAMN09087152; Sample name: AgVic_Btau_ANG_D008; SRA: SRS3416992
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087153; Sample name: AgVic_Btau_ANG_D014; SRA: SRS3416993
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087154; Sample name: AgVic_Btau_ANG_D037; SRA: SRS3416813
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087155; Sample name: AgVic_Btau_ANG_D046; SRA: SRS3416812
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087156; Sample name: AgVic_Btau_ANG_D049; SRA: SRS3416815
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087157; Sample name: AgVic_Btau_ANG_D063; SRA: SRS3416814
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087158; Sample name: AgVic_Btau_ANG_D064; SRA: SRS3416809
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087159; Sample name: AgVic_Btau_ANG_D067; SRA: SRS3416808
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087160; Sample name: AgVic_Btau_ANG_D069; SRA: SRS3416811
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087161; Sample name: AgVic_Btau_ANG_D072; SRA: SRS3416810
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087162; Sample name: AgVic_Btau_ANG_D074; SRA: SRS3416817
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087163; Sample name: AgVic_Btau_ANG_D085; SRA: SRS3416816
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087164; Sample name: AgVic_Btau_ANG_D098; SRA: SRS3416828
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087165; Sample name: AgVic_Btau_ANG_D104; SRA: SRS3416829
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087166; Sample name: AgVic_Btau_ANG_D109; SRA: SRS3416830
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087167; Sample name: AgVic_Btau_ANG_D112; SRA: SRS3416831
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087168; Sample name: AgVic_Btau_ANG_D124; SRA: SRS3416832
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087169; Sample name: AgVic_Btau_ANG_D126; SRA: SRS3416833
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087170; Sample name: AgVic_Btau_ANG_D136; SRA: SRS3416834
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087171; Sample name: AgVic_Btau_ANG_D142; SRA: SRS3416835
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087172; Sample name: AgVic_Btau_ANG_D156; SRA: SRS3416836
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087173; Sample name: AgVic_Btau_ANG_D158; SRA: SRS3416837
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087174; Sample name: AgVic_Btau_ANG_D161; SRA: SRS3416867
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087175; Sample name: AgVic_Btau_ANG_D170; SRA: SRS3416866
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087176; Sample name: AgVic_Btau_ANG_D171; SRA: SRS3416865
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087177; Sample name: AgVic_Btau_ANG_D178; SRA: SRS3416864
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087178; Sample name: AgVic_Btau_ANG_D179; SRA: SRS3416863
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087179; Sample name: AgVic_Btau_ANG_D183; SRA: SRS3416862
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087180; Sample name: AgVic_Btau_ANG_D194; SRA: SRS3416861
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087181; Sample name: AgVic_Btau_ANG_D195; SRA: SRS3416860
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087182; Sample name: AgVic_Btau_ANG_D201; SRA: SRS3416859
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087183; Sample name: AgVic_Btau_ANG_D209; SRA: SRS3416858
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087184; Sample name: AgVic_Btau_ANG_D210; SRA: SRS3416840
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087185; Sample name: AgVic_Btau_ANG_D212; SRA: SRS3416841
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087186; Sample name: AgVic_Btau_ANG_D213; SRA: SRS3416838
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087187; Sample name: AgVic_Btau_ANG_D216; SRA: SRS3416839
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087188; Sample name: AgVic_Btau_ANG_D228; SRA: SRS3416844
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087189; Sample name: AgVic_Btau_ANG_D234; SRA: SRS3416845
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087190; Sample name: AgVic_Btau_ANG_D238; SRA: SRS3416842
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087191; Sample name: AgVic_Btau_ANG_D240; SRA: SRS3416843
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087192; Sample name: AgVic_Btau_ANG_D244; SRA: SRS3416846
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087193; Sample name: AgVic_Btau_ANG_D245; SRA: SRS3416847
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087194; Sample name: AgVic_Btau_ANG_D246; SRA: SRS3416869
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087195; Sample name: AgVic_Btau_ANG_D251; SRA: SRS3416868
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087196; Sample name: AgVic_Btau_ANG_D252; SRA: SRS3416871
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087198; Sample name: AgVic_Btau_ANG_D260; SRA: SRS3416873
+    /breed="Angus"
+Identifiers: BioSample: SAMN09087199; Sample name: AgVic_Btau_ANG_D262; SRA: SRS3416872
+    /breed="Angus"
+Identifiers: BioSample: SAMN09213440; Sample name: SM1; SRA: SRS3305306
+    /breed="San Martinero"
+Identifiers: BioSample: SAMN09213441; Sample name: SM2; SRA: SRS3305304
+    /breed="San Martinero"
+Identifiers: BioSample: SAMN09213442; Sample name: CCC1; SRA: SRS3305307
+    /breed="Costeno con Cuernos"
+Identifiers: BioSample: SAMN09213443; Sample name: CCC2; SRA: SRS3305305
+    /breed="Costeno con Cuernos"
+Identifiers: BioSample: SAMN09379695; Sample name: 108379242; SRA: SRS3434701
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379696; Sample name: 108380925; SRA: SRS3434660
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379697; Sample name: 108377526; SRA: SRS3434742
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379698; Sample name: 398390688; SRA: SRS3434662
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379699; Sample name: 169889947; SRA: SRS3434718
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379700; Sample name: 108372795; SRA: SRS3434720
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379701; Sample name: 387284019; SRA: SRS3434737
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379702; Sample name: 108373084; SRA: SRS3434714
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379703; Sample name: 116542523; SRA: SRS3434699
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379704; Sample name: 108376295; SRA: SRS3434668
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379705; Sample name: 108376074; SRA: SRS3434618
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379706; Sample name: 363633136; SRA: SRS3434656
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379707; Sample name: 108376504; SRA: SRS3434628
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379708; Sample name: 119077263; SRA: SRS3434634
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379709; Sample name: 108379289; SRA: SRS3434686
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379710; Sample name: 108379091; SRA: SRS3434676
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379711; Sample name: 359538368; SRA: SRS3434688
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379712; Sample name: 108375560; SRA: SRS3434665
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379713; Sample name: 108375352; SRA: SRS3434615
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379714; Sample name: 108377992; SRA: SRS3434732
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379715; Sample name: 358441543; SRA: SRS3434702
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379716; Sample name: 108376400; SRA: SRS3434645
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379717; Sample name: 69092938; SRA: SRS3434745
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379718; Sample name: 108380989; SRA: SRS3434639
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379719; Sample name: 108375116; SRA: SRS3434672
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379720; Sample name: 108376842; SRA: SRS3434733
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379721; Sample name: 108377343; SRA: SRS3434743
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379722; Sample name: 108379123; SRA: SRS3434689
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379723; Sample name: 108379457; SRA: SRS3434711
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379724; Sample name: 108379011; SRA: SRS3434620
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379725; Sample name: 108376493; SRA: SRS3434648
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379726; Sample name: 108379199; SRA: SRS3434610
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379727; Sample name: 169861535; SRA: SRS3434735
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379728; Sample name: 108375580; SRA: SRS3434646
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379729; Sample name: 108376092; SRA: SRS3434613
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379730; Sample name: 69091165; SRA: SRS3434642
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379731; Sample name: 480556007; SRA: SRS3434655
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379732; Sample name: 108379320; SRA: SRS3434687
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379733; Sample name: 108375584; SRA: SRS3434653
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379734; Sample name: 108380978; SRA: SRS3434657
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379735; Sample name: 139799126; SRA: SRS3434627
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379736; Sample name: 482838460; SRA: SRS3434638
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379737; Sample name: 108378663; SRA: SRS3434679
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379738; Sample name: 108375879; SRA: SRS3434738
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379739; Sample name: 108373262; SRA: SRS3434721
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379740; Sample name: 108375545; SRA: SRS3434744
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379741; Sample name: 395585501; SRA: SRS3434680
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379742; Sample name: 108375989; SRA: SRS3434736
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379743; Sample name: 108378056; SRA: SRS3434734
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379744; Sample name: 108375577; SRA: SRS3434652
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379745; Sample name: 108374763; SRA: SRS3434694
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379746; Sample name: 108375258; SRA: SRS3434647
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379747; Sample name: 108375551; SRA: SRS3434631
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379748; Sample name: 168532567; SRA: SRS3434609
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379749; Sample name: 108376463; SRA: SRS3434667
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379750; Sample name: 348078506; SRA: SRS3434703
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379751; Sample name: 108377610; SRA: SRS3434725
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379752; Sample name: 409268951; SRA: SRS3434690
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379753; Sample name: 108377726; SRA: SRS3434723
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379754; Sample name: 108377764; SRA: SRS3434728
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379755; Sample name: 108377588; SRA: SRS3434726
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379756; Sample name: 482838505; SRA: SRS3434704
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379757; Sample name: 482838448; SRA: SRS3434684
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379758; Sample name: 108373245; SRA: SRS3434698
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379759; Sample name: 505300404; SRA: SRS3434696
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379760; Sample name: 108375945; SRA: SRS3434619
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379761; Sample name: 108376257; SRA: SRS3434739
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379762; Sample name: 139809056; SRA: SRS3434629
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379763; Sample name: 108378319; SRA: SRS3434746
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379764; Sample name: 108376331; SRA: SRS3434626
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379765; Sample name: 108375322; SRA: SRS3434731
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379766; Sample name: 108379225; SRA: SRS3434624
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379767; Sample name: 270107632; SRA: SRS3434705
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379768; Sample name: 580128786; SRA: SRS3434643
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379769; Sample name: 118855810; SRA: SRS3434697
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379770; Sample name: 108379255; SRA: SRS3434678
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379771; Sample name: 108376528; SRA: SRS3434650
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379772; Sample name: 108381066; SRA: SRS3434661
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379773; Sample name: 108378809; SRA: SRS3434685
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379774; Sample name: 273050886; SRA: SRS3434675
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379775; Sample name: 108373030; SRA: SRS3434727
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379776; Sample name: 108378768; SRA: SRS3434681
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379777; Sample name: 69091951; SRA: SRS3434709
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379778; Sample name: 69091162; SRA: SRS3434640
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379779; Sample name: 108375326; SRA: SRS3434614
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379780; Sample name: 108373399; SRA: SRS3434719
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379781; Sample name: 108375808; SRA: SRS3434621
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379782; Sample name: 108380546; SRA: SRS3434708
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379783; Sample name: 108376229; SRA: SRS3434616
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379784; Sample name: 108379476; SRA: SRS3434683
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379785; Sample name: 108381661; SRA: SRS3434637
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379786; Sample name: 108381250; SRA: SRS3434706
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379787; Sample name: 108372727; SRA: SRS3434713
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379788; Sample name: 108372946; SRA: SRS3434729
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379789; Sample name: 108373116; SRA: SRS3434722
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379790; Sample name: 464691973; SRA: SRS3434717
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379791; Sample name: 108379102; SRA: SRS3434677
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379792; Sample name: 108379084; SRA: SRS3434682
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379793; Sample name: 108900412; SRA: SRS3434654
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379794; Sample name: 108375661; SRA: SRS3434663
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379795; Sample name: 108377148; SRA: SRS3434740
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379796; Sample name: 108374527; SRA: SRS3434671
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379797; Sample name: 248644953; SRA: SRS3434715
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379798; Sample name: 108375934; SRA: SRS3434649
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379799; Sample name: 431999031; SRA: SRS3434741
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379800; Sample name: 584425709; SRA: SRS3434695
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379801; Sample name: 395591972; SRA: SRS3434630
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379802; Sample name: 108376824; SRA: SRS3434644
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379803; Sample name: 108376406; SRA: SRS3434625
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379804; Sample name: 438706929; SRA: SRS3434700
+    /breed="Angus"
+Identifiers: BioSample: SAMN09379805; Sample name: 108376175; SRA: SRS3434651
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379806; Sample name: 458667570; SRA: SRS3434692
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379807; Sample name: 108380674; SRA: SRS3434710
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379808; Sample name: 108377758; SRA: SRS3434724
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379809; Sample name: 427293137; SRA: SRS3434659
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379810; Sample name: 62095851; SRA: SRS3434730
+    /breed="Hereford"
+Identifiers: BioSample: SAMN09379811; Sample name: 108375676; SRA: SRS3434623
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379812; Sample name: 542353508; SRA: SRS3434633
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379813; Sample name: 108375150; SRA: SRS3434670
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379814; Sample name: 118931581; SRA: SRS3434664
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379815; Sample name: 108379293; SRA: SRS3434673
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379816; Sample name: 108374463; SRA: SRS3434669
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379817; Sample name: 514796697; SRA: SRS3434691
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379818; Sample name: 391776854; SRA: SRS3434611
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379819; Sample name: 395531399; SRA: SRS3434674
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379820; Sample name: 462684894; SRA: SRS3434612
+    /breed="Limousin"
+Identifiers: BioSample: SAMN09379821; Sample name: 108375721; SRA: SRS3434622
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379822; Sample name: 859174281; SRA: SRS3434632
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379823; Sample name: 108380539; SRA: SRS3434641
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379824; Sample name: 108380729; SRA: SRS3434636
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379825; Sample name: 108381674; SRA: SRS3434635
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379826; Sample name: 587381826; SRA: SRS3434617
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379827; Sample name: 115939986; SRA: SRS3434707
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379828; Sample name: 526679924; SRA: SRS3434712
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379829; Sample name: 493851609; SRA: SRS3434693
+    /breed="Belgian Blue"
+Identifiers: BioSample: SAMN09379830; Sample name: 108381459; SRA: SRS3434666
+    /breed="Charolais"
+Identifiers: BioSample: SAMN09379831; Sample name: 430379643; SRA: SRS3434658
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09379832; Sample name: 526679947; SRA: SRS3434716
+    /breed="Simmental"
+Identifiers: BioSample: SAMN09510408; Sample name: 950741921; SRA: SRS3493367
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09510409; Sample name: 954580704; SRA: SRS3497785
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09510410; Sample name: 967852371; SRA: SRS3497784
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09510411; Sample name: 955682883; SRA: SRS3497786
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09510423; Sample name: 347992724; SRA: SRS3497783
+    /breed="Norwegian Red"
+Identifiers: BioSample: SAMN09519603; Sample name: HOLUSAM000074284017; SRA: SRS3546302
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519604; Sample name: HOL840M003125079126; SRA: SRS3546317
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519605; Sample name: HOLCANM000109243044; SRA: SRS3546315
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519606; Sample name: HOLUSAM000074072229; SRA: SRS3546314
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519607; Sample name: HOL840M003013523361; SRA: SRS3546357
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519608; Sample name: HOL840M003012503598; SRA: SRS3546316
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519609; Sample name: HOLUSAM000073986060; SRA: SRS3546337
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519610; Sample name: HOL840M003125479421; SRA: SRS3546300
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519611; Sample name: HOLUSAM000072826907; SRA: SRS3546350
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519612; Sample name: HOLUSAM000071852979; SRA: SRS3546313
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519613; Sample name: HOLUSAM000071451889; SRA: SRS3546345
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519614; Sample name: HOL840M003129038218; SRA: SRS3546311
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519615; Sample name: HOL840M003128792954; SRA: SRS3546305
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519616; Sample name: HOL840M003014334782; SRA: SRS3546296
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519617; Sample name: HOL840M003123600774; SRA: SRS3546319
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519618; Sample name: HOL840M003125170885; SRA: SRS3546308
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519619; Sample name: HOL840M003130641747; SRA: SRS3546344
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519620; Sample name: HOLUSAM000072512148; SRA: SRS3546310
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519621; Sample name: HOL840M003124584834; SRA: SRS3546320
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519622; Sample name: HOL840M003129016258; SRA: SRS3546306
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519623; Sample name: HOL840M003123600913; SRA: SRS3546298
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519624; Sample name: HOL840M003124720445; SRA: SRS3546303
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519625; Sample name: HOL840M003130854065; SRA: SRS3546309
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519626; Sample name: HOLCANM000012192478; SRA: SRS3546318
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519627; Sample name: HOLCANM000109127990; SRA: SRS3546334
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519629; Sample name: HOLUSAM000072495715; SRA: SRS3546312
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519630; Sample name: HOL840M003128043640; SRA: SRS3546307
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519631; Sample name: HOL840M003128043644; SRA: SRS3546353
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519632; Sample name: HOLUSAM000072306266; SRA: SRS3546330
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519633; Sample name: HOL840M003131131453; SRA: SRS3546304
+    /breed="Holstein"
+Identifiers: BioSample: SAMN09519634; Sample name: HOL840M003129128755; SRA: SRS3546329
+    /breed="Holstein"
+Identifiers: BioSample: SAMN10108008; Sample name: NGSCATTLE1039; SRA: SRS3816754
+    /breed="Holstein"
+Identifiers: BioSample: SAMN10108011; Sample name: NGSCATTLE1087; SRA: SRS3816753
+    /breed="Holstein"
+Identifiers: BioSample: SAMN10108012; Sample name: NGSCATTLE1088; SRA: SRS3816755
+    /breed="Holstein"
+Identifiers: BioSample: SAMN10131223; Sample name: Tharparkar; SRA: SRS3931704
+    /breed="Tharparkar"
+Identifiers: BioSample: SAMN10131257; Sample name: Kangayam; SRA: SRS3931705
+    /breed="Kangayam"
+Identifiers: BioSample: SAMN10131258; Sample name: Vechur; SRA: SRS3931706
+    /breed="Vechur"
+Identifiers: BioSample: SAMN10182839; Sample name: SIMCANM000000248382; SRA: SRS3883245
+    /breed="Simmental"
+Identifiers: BioSample: SAMN10486398; Sample name: NELPO; SRA: SRS4082335
+    /breed="Nelore"
+Identifiers: BioSample: SAMN10486399; Sample name: NELPS; SRA: SRS4082334
+    /breed="Nelore"
+Identifiers: BioSample: SAMN10486400; Sample name: NELPG; SRA: SRS4082337
+    /breed="Nelore"
+Identifiers: BioSample: SAMN10486401; Sample name: NELHC; SRA: SRS4082336
+    /breed="Nelore"
+Identifiers: BioSample: SAMN10598549; Sample name: RCI002; SRA: SRS4148731
+    /breed="Holstein"
+Identifiers: BioSample: SAMN10598550; Sample name: 1; SRA: SRS4148730
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598551; Sample name: 2; SRA: SRS4148733
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598552; Sample name: 3; SRA: SRS4148732
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598553; Sample name: 4; SRA: SRS4148735
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598554; Sample name: 5; SRA: SRS4148734
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598555; Sample name: 6; SRA: SRS4148737
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598556; Sample name: 156; SRA: SRS4148736
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598557; Sample name: 164; SRA: SRS4148740
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598558; Sample name: 255; SRA: SRS4148738
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598559; Sample name: 268; SRA: SRS4148744
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598560; Sample name: 942; SRA: SRS4148742
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598561; Sample name: 947; SRA: SRS4148745
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598562; Sample name: E753; SRA: SRS4148743
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598563; Sample name: E754; SRA: SRS4148746
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598564; Sample name: E755; SRA: SRS4148747
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598565; Sample name: 254; SRA: SRS4148749
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598566; Sample name: 261; SRA: SRS4148748
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598567; Sample name: 459; SRA: SRS4148741
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598568; Sample name: HO1; SRA: SRS4148739
+    /breed="Holstein"
+Identifiers: BioSample: SAMN10598569; Sample name: HH2381; SRA: SRS4148752
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598570; Sample name: HH2981; SRA: SRS4148750
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598571; Sample name: 10; SRA: SRS4148753
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598572; Sample name: 11; SRA: SRS4148754
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598573; Sample name: 150; SRA: SRS4148751
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598574; Sample name: 161; SRA: SRS4148755
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10598575; Sample name: 12; SRA: SRS4148757
+    /breed="Holstein x Hereford"
+Identifiers: BioSample: SAMN10598576; Sample name: 50; SRA: SRS4148756
+    /breed="Hereford"
+Identifiers: BioSample: SAMN10693931; Sample name: Red Angus Bull 1792D-04-12; SRA: SRS4210520
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN10693932; Sample name: Red Angus Calf 1792D-04-09; SRA: SRS4210522
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN10693933; Sample name: Red Angus Calf 1792D-04-10; SRA: SRS4210521
+    /breed="Red Angus"
+Identifiers: BioSample: SAMN10693934; Sample name: Red Angus Cow 1792D-04-11; SRA: SRS4210523
+    /breed="Charolais-Red Angus"
+Identifiers: BioSample: SAMN10721579; Sample name: Say; SRA: SRS4237670
+    /breed="Sayaguesa"
+Identifiers: BioSample: SAMN10721580; Sample name: Maro; SRA: SRS4237668
+    /breed="Maronesa"
+Identifiers: BioSample: SAMN10721581; Sample name: Lim; SRA: SRS4237669
+    /breed="Limia"
+Identifiers: BioSample: SAMN10721582; Sample name: Pod; SRA: SRS4237671
+    /breed="Podolica"
+Identifiers: BioSample: SAMN10721583; Sample name: Mare; SRA: SRS4237666
+    /breed="Maremmana"
+Identifiers: BioSample: SAMN10721584; Sample name: Paj; SRA: SRS4237667
+    /breed="Pajuna"
+Identifiers: BioSample: SAMN10721585; Sample name: Bosk; SRA: SRS4237672
+    /breed="Boskarin"
+Identifiers: BioSample: SAMN11479477; Sample name: INRA_EDA1; SRA: SRS4662515
+    /breed="Holstein"
+Identifiers: BioSample: SAMN11843850; Sample name: NGSCATTLE1056; SRA: SRS4813600
+    /breed="Holstein"
+Identifiers: BioSample: SAMN12153485; Sample name: Duke; SRA: SRS5031570
+    /breed="highland"
+Identifiers: BioSample: SAMN13389915; Sample name: 1511413249; SRA: SRS5719400
+    /breed="BelgianBlue/LimousinCross"

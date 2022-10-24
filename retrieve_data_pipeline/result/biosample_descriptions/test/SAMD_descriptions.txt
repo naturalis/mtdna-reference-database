@@ -1,0 +1,18 @@
+Identifiers: BioSample: SAMD00013963; SRA: DRS000230
+    /sample comment="Genomic DNA from Kuchinoshima-#8915"
+Identifiers: BioSample: SAMD00013606; SRA: DRS001219
+    /sample comment="Genomic DNA from Mishima-#10031-7821-5"
+Identifiers: BioSample: SAMD00013610; SRA: DRS001215
+    /sample comment="Genomic DNA from Mishima-#12322-8055-0"
+Identifiers: BioSample: SAMD00013607; SRA: DRS001216
+    /sample comment="Genomic DNA from Mishima-#12145-5131-9"
+Identifiers: BioSample: SAMD00013608; SRA: DRS001213
+    /sample comment="Genomic DNA from Mishima-#12201-7737-4"
+Identifiers: BioSample: SAMD00013611; SRA: DRS001212
+    /sample comment="Genomic DNA from Mishima-#12201-0323-6"
+Identifiers: BioSample: SAMD00013612; SRA: DRS001217
+    /sample comment="Genomic DNA from Mishima-#12145-5133-3"
+Identifiers: BioSample: SAMD00013613; SRA: DRS001214
+    /sample comment="Genomic DNA from Mishima-#10031-7917-5"
+Identifiers: BioSample: SAMD00013609; SRA: DRS001218
+    /sample comment="Genomic DNA from Mishima-#12324-3464-9"

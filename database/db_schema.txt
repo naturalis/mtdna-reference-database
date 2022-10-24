@@ -1,0 +1,24 @@
+CREATE TABLE refsites(
+refsite_id integer not null constraint refsite_pk primary key,
+position integer not null,
+refallele text not null
+);
+CREATE TABLE accessions(
+accession_id integer not null constraint accession_pk primary key,
+biosample text,
+breed text,
+country text,
+direction text
+);
+CREATE TABLE snps(
+snp_id integer not null constraint snp_pk primary key,
+accession_id integer not null constraint accesion_fk references accession(accession_id),
+refsite_id integer not null constraint refsite_fk references refsites(refsite_id),
+alt_allele text not null,
+hom_het text not null
+);
+CREATE INDEX "accesion_fk" ON "snps" ("accession_id");
+CREATE INDEX "accesion_id" ON "accessions" ("accession_id");
+CREATE UNIQUE INDEX "accession_refsite_snp" ON "snps" ("snp_id", "refsite_id", "accession_id");
+CREATE INDEX "refsite_fk" ON "snps" ("refsite_id");
+CREATE UNIQUE INDEX "refsite_id" ON "refsites" ("refsite_id");
