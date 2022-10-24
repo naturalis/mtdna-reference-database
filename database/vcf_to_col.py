@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 df = pd.read_csv("ChrMT-Run8.txt", sep='\t', header=0)
-df_breed = pd.read_csv("/mnt/c/Users/stephan/Documents/naturalis_pipeline/raw_fastq_files/retrieve_data_pipeline/result/test_info_EVA.csv", sep='\t', header=0)
+df_breed = pd.read_csv("../retrieve_data_pipeline/result/test_info_EVA.csv", sep='\t', header=0)
 
 ref = list(df['REF'])
 alt = list(df['ALT'])
