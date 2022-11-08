@@ -1,0 +1,6 @@
+fastq_folder: fastq/parchement/
+fastqc_folder: fastqc_before/
+fastqc_folder2: fastqc_after/
+ref: ref_genome/sequence_MT.fasta
+aling: alignment/
+vcf: vcf_files/

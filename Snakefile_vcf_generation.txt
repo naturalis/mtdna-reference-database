@@ -1,0 +1,116 @@
+configfile: "conf.yaml"
+
+SM, = glob_wildcards("%s{id}_L001_R1_001.fastq.gz" % config['fastq_folder'])
+
+print(SM)
+
+rule all:
+	input:
+		expand(config['vcf'] + "{sample}/{sample}_mapped.dedup.vcf", sample=SM)
+
+rule pre_fastqc:
+	input:	
+		r1= config['fastq_folder'] + '{sample}_L001_R1_001.fastq.gz',
+		r2= config['fastq_folder'] + '{sample}_L001_R2_001.fastq.gz'
+	output:
+		out_dir= directory(config['fastqc_folder'] + '{sample}'),
+		r1_o= config['fastqc_folder'] + '{sample}/{sample}_L001_R1_001_fastqc.html',
+		r2_o= config['fastqc_folder'] + '{sample}/{sample}_L001_R2_001_fastqc.html'
+	shell:
+		"""
+			mkdir -p {output.out_dir}
+			fastqc {input.r1} {input.r2} -t 2 -o {output.out_dir}
+		"""
+
+rule adapter_trim:
+	input:
+		r1= config['fastq_folder'] + '{sample}_L001_R1_001.fastq.gz',
+		r2= config['fastq_folder'] + '{sample}_L001_R2_001.fastq.gz',
+		fastqc_1= config['fastqc_folder'] + '{sample}/{sample}_L001_R1_001_fastqc.html'
+	output:
+		out_dir = directory(config['fastq_folder'] + '{sample}'),
+		r1_o= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp.fastq.gz',
+		r2_o= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp.fastq.gz',
+		html= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp.hmtl',
+		json= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp.json'
+	shell:
+		"""
+			mkdir -p {output.out_dir}
+			fastp -i {input.r1} -o {output.r1_o} -I {input.r2} -O {output.r2_o} -j {output.json} -h {output.html} -F 12
+		"""
+
+rule qual_trim:
+	input:
+		r1= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp.fastq.gz',
+		r2= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp.fastq.gz'
+	output:
+		r1_trim= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_trimmed.fastq.gz',
+		r1_dis= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_discard.fastq.gz',
+		r2_trim= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_trimmed.fastq.gz',
+		r2_dis= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_discard.fastq.gz'
+	shell:
+		"""
+			trimmomatic PE -threads 2 -summary {config[fastq_folder]}{wildcards.sample}/{wildcards.sample}.summary {input.r1} {input.r2} {output.r1_trim} {output.r1_dis} {output.r2_trim} {output.r2_dis} MINLEN:35 LEADING:20 TRAILING:20 SLIDINGWINDOW:3:15 AVGQUAL:20 MINLEN:35
+		"""
+
+rule aling:
+	input:
+		r1= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_trimmed.fastq.gz',
+		r2= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_trimmed.fastq.gz',
+		ref= config['ref']
+	output:
+		out_dir= directory(config['aling'] + '{sample}'),
+		sorted= config['aling'] + '{sample}/{sample}_sorted.bam',
+		mapped= config['aling'] + '{sample}/{sample}_mapped.bam',
+		index= config['aling'] + '{sample}/{sample}_mapped.bam.bai'
+	shell:
+		"""
+			mkdir -p {output.out_dir}
+
+			bwa mem -t 2 -R "@RG\\tID:{wildcards.sample}\\tPL:ILLUMINA\\tSM:{wildcards.sample}_2\\tGU:{wildcards.sample}_3\\tLB:{wildcards.sample}_4" {input.ref} {input.r1} {input.r2} | samtools sort -o {output.sorted} -
+
+			samtools view -b -F 4 {output.sorted} > {output.mapped}
+
+			samtools index {output.mapped}
+		"""
+
+rule aft_fastq:
+	input:
+		r1= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_trimmed.fastq.gz',
+		r2= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_trimmed.fastq.gz',
+		r3= config['aling'] + '{sample}/{sample}_sorted.bam'
+	output:
+		out_dir= directory(config['fastqc_folder2'] + '{sample}'),
+		r1_o=config['fastqc_folder2'] +'{sample}/{sample}_L001_R1_001_fastp_trimmed_fastqc.html',
+		r2_o=config['fastqc_folder2'] +'{sample}/{sample}_L001_R2_001_fastp_trimmed_fastqc.html'
+	shell:
+		"""
+			mkdir -p {output.out_dir}
+			fastqc {input.r1} {input.r2} -t 2 -o {output.out_dir}
+		"""
+
+rule mark_dup:
+	input:
+		bam= config['aling'] + '{sample}/{sample}_mapped.bam',
+		fastqc= config['fastqc_folder2'] +'{sample}/{sample}_L001_R1_001_fastp_trimmed_fastqc.html'
+	output:
+		marked = config['aling'] + '{sample}/{sample}_mapped.dedup.bam',
+		metric = config['aling'] + '{sample}/{sample}_mapped.dedup.metrics'
+	threads:
+		1
+	shell:
+		"""
+			java -Xmx80G -jar picard.jar MarkDuplicates -I {input.bam} -O {output.marked} -M {output.metric} --OPTICAL_DUPLICATE_PIXEL_DISTANCE 2500 --VALIDATION_STRINGENCY LENIENT --CREATE_INDEX true
+		"""
+
+rule snp_call:
+	input:
+		ref= config['ref'],
+		mapped= config['aling'] + '{sample}/{sample}_mapped.dedup.bam'
+	output:
+		config['vcf'] + '{sample}/{sample}_mapped.dedup.vcf'
+	shell:
+		"""
+			mkdir -p vcf_files/
+			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output} -variant_index_type LINEAR -variant_index_parameter 128000 -ploidy 1
+		"""

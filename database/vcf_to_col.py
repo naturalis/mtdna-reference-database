@@ -38,16 +38,24 @@ with open('tables/accession_table.txt', 'w') as f:
 				if split_gt[0] != split_gt[1]:
 					try:
 						split_alt = alt[j].split(',')
-						split_rat = np.array(split_sp[1].split(',')[1:]) 
-						snp_col.append(split_alt[np.argmax(split_rat)])
+						split_rat = np.array(split_sp[1].split(','))
+						idx = np.argmax(split_rat)
+						if idx == 0:
+							continue
+						else: 
+							snp_col.append(split_alt[idx])
 					except:
 						snp_col.append(alt[j])
 
 				elif split_gt[0] == split_gt[1]:
 					try:
 						split_alt = alt[j].split(',')
-						split_rat = np.array(split_sp[1].split(',')[1:]) 
-						snp_col.append(split_alt[np.argmax(split_rat)])
+						split_rat = np.array(split_sp[1].split(',')) 
+						idx = np.argmax(split_rat)
+						if idx == 0:
+							continue
+						else: 
+							snp_col.append(split_alt[idx])
 					except:
 						snp_col.append(alt[j])
 
