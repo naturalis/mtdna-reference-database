@@ -108,9 +108,10 @@ rule snp_call:
 		ref= config['ref'],
 		mapped= config['aling'] + '{sample}/{sample}_mapped.dedup.bam'
 	output:
-		config['vcf'] + '{sample}/{sample}_mapped.dedup.vcf'
+		file = config['vcf'] + '{sample}/{sample}_mapped.dedup.vcf',
+		out_dir = directory(config['vcf'] + '{sample}')
 	shell:
 		"""
-			mkdir -p vcf_files/
-			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output} -variant_index_type LINEAR -variant_index_parameter 128000 -ploidy 1
+			mkdir -p {output.out_dir}
+			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output.file} -variant_index_type LINEAR -variant_index_parameter 128000 -ploidy 1
 		"""

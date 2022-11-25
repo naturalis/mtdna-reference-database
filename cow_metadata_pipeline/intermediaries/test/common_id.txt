@@ -1,3 +1,0 @@
-SAMD
-SAMEA
-SAMN
