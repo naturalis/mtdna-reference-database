@@ -1,4 +1,4 @@
-configfile: "conf.yaml"
+configfile: "conf_nuclear.yaml"
 
 SM, = glob_wildcards("%s{id}_L001_R1_001.fastq.gz" % config['fastq_folder'])
 
@@ -6,7 +6,7 @@ print(SM)
 
 rule all:
 	input:
-		expand(config['vcf'] + "{sample}/{sample}_mapped.dedup.vcf", sample=SM)
+		expand(config['vcf'] + '{sample}/{sample}_nuclear_depth10_filterd_all.txt', sample=SM)
 
 rule pre_fastqc:
 	input:	
@@ -60,9 +60,9 @@ rule aling:
 		ref= config['ref']
 	output:
 		out_dir= directory(config['aling'] + '{sample}'),
-		sorted= config['aling'] + '{sample}/{sample}_sorted.bam',
-		mapped= config['aling'] + '{sample}/{sample}_mapped.bam',
-		index= config['aling'] + '{sample}/{sample}_mapped.bam.bai'
+		sorted= config['aling'] + '{sample}/{sample}_nuclear_sorted.bam',
+		mapped= config['aling'] + '{sample}/{sample}_nuclear_mapped.bam',
+		index= config['aling'] + '{sample}/{sample}_nuclear_mapped.bam.bai'
 	shell:
 		"""
 			mkdir -p {output.out_dir}
@@ -89,13 +89,34 @@ rule aft_fastq:
 			fastqc {input.r1} {input.r2} -t 2 -o {output.out_dir}
 		"""
 
+rule depth:
+	input:
+		config['aling'] + '{sample}/{sample}_nuclear_mapped.bam'
+	output:
+		out_dir= directory(config['dp'] + '{sample}'),
+		depth_file= config['dp'] + '{sample}/{sample}_depth_10.txt',
+		regions= config['dp'] + '{sample}/{sample}_depth_10_regions.bed',
+		bam_regions= config['dp'] + '{sample}/{sample}_depth10_regions.bam'
+	shell:
+		"""
+			mkdir -p {output.out_dir}
+
+			samtools depth {input} | awk '$3 > 9' | grep "^NC" > {output.depth_file}
+
+			python3 {config[scripts]}get_range.py -i {output.depth_file} -o {output.regions}
+
+			samtools view -b -L {output.regions} {input} -o {output.bam_regions}
+
+			samtools index {output.bam_regions}
+		"""
+
 rule mark_dup:
 	input:
-		bam= config['aling'] + '{sample}/{sample}_mapped.bam',
+		bam= config['dp'] + '{sample}/{sample}_depth10_regions.bam',
 		fastqc= config['fastqc_folder2'] +'{sample}/{sample}_L001_R1_001_fastp_trimmed_fastqc.html'
 	output:
-		marked = config['aling'] + '{sample}/{sample}_mapped.dedup.bam',
-		metric = config['aling'] + '{sample}/{sample}_mapped.dedup.metrics'
+		marked = config['dp'] + '{sample}/{sample}_nuclear_depth10.dedup.bam',
+		metric = config['dp'] + '{sample}/{sample}_nuclear_depth10.dedup.metrics'
 	threads:
 		1
 	shell:
@@ -106,11 +127,24 @@ rule mark_dup:
 rule snp_call:
 	input:
 		ref= config['ref'],
-		mapped= config['aling'] + '{sample}/{sample}_mapped.dedup.bam'
+		mapped= config['dp'] + '{sample}/{sample}_nuclear_depth10.dedup.bam'
 	output:
-		config['vcf'] + '{sample}/{sample}_mapped.dedup.vcf'
+		config['vcf'] + '{sample}/{sample}_nuclear_depth10.dedup.vcf'
 	shell:
 		"""
-			mkdir -p vcf_files/
-			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output} -variant_index_type LINEAR -variant_index_parameter 128000 -ploidy 1
+			mkdir -p {config[vcf]}
+			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output} -variant_index_type LINEAR -variant_index_parameter 128000
+		"""
+
+rule vcf_filter:
+	input: 
+		vcf = config['vcf'] + '{sample}/{sample}_nuclear_depth10.dedup.vcf',
+		regions = config['dp'] + '{sample}/{sample}_depth_10_regions.bed'
+	params:
+		name = config['vcf'] + '{sample}/{sample}_nuclear_depth10_filterd'
+	output:
+		config['vcf'] + '{sample}/{sample}_nuclear_depth10_filterd_all.txt'
+	shell:
+		"""
+			python3 {config[scripts]}vcf_filter.py -i {input.vcf} -r {input.regions} -o {params.name}
 		"""

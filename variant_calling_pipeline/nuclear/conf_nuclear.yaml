@@ -1,0 +1,8 @@
+fastq_folder: fastq/parchement/
+fastqc_folder: fastqc_before/
+fastqc_folder2: fastqc_after/
+ref: ref_genome/ARS-UCD1.2_genomic.fna
+aling: alignment/nuclear/
+vcf: vcf_files/
+scripts: scripts/
+dp: depth/nuclear/
