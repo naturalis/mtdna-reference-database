@@ -2,9 +2,19 @@
 
 import pandas as pd
 import numpy as np
+import argparse
 
-df = pd.read_csv("ChrMT-Run8.txt", sep='\t', header=0)
-df_breed = pd.read_csv("../retrieve_data_pipeline/result/test_info_EVA.csv", sep='\t', header=0)
+parser = argparse.ArgumentParser(prog = 'vcf_to_col.py', description = 'This script extracts information from the vcf file and metadata file to then put it in the correct format for the database tables.')
+parser.add_argument('-i', '--input', help='The input vcf file for the script.', required=True )           
+parser.add_argument('-t1', '--table1', help='The output file to write the accessions table to.', required=True )
+parser.add_argument('-t2', '--table2', help='The output file to write the snps table to.', required=True )
+parser.add_argument('-t3', '--table3', help='The output file to write the refrence site table to.', required=True )
+parser.add_argument('-m', '--metadata', help='The info file containing metadata on the cows.', required=True )           
+
+args = parser.parse_args()
+
+df = pd.read_csv(args.input , sep='\t', header=0)
+df_breed = pd.read_csv(args.metadata, sep='\t', header=0)
 
 ref = list(df['REF'])
 alt = list(df['ALT'])
@@ -24,7 +34,7 @@ ref_id = []
 	#[IR, SC, FR (SW), FRxBE, UK, SW, FR (C), IT, DU, FR (CS), FR (NW), FR (NW), KR, PL, FR (C), FR (E), BE]
 
 #accessions table
-with open('tables/accession_table.txt', 'w') as f:
+with open(args.table1, 'w') as f:
 	for num, i in enumerate(biosamples):
 		one_sample = list(df[i])
 		for j in range(len(one_sample)):
@@ -73,12 +83,12 @@ with open('tables/accession_table.txt', 'w') as f:
 			continue
 
 #snp table
-with open('tables/snp_table.txt', 'w') as f:
+with open(args.table2, 'w') as f:
 	for num, i in enumerate(snp_col):
 		f.write('%s|%s|%s|%s|%s\n' % (num + 1, bs_id[num], ref_id[num], i, hetro_homo_alt[num]))
 
 #refsite table
-with open('tables/refsite_table.txt', 'w') as f:
+with open(args.table3, 'w') as f:
 	for num, i in enumerate(ref):
 		f.write('%s|%s|%s\n' % (int(num + 1), int(pos[num]), str(i)))
 
