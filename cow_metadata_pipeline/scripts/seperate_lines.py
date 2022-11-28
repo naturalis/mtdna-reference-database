@@ -20,11 +20,10 @@ r_pattern = re.compile('\D{3}\d{6,8}')
 if 'None' in arg.filename:
 	exit()
 #opens the input file and only retrieves x amount of lines. The correct line that should 
-#contain the breed name is then searched over with a regular expression to retireve the full
-#breed name and stored in a file.
+#contain the breed name is then searched over with a regular expression to retrieve the full
+#breed name and then stored in a file.
 with open(arg.filename, 'r') as f:
 	with open(arg.outfile, "w") as f2:
-		#if arg.filename == "result/biosample_descriptions/SAMEA_descriptions.txt":
 		if "SAMEA" in arg.filename:
 			for l1,l2,l3,l4,l5,l6 in itertools.zip_longest(*[f]*6):
 				breed = re.search("[A-Za-zè -.]*$", l1).group()[1:]
@@ -46,7 +45,6 @@ with open(arg.filename, 'r') as f:
 
 				f2.write("%s\t%s\t%s\n" % (breed, biosample, run))
 
-		#elif arg.filename == "result/biosample_descriptions/SAMN_descriptions.txt" or arg.filename == "result/biosample_descriptions/SAMD_descriptions.txt":
 		elif "SAMN" in arg.filename or "SAMD" in arg.filename:
 			for line1,line2 in itertools.zip_longest(*[f]*2):
 				if line2[:5] != "    /":

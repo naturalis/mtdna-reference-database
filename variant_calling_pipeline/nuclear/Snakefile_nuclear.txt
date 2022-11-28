@@ -36,7 +36,7 @@ rule adapter_trim:
 	shell:
 		"""
 			mkdir -p {output.out_dir}
-			fastp -i {input.r1} -o {output.r1_o} -I {input.r2} -O {output.r2_o} -j {output.json} -h {output.html} -F 12
+			fastp -i {input.r1} -o {output.r1_o} -I {input.r2} -O {output.r2_o} -j {output.json} -h {output.html} -f 3 -F 12
 		"""
 
 rule qual_trim:
@@ -53,11 +53,26 @@ rule qual_trim:
 			trimmomatic PE -threads 2 -summary {config[fastq_folder]}{wildcards.sample}/{wildcards.sample}.summary {input.r1} {input.r2} {output.r1_trim} {output.r1_dis} {output.r2_trim} {output.r2_dis} MINLEN:35 LEADING:20 TRAILING:20 SLIDINGWINDOW:3:15 AVGQUAL:20 MINLEN:35
 		"""
 
+rule aft_fastq:
+	input:
+		r1= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_trimmed.fastq.gz',
+		r2= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_trimmed.fastq.gz'
+	output:
+		out_dir= directory(config['fastqc_folder2'] + '{sample}'),
+		r1_o=config['fastqc_folder2'] +'{sample}/{sample}_L001_R1_001_fastp_trimmed_fastqc.html',
+		r2_o=config['fastqc_folder2'] +'{sample}/{sample}_L001_R2_001_fastp_trimmed_fastqc.html'
+	shell:
+		"""
+			mkdir -p {output.out_dir}
+			fastqc {input.r1} {input.r2} -t 2 -o {output.out_dir}
+		"""
+		
 rule aling:
 	input:
 		r1= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_trimmed.fastq.gz',
 		r2= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_trimmed.fastq.gz',
-		ref= config['ref']
+		ref= config['ref'],
+		r3= config['fastqc_folder2'] +'{sample}/{sample}_L001_R1_001_fastp_trimmed_fastqc.html'
 	output:
 		out_dir= directory(config['aling'] + '{sample}'),
 		sorted= config['aling'] + '{sample}/{sample}_nuclear_sorted.bam',
@@ -72,21 +87,6 @@ rule aling:
 			samtools view -b -F 4 {output.sorted} > {output.mapped}
 
 			samtools index {output.mapped}
-		"""
-
-rule aft_fastq:
-	input:
-		r1= config['fastq_folder'] + '{sample}/{sample}_L001_R1_001_fastp_trimmed.fastq.gz',
-		r2= config['fastq_folder'] + '{sample}/{sample}_L001_R2_001_fastp_trimmed.fastq.gz',
-		r3= config['aling'] + '{sample}/{sample}_sorted.bam'
-	output:
-		out_dir= directory(config['fastqc_folder2'] + '{sample}'),
-		r1_o=config['fastqc_folder2'] +'{sample}/{sample}_L001_R1_001_fastp_trimmed_fastqc.html',
-		r2_o=config['fastqc_folder2'] +'{sample}/{sample}_L001_R2_001_fastp_trimmed_fastqc.html'
-	shell:
-		"""
-			mkdir -p {output.out_dir}
-			fastqc {input.r1} {input.r2} -t 2 -o {output.out_dir}
 		"""
 
 rule depth:
@@ -121,7 +121,7 @@ rule mark_dup:
 		1
 	shell:
 		"""
-			java -Xmx80G -jar picard.jar MarkDuplicates -I {input.bam} -O {output.marked} -M {output.metric} --OPTICAL_DUPLICATE_PIXEL_DISTANCE 2500 --VALIDATION_STRINGENCY LENIENT --CREATE_INDEX true
+			java -Xmx80G -jar picard.jar MarkDuplicates -I {input.bam} -O {output.marked} -M {output.metric} --VALIDATION_STRINGENCY LENIENT --CREATE_INDEX true
 		"""
 
 rule snp_call:
@@ -129,11 +129,12 @@ rule snp_call:
 		ref= config['ref'],
 		mapped= config['dp'] + '{sample}/{sample}_nuclear_depth10.dedup.bam'
 	output:
-		config['vcf'] + '{sample}/{sample}_nuclear_depth10.dedup.vcf'
+		file = config['vcf'] + '{sample}/{sample}_nuclear_depth10.dedup.vcf',
+		out_dir = directory(config['vcf'] + '{sample}')
 	shell:
 		"""
-			mkdir -p {config[vcf]}
-			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output} -variant_index_type LINEAR -variant_index_parameter 128000
+			mkdir -p {output.out_dir}
+			gatk3 -T HaplotypeCaller -R {input.ref} -I {input.mapped} -o {output.file} -variant_index_type LINEAR -variant_index_parameter 128000
 		"""
 
 rule vcf_filter:

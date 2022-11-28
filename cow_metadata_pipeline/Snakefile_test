@@ -16,7 +16,7 @@ def get_wc2(wildcards):
 
 rule all:
     input:
-        config['result_folder'] + 'test_info_EVA.csv'
+        config['result_folder'] + config['output_file']
         
         
 #extract the biosample ID's from a SRA run file or EVA filereport.
@@ -102,7 +102,7 @@ rule cow_info:
         scripts = config['script_folder'],
         breed_file = config['breed_file']
     output:
-        config['result_folder'] + 'test_info_EVA.csv'
+        config['result_folder'] + config['output_file']
     shell:
         '''
         python3 {params.scripts}sample_breed.py -i {input.in_file} -b {params.breed_file} -d {input.des} -o {output}
