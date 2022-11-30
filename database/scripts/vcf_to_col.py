@@ -19,6 +19,7 @@ df_breed = pd.read_csv(args.metadata, sep='\t', header=0)
 ref = list(df['REF'])
 alt = list(df['ALT'])
 pos = list(df['POS'])
+chrom = list(df['#CHROM'])
 biosamples = list(df.columns)[9:]
 
 snp_col = []
@@ -90,7 +91,7 @@ with open(args.table2, 'w') as f:
 #refsite table
 with open(args.table3, 'w') as f:
 	for num, i in enumerate(ref):
-		f.write('%s|%s|%s\n' % (int(num + 1), int(pos[num]), str(i)))
+		f.write('%s|%s|%s|%s\n' % (int(num + 1), chrom[num], int(pos[num]), str(i)))
 
 
 		
