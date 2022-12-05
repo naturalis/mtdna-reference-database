@@ -96,8 +96,7 @@ df['biosample'] = bs_list
 #need to do something to get the name there
 parchement_snp.append('Parchment P5')
 df.loc[len(df)] = parchement_snp
-#set biosample as index
-#df = df.set_index('biosample')
+
 
 #make the MSA
 for i in df.columns[:-1]:
@@ -143,5 +142,7 @@ for i in df.columns[:-1]:
 
 		idx += 1
 
+#set biosample as index
+df = df.set_index('biosample')
 df.to_csv(args.output, sep='\t')
 
