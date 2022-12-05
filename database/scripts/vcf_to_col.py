@@ -20,7 +20,7 @@ ref = list(df['REF'])
 alt = list(df['ALT'])
 pos = list(df['POS'])
 chrom = list(df['#CHROM'])
-biosamples = list(df.columns)[9:]
+biosamples = list(df.columns)[4:]
 
 snp_col = []
 ref_snp = []
@@ -49,24 +49,33 @@ with open(args.table1, 'w') as f:
 				if split_gt[0] != split_gt[1]:
 					try:
 						split_alt = alt[j].split(',')
-						split_rat = np.array(split_sp[1].split(','))
-						idx = np.argmax(split_rat)
-						if idx == 0:
-							continue
-						else: 
-							snp_col.append(split_alt[idx])
+
+						#was needed for mitochondrial because calls were diploid
+						#split_rat = np.array(split_sp[1].split(','))
+						#idx = np.argmax(split_rat)
+						#if idx == 0:
+						#	continue
+
+						#needed for diploid alt
+						if int(split_gt[0]) > 0:
+							snp_col.append('%s,%s' % (split_alt[int(split_gt[0])-1],split_alt[int(split_gt[1])-1]))
+						else:
+							snp_col.append(split_alt[int(split_gt[1])-1])
 					except:
 						snp_col.append(alt[j])
 
 				elif split_gt[0] == split_gt[1]:
 					try:
 						split_alt = alt[j].split(',')
-						split_rat = np.array(split_sp[1].split(',')) 
-						idx = np.argmax(split_rat)
-						if idx == 0:
-							continue
-						else: 
-							snp_col.append(split_alt[idx])
+
+						#was needed for mitochondrial because calls were diploid
+						#split_rat = np.array(split_sp[1].split(',')) 
+						#idx = np.argmax(split_rat)
+						#if idx == 0:
+						#	continue
+						#else:
+						 
+						snp_col.append(split_alt[int(split_gt[1])-1])
 					except:
 						snp_col.append(alt[j])
 
@@ -94,4 +103,4 @@ with open(args.table3, 'w') as f:
 		f.write('%s|%s|%s|%s\n' % (int(num + 1), chrom[num], int(pos[num]), str(i)))
 
 
-		
+print(df['SAMN01915355'][:5])
