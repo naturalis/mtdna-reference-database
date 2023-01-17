@@ -65,10 +65,8 @@ for file in arg.filenames:
 full_df = pd.concat(parts, ignore_index = True)
 print(full_df)
 des_parts = []
-# this has to go in a for loop for each file in descriptions
-#also put breed 'catle' in file to be checked again
-# these are the description files -d result/biosample_descriptions/<code>_descriptions.txt
-#breed, biosample, experiment id
+
+#these are the description files -d result/biosample_descriptions/<code>_descriptions.txt
 for file in arg.descriptions:
 	#put file in df
 	df_des = pd.read_csv(file, sep = '\t', names = ['breed', 'biosample', 'experiment_id'])
@@ -127,7 +125,7 @@ with open('result/breed_spread.txt', 'w') as f:
 df_des.to_csv(arg.outfile, sep='\t', index=False)
 
 
-#country codes
+#country codes in the backup, current count has in folder uses ISO Alpha-2
 # SC = SCotland
 # SW = SWiss
 # IT = ITaly
@@ -174,7 +172,6 @@ df_des.to_csv(arg.outfile, sep='\t', index=False)
 # UA = UkrAine
 # BA = Baltic
 # EG = EGypt
-# SI = SIrea
 # AZ = AZerbeijan
 # AR = ARmania
 # GE = GEorgia

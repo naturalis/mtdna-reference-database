@@ -13,7 +13,7 @@ arg = parser.parse_args()
 
 #Run table files from SRA always start with "Sra" and files from the EVA start with 'file'
 #files from EVA need their name changed to "SraRunTablefile[something]" otherwise the pipeline
-#won't process the file
+#won't be able to detect the file
 if "fil" in arg.filename:
 	data = pd.read_csv(arg.filename, sep="\t", header=0)
 
@@ -25,7 +25,7 @@ elif "Sra" in arg.filename :
 	column = data["BioSample"]
 #Warning incase its not a file from SRA or EVA and just a reminder if the file just contains run and biosample IDs
 else:
-	print("File doens't seem to be a SraRunTable or filereport from SRA or EVA respectively. It is therefore assumed the input file contains just run and BioSample ID's. If this is not the case the process will not work and crash somewhere.")
+	print("File doens't seem to be a SraRunTable or filereport from SRA or EVA respectively. It is therefore assumed the input file contains just BioSample ID's. If this is not the case the process will not work and crash somewhere.")
 
 with open(arg.outfile, 'a') as f:
 	try:

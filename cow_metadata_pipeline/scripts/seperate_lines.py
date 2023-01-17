@@ -1,7 +1,6 @@
 #Third step, this script takes the output from get_description.py
 #loop through file and retrieve only breed name to store in a file.
 
-#input can be seen in if statements
 #output will be result/breeds/[code]_breeds
 
 import itertools
@@ -13,6 +12,7 @@ parser = argparse.ArgumentParser(description='Extract the breed of the cow from 
 parser.add_argument('-i', dest="filename", required=True, help='Input file being the file containing the feteched BioSample descriptions.')
 parser.add_argument('-o', dest="outfile", required=True, help='Name for the output file.')
 
+#create regex expression to look for in the description
 arg = parser.parse_args()
 b_pattern = re.compile('\D{3,5}\d{7,8}')
 r_pattern = re.compile('\D{3}\d{6,8}')
@@ -21,7 +21,7 @@ if 'None' in arg.filename:
 	exit()
 #opens the input file and only retrieves x amount of lines. The correct line that should 
 #contain the breed name is then searched over with a regular expression to retrieve the full
-#breed name and then stored in a file.
+#breed name and then stor it in a file.
 with open(arg.filename, 'r') as f:
 	with open(arg.outfile, "w") as f2:
 		if "SAMEA" in arg.filename:

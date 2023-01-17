@@ -1,0 +1,109 @@
+configfile: "test_yaml.yaml" 
+
+sample, = glob_wildcards("%sSraRunTable{id}.txt" % config['sra_folder'])
+
+def get_wc(wildcards):
+    ck_out = checkpoints.retrieve_descriptionts.get(**wildcards).output[0]
+    smp_wc, = glob_wildcards(os.path.join(ck_out, "{sample}_descriptions.txt"))
+    return expand(os.path.join(ck_out, "{SAMPLE}_descriptions.txt"), SAMPLE=smp_wc)
+
+
+def get_wc2(wildcards):
+    ck_out = checkpoints.retrieve_descriptionts.get(**wildcards).output[0]
+    smp_wc2, = glob_wildcards(os.path.join(ck_out, "{sample}_descriptions.txt"))
+    return expand(os.path.join(config['breed_folder'], "{SM}_breed.txt"), SM=smp_wc2)
+
+
+rule all:
+    input:
+        config['result_folder'] + config['output_file']
+        
+        
+#extract the biosample ID's from a SRA run file or EVA filereport.
+
+rule extract:
+    input:
+        config['sra_folder'] + "SraRunTable{sample}.txt"
+    params:
+        dir = config['intermediar_folder'],
+        scripts = config['script_folder']
+    output:
+        config['intermediar_folder'] + '{sample}_biosamples.txt'
+    shell:
+        '''
+        mkdir -p {params.dir}
+        python3 {params.scripts}extract_bio_sample.py -i {input} -o {output}
+        '''
+
+#Based on the common start of the biosample id, retrieve the lines that should contain
+#the breed of the cow.
+
+checkpoint retrieve_descriptionts:
+    input:
+        expand(config['intermediar_folder'] + "{sample}_biosamples.txt", sample=sample)
+    params:
+        folder = config['intermediar_folder'],
+        out_folder = config['description_folder'],
+        common = config['intermediar_folder'] + 'common_id'
+    output:
+        directory(config['description_folder'])
+    shell:
+        '''
+        mkdir -p {params.out_folder}
+        cat {input} | sort | egrep -o "[A-Z]{{4,5}}" | uniq > {params.common}.txt
+        echo "Retrieved common starting identifiers for the biosamples."
+        for OUTPUT in $(cat {params.common}.txt)
+        do
+            cat {input} | sort | uniq | grep $OUTPUT > {params.folder}$OUTPUT.txt
+            if [ $OUTPUT = "SAMEA" ]
+            then
+                efetch -input "{params.folder}$OUTPUT.txt" -db biosample -format native -mode text | grep -B1 "Accession:\|Identifiers:" > {params.out_folder}SAMEA_descriptions.txt
+                echo "Retrieved discriptions for SAMEA biosamples"
+            elif [ $OUTPUT = "SAMN" ]
+            then
+                efetch -input "{params.folder}$OUTPUT.txt" -db biosample -format native -mode text | grep 'breed=\|Sample name=\|Identifiers:' > {params.out_folder}SAMN_descriptions.txt
+                echo "Retrieved discriptions for SAMN biosamples"
+            elif [ $OUTPUT = "SAMD" ]
+            then
+                efetch -input "{params.folder}$OUTPUT.txt" -db biosample -format native -mode text |  grep "sample comment=\|Identifiers:" > {params.out_folder}SAMD_descriptions.txt
+                echo "Retrieved discriptions for SAMD biosamples"
+            else
+                echo "BioSample code does not match any code for which the script was made. The descriptions of the BioSamples are therefore retrived in full, but wil likely not be processed correctly later on in the pipeline."
+                efetch -input "{params.folder}$OUTPUT.txt" -db biosample -format native -mode text > {params.out_folder}unknown_descriptions.txt
+            fi
+        done
+        '''
+
+#Extracts the breed from the pulled descriptions and makes puts the data in a nice format in
+#a new file.
+
+rule seperate_lines:
+    input: 
+        get_wc
+    params:
+        scripts = config['script_folder'],
+        dir = config['breed_folder'],
+        des = os.path.join(config['description_folder'], "{SAMPLE}_descriptions.txt")
+    output:
+        os.path.join(config['breed_folder'], "{SAMPLE}_breed.txt")
+    shell:
+        '''
+        mkdir -p {params.dir}
+        python3 {params.scripts}seperate_lines.py -i {params.des} -o {output}
+        '''
+
+#puts all the info into a dataframe and then CSV file wich can be used to work with easily.
+
+rule cow_info:
+    input:
+        des = get_wc2,
+        in_file = expand(config['sra_folder'] + "SraRunTable{sample}.txt", sample=sample)
+    params:
+        scripts = config['script_folder'],
+        breed_file = config['breed_file']
+    output:
+        config['result_folder'] + config['output_file']
+    shell:
+        '''
+        python3 {params.scripts}sample_breed.py -i {input.in_file} -b {params.breed_file} -d {input.des} -o {output}
+        '''

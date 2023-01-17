@@ -19,15 +19,15 @@ Limousin|SAMN09379797|SRS3434715|ftp.sra.ebi.ac.uk/vol1/ERZ173/ERZ1738264/ChrMT-
 
 To run the pipeline the following command can be used, after changing the yaml file to match your correct input, intermediar, and output folders, to check whether everything is setup correctly.
 
-'''
-snakemake -n -s {name of the snakefile}
-''' 
+
+	snakemake -n -s {name of the snakefile}
+
 
 If that doens't throw an error, you can run the pipeline as shown below.
 
-'''
-snakemake -c 1 -s {name of the snakefile}
-''' 
+
+	snakemake -c 1 -s {name of the snakefile}
+
 
 The yaml file is specified at the top of the snakefile and contains the following keys:
 
