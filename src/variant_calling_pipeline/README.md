@@ -78,4 +78,4 @@ The yaml file is specified at the top of the snakefile and contains the followin
 - aling: The folder in which the alignment will be stored.
 - vcf: The folder in which the vcf files will be stored.
 - scripts: The folder where the scripts are.
-- dp: The folder in which the alignments and files related to the regions with a depth of 10 will be stored,
+- dp: The folder in which the alignments and files related to the regions with a depth of 10 will be stored.

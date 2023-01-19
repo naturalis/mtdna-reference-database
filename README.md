@@ -20,9 +20,8 @@ This repository consits of the code, pipelines, databases and documentation for 
 subsections are here:
 
 - [Documentation](doc), about packages and tools needed for everything in the repository.
-- [Cow_metadata_pipeline](cow_metadata_pipeline), containing the files for the pipeline, including the scripts, test data and documentation 
-- [Database](database), containing the scripts needed for transforming the data to the correct format, database schema, testdata and documentation.
-- [Variant_calling_pipeline](variant_calling_pipeline), containing the files for the variant calling pipeline, including the scripts, test data and documentation 
+- [Source](src), contains the scripts, pipelines and database used to recreate the results of the project.
+- [Data](data), contains the selection of SNPs, from the 1000 bulls project run8, needed for the refrence database.
 
 reserved zenodo doi:
 

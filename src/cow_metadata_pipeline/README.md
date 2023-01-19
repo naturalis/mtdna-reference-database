@@ -1,5 +1,9 @@
 # Cow_metadata_pipeline
 
+- [Data](data): Contains the files used for the collecting the metadat for the reference database. 
+- [Result](result): Contains the final results from the pipeline and manually curated files needed for the pipeline.
+- [Scripts](scripts) Contains the scripts needed by the pipeline to retrieve data from NCBI and format it.
+
 The cow_metadata_pipeline is used to retrieve the breed of the cow samples in either a SRA run file or ENA filereport. The pipeline consists of the following steps:
 
 1. Extracting the biosample IDs from either SRA run file or ENA filereport.
@@ -47,3 +51,4 @@ The yaml file is specified at the top of the snakefile and contains the followin
 	The folder containing the scripts used in the pipeline.
 - output_file: 
 	The name of the output file containing the end result from the pipeline.
+
