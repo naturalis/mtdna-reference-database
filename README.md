@@ -1,6 +1,6 @@
 # mtdna-reference-database
 
-Reference database of panels of mitochondrial genomes for population-level aDNA identification
+Reference database of panels of nuclear genomes for population-level aDNA identification
 
 Table of file codes related to pieces of parchment:
 
