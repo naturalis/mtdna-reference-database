@@ -20,15 +20,15 @@ the end result from the pipeline is a collection of text files containing filter
 
 ### 1. Preliminary quality control check of the data.
 
-The first step in the pipeline is to do some quality control(QC) checks of the submitted fastq files. For this purpose FastQC[put reference here] is used. 
+The first step in the pipeline is to do some quality control(QC) checks of the submitted fastq files. For this purpose FastQC is used. 
 
 ### 2. Adapter trimming of the reads.
 
-The second step the in the pipeline is to trim the adapters of the reads, for this purpose fastp[put reference here] is used. Fastp automatically detects the adapters and trims them therefore only needing the fastq files as input.
+The second step the in the pipeline is to trim the adapters of the reads, for this purpose fastp is used. Fastp automatically detects the adapters and trims them therefore only needing the fastq files as input.
 
 ### 3. Quality trimming of the reads.
 
-After adapter trimming another round of trimming is done, but based on quality of the reads. This is done using trimmomatic[reference here], a java based tool used for illumina data. The following settings are used:
+After adapter trimming another round of trimming is done, but based on quality of the reads. This is done using trimmomatic, a java based tool used for illumina data. The following settings are used:
 
 - MINLEN:35
 - LEADING:20
@@ -42,7 +42,7 @@ After quality trimming another round of QC checks is done to see the effects of 
 
 ### 5. Aligning the reads to the reference genome.
 
-With the quality trimming done the preprocessing steps have been finished and the reads can now be mapped against a reference genome(see top of the readme). The tool used for this step is BWA[reference here] and in paticular BWA-MEM.  
+With the quality trimming done the preprocessing steps have been finished and the reads can now be mapped against a reference genome(see top of the readme). The tool used for this step is BWA and in paticular BWA-MEM.  
 
 ### 6. Retrieving reagions with a depth of at least ten.
 
@@ -50,11 +50,11 @@ As we are dealing with ancient DNA the amount of DNA that is produced in the lab
 
 ### 7. Mark duplicates.
 
-In this step duplicate reads are marked as they do not hold any relevant additional information and can introduce a bias in the variant calling step. To mark the duplicates picard[reference here] is used. 
+In this step duplicate reads are marked as they do not hold any relevant additional information and can introduce a bias in the variant calling step. To mark the duplicates picard is used. 
 
 ### 8. Variant calling.
 
-With duplicates marked the next step is to call the SNP's in the sample. This is done with GATK Haplotypecaller[reference here]. 
+With duplicates marked the next step is to call the SNP's in the sample. This is done with GATK Haplotypecaller. 
 
 ### 9. Vcf filtering.
 

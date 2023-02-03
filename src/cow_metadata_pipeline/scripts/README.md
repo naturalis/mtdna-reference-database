@@ -27,10 +27,12 @@ The script takes a file containing the descriptions retrieved from NCBI as it's 
 The sample_breed.py script takes the following commandline arguments:
 
     -i  --filename 
-                      Path to input file containing descriptions for the biosample IDs.
+                      Path to the original input files for the pipeline.
     -o  --outfile 
                       The output file to write the breed of each biosample to.
     -d --descriptions
-    				  The description files genereated by the seperate_lines.py script.
+    				          The description files genereated by the seperate_lines.py script.
     -b --breedfile
-    				  The path to the 'all_breed_counts.txt' file.
+    				          The path to the 'all_breed_counts.txt' file.
+
+The script takes the breedfile, descriptions and the original input files and reformates all the usefull information into one CSV files.

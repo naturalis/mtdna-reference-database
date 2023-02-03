@@ -13,7 +13,7 @@ import regex as re
 import argparse
 import json
 
-parser = argparse.ArgumentParser(description='Does stuff to get all the needed info in one output file.')
+parser = argparse.ArgumentParser(description='Reformats all the needed info in one output file.')
 parser.add_argument('-i', nargs='+', dest="filenames", required=True, help='The input files.')
 parser.add_argument('-d', nargs='+', dest="descriptions", required=True, help='The description files.')
 parser.add_argument('-b', dest="breedfile", required=True, help='all_breed_counts.txt. Contains the unique breeds in the ')
@@ -77,7 +77,7 @@ for file in arg.descriptions:
 df_des = pd.concat(des_parts, ignore_index=True)
 print(df_des)
 
-#when you rerun everything from the start you'll run into errors because of manual changes made to the all_breed_counts.txt, therefore the backup exists.  
+#when you rerun everything from the start you might run into errors because of manual changes made to the all_breed_counts.txt, therefore the backup exists.  
 
 new_columns = []
 counter = 0
@@ -99,6 +99,7 @@ print("\n%s samples were not processed correctly, see \"issues.txt\" for the bre
 
 df_des[['run', 'country', 'direction']] = new_columns
 
+#create a dictionary containing the counts of which country and which direction the breeds are from.
 country_dict = {}
 
 for i in range(len(df_des)):
@@ -125,7 +126,7 @@ with open('result/breed_spread.txt', 'w') as f:
 df_des.to_csv(arg.outfile, sep='\t', index=False)
 
 
-#country codes in the backup, current count has in folder uses ISO Alpha-2
+#country codes in the backup, current count in folder uses ISO Alpha-2 codes
 # SC = SCotland
 # SW = SWiss
 # IT = ITaly
