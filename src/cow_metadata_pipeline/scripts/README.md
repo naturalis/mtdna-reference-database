@@ -31,8 +31,8 @@ The sample_breed.py script takes the following commandline arguments:
     -o  --outfile 
                       The output file to write the breed of each biosample to.
     -d --descriptions
-    				          The description files genereated by the seperate_lines.py script.
+    	        The description files genereated by the seperate_lines.py script.
     -b --breedfile
-    				          The path to the 'all_breed_counts.txt' file.
+              The path to the 'all_breed_counts.txt' file.
 
-The script takes the breedfile, descriptions and the original input files and reformates all the usefull information into one CSV files.
+The script takes the breedfile, descriptions and the original input files and reformates all the usefull information into one CSV file (see results/test/test_info_EVA.csv). Alongside this a dictionary containing the counts of the the country of the breeds and direction is generated (breed_spread.txt). 
