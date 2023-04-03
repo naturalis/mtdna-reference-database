@@ -23,7 +23,5 @@ subsections are here:
 - [Source](src), contains the scripts, pipelines and database used to recreate the results of the project.
 - [Data](data), contains the selection of SNPs, from the 1000 bulls project run8, needed for the refrence database.
 
-reserved zenodo doi:
-
-10.5281/zenodo.7371345
+Zenodo doi: https://doi.org/10.5281/zenodo.7371345
 
