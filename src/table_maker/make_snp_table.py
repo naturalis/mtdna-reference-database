@@ -141,42 +141,6 @@ def interpolate_sequences(vcf_file, reference_file, samples=None, contig='M', se
     return sequences
 
 
-def pad_indels(sequences):
-    """
-    Attempts to deal with indels by padding the shorter variants with '-'. This will likely give shitty
-    alignments, but maybe we are lucky and there are no multi-allelic indels (famous last words).
-    :param sequences: Dictionary where key is sample, value is list of nucleotides
-    :return: Padded sequence dictionary
-    """
-
-    # calculate size of matrix
-    nchar = None
-    for sample in sequences.keys():
-        if nchar is None:
-            nchar = len(sequences[sample])
-            continue
-        if nchar != len(sequences[sample]):
-            nn = len(sequences[sample])
-            logging.error(f"{nchar} != {nn}")
-
-    for i in range(nchar):
-
-        # calculate the length of the longest variant at this site
-        maxlen = 1
-        for sample in sequences.keys():
-            if len(sequences[sample][i]) > maxlen:
-                maxlen = len(sequences[sample][i])
-
-        # pad others if they are shorter than maxlen
-        if maxlen > 1:
-            for sample in sequences.keys():
-                if len(sequences[sample][i]) < maxlen:
-                    padding = maxlen - len(sequences[sample][i])
-                    gap = '-' * padding
-                    sequences[sample][i] += gap
-    return sequences
-
-
 def filter_sites(sequences, intervals):
     """
     Reduces the interpolated sequences to only those sites that overlap with the provided intervals.
@@ -195,21 +159,6 @@ def filter_sites(sequences, intervals):
     return filtered
 
 
-def write_output(sequences, outformat):
-    """
-    Writes the result to stdout in one of the formats that AlignIO understands, e.g. phylip or nexus
-    :param sequences: Dictionary where key is sample, value is list of nucleotides
-    :param outformat: String that specifies the AlignIO output, e.g. phylip or nexus
-    """
-    alignment = MultipleSeqAlignment([])
-    for sample in sequences.keys():
-        seq = ''.join(sequences[sample])
-        sr = SeqRecord(seq, id=sample)
-        sr.annotations["molecule_type"] = "DNA"
-        alignment.append(sr)
-    AlignIO.write(alignment, sys.stdout, outformat)
-
-
 def main():
     parser = argparse.ArgumentParser(description="Process BED and VCF files.")
 
@@ -219,7 +168,6 @@ def main():
     parser.add_argument("--parchment-vcf", required=True, help="Location of the VCF parchment sample file.")
     parser.add_argument("--breeds", required=True, help="Location of breeds table.")
     parser.add_argument("--ref", required=True, help="Location of reference FASTA.")
-    parser.add_argument("--outformat", required=True, default="nexus", help="Output format.")
     parser.add_argument("--verbose", action="store_true", help="Increase logging verbosity.")
     args = parser.parse_args()
 
@@ -235,7 +183,6 @@ def main():
     vcf_parchment_file = args.parchment_vcf
     breeds_file = args.breeds
     ref_file = args.ref
-    outformat = args.outformat
 
     # log results
     logging.debug(f"BED file location: {bed_file}")
@@ -243,14 +190,13 @@ def main():
     logging.debug(f"VCF parchment sample file location: {vcf_parchment_file}")
     logging.debug(f"FASTA reference sequence location: {ref_file}")
     logging.debug(f"TSV breeds file location: {breeds_file}")
-    logging.debug(f"Output format: {outformat}")
 
-    return bed_file, vcf_snp_file, vcf_parchment_file, breeds_file, ref_file, outformat
+    return bed_file, vcf_snp_file, vcf_parchment_file, breeds_file, ref_file
 
 
 if __name__ == "__main__":
     # preprocess input files from command line arguments
-    bed_f, snp_f, parchment_f, breeds_f, ref_f, outformat = main()
+    bed_f, snp_f, parchment_f, breeds_f, ref_f = main()
     breeds = parse_breeds_table(breeds_f)
     intervals = parse_bed(bed_f)
 
@@ -261,11 +207,7 @@ if __name__ == "__main__":
     # filter the interpolated sequences to retain intervals
     sequences = filter_sites(sequences, intervals)
 
-    # pad the indels
-    #sequences = pad_indels(sequences)
-
     # write output
-    #write_output(sequences, outformat)
     for sample in sequences.keys():
         print(f">{sample}")
         seq = ''.join(sequences[sample])
