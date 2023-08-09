@@ -1,106 +1,106 @@
-SampleID	Breed	Country	Region	Source
-SAMEA5577153	Alentejana	Portugal	S. Potugal	Wiki
-SAMN05216009	Angus	Scotland	NE. Scotland	Wiki
-SAMN05216014	Angus	Scotland	NE. Scotland	Wiki
-SAMN05216013	Angus	Scotland	NE. Scotland	Wiki
-SAMN09379745	Belgian Blue	Belgium		Wiki
-SAMN09379719	Belgian Blue	Belgium		Wiki
-SAMN09379750	Belgian Blue	Belgium		Wiki
-SAMEA4051548	Belted Galloway	Scotland	SW. Scotland	Wiki
-SAMN05803879	Belted Galloway	Scotland	SW. Scotland	Wiki
-SAMN05803880	Belted Galloway	Scotland	SW. Scotland	Wiki
-SAMN01915355	Blonde d'Aquitaine	France	SW. France	Wiki
-SAMN10721585	Boskarin	Croatia, Slovenia	Istria	Wiki
-SAMN05199681	Braunvieh	Switzerland		Wiki
-SAMN05199680	Braunvieh	Switzerland		Wiki
-SAMN05216095	Braunvieh	Switzerland		Wiki
-SAMEA4051550	Brown Swiss	Switzerland		Wiki
-SAMEA4560541	Brown Swiss	Switzerland		Wiki
-SAMEA19850668	Brown Swiss	Switzerland		Wiki
-SAMN05216036	Charolais	France	CE. France	Wiki
-SAMN05216037	Charolais	France	CE. France	Wiki
-SAMN05216038	Charolais	France	CE. France	Wiki
-SAMEA32998168	Chianina	Italy	C. Italy	Wiki
-SAMEA32999668	Chianina	Italy	C. Italy	Wiki
-SAMEA33668668	Chianina	Italy	C. Italy	Wiki
-SAMN05216091	Chianina	Italy	C. Italy	Wiki
-SAMN05216090	Chianina	Italy	C. Italy	Wiki
-SAMN05216089	Chianina	Italy	C. Italy	Wiki
-SAMN02841105	Devon	England	SW. England	Wiki
-SAMN05803888	Dexter	Ireland	SW. Ireland	Wiki
-SAMN05803883	Dexter	Ireland	SW. Ireland	Wiki
-SAMEA4827182	Eastern Finncattle	Finland	E. Finland	Wiki
-SAMEA4827183	Eastern Finncattle	Finland	E. Finland	Wiki
-SAMEA4827184	Eastern Finncattle	Finland	E. Finland	Wiki
-SAMEA4560538	Eringer	Switzerland		Wiki
-SAMEA5714967	Eringer	Switzerland		Wiki
-SAMEA19849168	Eringer	Switzerland		Wiki
-SAMEA5714969	Evolène	Switzerland		Wiki
-SAMEA5714968	Evolène	Switzerland		Wiki
-SAMN05945846	Fleckvieh	Austria, Germany		Wiki
-SAMN05945848	Fleckvieh	Austria, Germany		Wiki
-SAMN05945849	Fleckvieh	Austria, Germany		Wiki
-SAMN05216050	Gelbvieh	Germany	SE. Germany	Wiki
-SAMN05216045	Gelbvieh	Germany	SE. Germany	Wiki
-SAMN05216047	Gelbvieh	Germany	SE. Germany	Wiki
-SAMN05216019	Hereford	England	W.  England	Wiki
-SAMN05216020	Hereford	England	W.  England	Wiki
-SAMN05216018	Hereford	England	W.  England	Wiki
-SAMN08612543	Jersey	UK	British Isles	Wiki
-SAMN08612493	Jersey	UK	British Isles	Wiki
-SAMN08612470	Jersey	UK	British Isles	Wiki
-SAMN10721581	Limia	Spain	NW. Spain	Wiki
-SAMEA5159763	Limousin	France	CW. France	Wiki
-SAMEA19867918	Limousin	France	CW. France	Wiki
-SAMEA32985418	Limousin	France	CW. France	Wiki
-SAMN05216022	Limousin	France	CW. France	Wiki
-SAMN05216024	Limousin	France	CW. France	Wiki
-SAMN05216025	Limousin	France	CW. France	Wiki
-SAMN02843100	Maine Anjou	France	NW. France	Wiki
-SAMN02843069	Maine Anjou	France	NW. France	Wiki
-SAMN05199688	Maine Anjou	France	NW. France	Wiki
-SAMN10721583	Maremmana	Italy	C. Italy	Wiki
-SAMN10721580	Maronesa 	Portugal	N. Portugal	Wiki
-SAMEA5064546	Nordic Red cattle	Sweden, Denmark, Finland		Bengtsson et al., 2022
-SAMEA5064547	Nordic Red cattle	Sweden, Denmark, Finland		Bengtsson et al., 2023
-SAMEA33001168	Normande	France	NW. France	Wiki
-SAMN09510423	Nordic Red cattle	Sweden, Denmark, Finland		Bengtsson et al., 2023
-SAMEA6272109	Original Braunvieh	Switzerland		Wiki
-SAMEA6272118	Original Braunvieh	Switzerland		Wiki
-SAMEA6272113	Original Braunvieh	Switzerland		Wiki
-SAMN10721584	Pajuna	Spain	S. Spain	Wiki
-SAMN02941217	Piedmontese	Italy	NW. Italy	Wiki
-SAMN01915345	Piedmontese	Italy	NW. Italy	Wiki
-SAMN01915349	Piedmontese	Italy	NW. Italy	Wiki
-SAMEA5159845	Pinzgauer	Austria		Wiki
-SAMN10721582	Podolica	Italy	S. Italy	Wiki
-SAMN05216044	Red Angus	Scotland		Wiki
-SAMN05216041	Red Angus	Scotland		Wiki
-SAMN05216042	Red Angus	Scotland		Wiki
-SAMEA32988418	Romagnola	Italy	N. Italy	Wiki
-SAMEA32987668	Romagnola	Italy	N. Italy	Wiki
-SAMEA19876168	Romagnola	Italy	N. Italy	Wiki
-SAMN05216062	Salers	France	SC. France	Wiki
-SAMN05216063	Salers	France	SC. France	Wiki
-SAMN05216061	Salers	France	SC. France	Wiki
-SAMN10721579	Sayaguesa	Spain	NW. Spain	Wiki
-SAMEA5159830	Scottish Highland	Scotland	Scottish Highland	Wiki
-SAMEA5159831	Scottish Highland	Scotland	Scottish Highland	Wiki
-SAMEA5159829	Scottish Highland	Scotland	Scottish Highland	Wiki
-SAMN05216074	Shorthorn	England	NE. England	Wiki
-SAMN05216072	Shorthorn	England	NE. England	Wiki
-SAMN05216071	Shorthorn	England	NE. England	Wiki
-SAMN05216032	Simmental	Switzerland		Wiki
-SAMN05216030	Simmental	Switzerland		Wiki
-SAMN05216027	Simmental	Switzerland		Wiki
-SAMN05216101	Tarentaise	France	French Alps	Wiki
-SAMN05216102	Tarentaise	France	French Alps	Wiki
-SAMN05216104	Tarentaise	France	French Alps	Wiki
-SAMEA5159846	Tuxer		Austria	W. Austria
-SAMEA5159888	Tyrolean Grey	Austria, Italy	Austria, N. Italy	Wiki
-SAMEA5159889	Tyrolean Grey	Austria, Italy	Austria, N. Italy	Wiki
-SAMEA5159887	Tyrolean Grey	Austria, Italy	Austria, N. Italy	Wiki
-SAMN10131258	Vechur	India		Wiki
-SAMEA4827191	Western Fincattle	Finland	W. Finland	Wiki
-SAMEA4827188	Western Fincattle	Finland	W. Finland	Wiki
-SAMEA4827189	Western Fincattle	Finland	W. Finland	Wiki
+SampleID	Breed	Superregion	Country	Subregion	Source
+SAMEA5577153	Alentejana	Iberia	Portugal	S. Potugal	Wiki
+SAMN05216009	Angus	British Isles	Scotland	NE. Scotland	Wiki
+SAMN05216014	Angus	British Isles	Scotland	NE. Scotland	Wiki
+SAMN05216013	Angus	British Isles	Scotland	NE. Scotland	Wiki
+SAMN09379745	Belgian Blue	Benelux	Belgium		Wiki
+SAMN09379719	Belgian Blue	Benelux	Belgium		Wiki
+SAMN09379750	Belgian Blue	Benelux	Belgium		Wiki
+SAMEA4051548	Belted Galloway	British Isles	Scotland	SW. Scotland	Wiki
+SAMN05803879	Belted Galloway	British Isles	Scotland	SW. Scotland	Wiki
+SAMN05803880	Belted Galloway	British Isles	Scotland	SW. Scotland	Wiki
+SAMN01915355	Blonde d'Aquitaine	France	France	SW. France	Wiki
+SAMN10721585	Boskarin	Balkan	Croatia, Slovenia	Istria	Wiki
+SAMN05199681	Braunvieh	Alps	Switzerland		Wiki
+SAMN05199680	Braunvieh	Alps	Switzerland		Wiki
+SAMN05216095	Braunvieh	Alps	Switzerland		Wiki
+SAMEA4051550	Brown Swiss	Alps	Switzerland		Wiki
+SAMEA4560541	Brown Swiss	Alps	Switzerland		Wiki
+SAMEA19850668	Brown Swiss	Alps	Switzerland		Wiki
+SAMN05216036	Charolais	France	France	CE. France	Wiki
+SAMN05216037	Charolais	France	France	CE. France	Wiki
+SAMN05216038	Charolais	France	France	CE. France	Wiki
+SAMEA32998168	Chianina	Italy	Italy	C. Italy	Wiki
+SAMEA32999668	Chianina	Italy	Italy	C. Italy	Wiki
+SAMEA33668668	Chianina	Italy	Italy	C. Italy	Wiki
+SAMN05216091	Chianina	Italy	Italy	C. Italy	Wiki
+SAMN05216090	Chianina	Italy	Italy	C. Italy	Wiki
+SAMN05216089	Chianina	Italy	Italy	C. Italy	Wiki
+SAMN02841105	Devon	British Isles	England	SW. England	Wiki
+SAMN05803888	Dexter	British Isles	Ireland	SW. Ireland	Wiki
+SAMN05803883	Dexter	British Isles	Ireland	SW. Ireland	Wiki
+SAMEA4827182	Eastern Finncattle	Finnoscandia	Finland	E. Finland	Wiki
+SAMEA4827183	Eastern Finncattle	Finnoscandia	Finland	E. Finland	Wiki
+SAMEA4827184	Eastern Finncattle	Finnoscandia	Finland	E. Finland	Wiki
+SAMEA4560538	Eringer	Alps	Switzerland		Wiki
+SAMEA5714967	Eringer	Alps	Switzerland		Wiki
+SAMEA19849168	Eringer	Alps	Switzerland		Wiki
+SAMEA5714969	Evolène	Alps	Switzerland		Wiki
+SAMEA5714968	Evolène	Alps	Switzerland		Wiki
+SAMN05945846	Fleckvieh	Alps	Austria, Germany		Wiki
+SAMN05945848	Fleckvieh	Alps	Austria, Germany		Wiki
+SAMN05945849	Fleckvieh	Alps	Austria, Germany		Wiki
+SAMN05216050	Gelbvieh	Germany	Germany	SE. Germany	Wiki
+SAMN05216045	Gelbvieh	Germany	Germany	SE. Germany	Wiki
+SAMN05216047	Gelbvieh	Germany	Germany	SE. Germany	Wiki
+SAMN05216019	Hereford	British Isles	England	W.  England	Wiki
+SAMN05216020	Hereford	British Isles	England	W.  England	Wiki
+SAMN05216018	Hereford	British Isles	England	W.  England	Wiki
+SAMN08612543	Jersey	British Isles	UK	British Isles	Wiki
+SAMN08612493	Jersey	British Isles	UK	British Isles	Wiki
+SAMN08612470	Jersey	British Isles	UK	British Isles	Wiki
+SAMN10721581	Limia	Iberia	Spain	NW. Spain	Wiki
+SAMEA5159763	Limousin	France	France	CW. France	Wiki
+SAMEA19867918	Limousin	France	France	CW. France	Wiki
+SAMEA32985418	Limousin	France	France	CW. France	Wiki
+SAMN05216022	Limousin	France	France	CW. France	Wiki
+SAMN05216024	Limousin	France	France	CW. France	Wiki
+SAMN05216025	Limousin	France	France	CW. France	Wiki
+SAMN02843100	Maine Anjou	France	France	NW. France	Wiki
+SAMN02843069	Maine Anjou	France	France	NW. France	Wiki
+SAMN05199688	Maine Anjou	France	France	NW. France	Wiki
+SAMN10721583	Maremmana	Italy	Italy	C. Italy	Wiki
+SAMN10721580	Maronesa 	Iberia	Portugal	N. Portugal	Wiki
+SAMEA5064546	Nordic Red cattle	Finnoscandia	Sweden, Denmark, Finland		Bengtsson et al., 2022
+SAMEA5064547	Nordic Red cattle	Finnoscandia	Sweden, Denmark, Finland		Bengtsson et al., 2023
+SAMN09510423	Nordic Red cattle	Finnoscandia	Sweden, Denmark, Finland		Bengtsson et al., 2023
+SAMEA33001168	Normande	France	France	NW. France	Wiki
+SAMEA6272109	Original Braunvieh	Alps	Switzerland		Wiki
+SAMEA6272118	Original Braunvieh	Alps	Switzerland		Wiki
+SAMEA6272113	Original Braunvieh	Alps	Switzerland		Wiki
+SAMN10721584	Pajuna	Italy	Spain	S. Spain	Wiki
+SAMN02941217	Piedmontese	Italy	Italy	NW. Italy	Wiki
+SAMN01915345	Piedmontese	Italy	Italy	NW. Italy	Wiki
+SAMN01915349	Piedmontese	Italy	Italy	NW. Italy	Wiki
+SAMEA5159845	Pinzgauer	Alps	Austria		Wiki
+SAMN10721582	Podolica	Italy	Italy	S. Italy	Wiki
+SAMN05216044	Red Angus	British Isles	Scotland		Wiki
+SAMN05216041	Red Angus	British Isles	Scotland		Wiki
+SAMN05216042	Red Angus	British Isles	Scotland		Wiki
+SAMEA32988418	Romagnola	Italy	Italy	N. Italy	Wiki
+SAMEA32987668	Romagnola	Italy	Italy	N. Italy	Wiki
+SAMEA19876168	Romagnola	Italy	Italy	N. Italy	Wiki
+SAMN05216062	Salers	France	France	SC. France	Wiki
+SAMN05216063	Salers	France	France	SC. France	Wiki
+SAMN05216061	Salers	France	France	SC. France	Wiki
+SAMN10721579	Sayaguesa	Iberia	Spain	NW. Spain	Wiki
+SAMEA5159830	Scottish Highland	British Isles	Scotland	Scottish Highland	Wiki
+SAMEA5159831	Scottish Highland	British Isles	Scotland	Scottish Highland	Wiki
+SAMEA5159829	Scottish Highland	British Isles	Scotland	Scottish Highland	Wiki
+SAMN05216074	Shorthorn	British Isles	England	NE. England	Wiki
+SAMN05216072	Shorthorn	British Isles	England	NE. England	Wiki
+SAMN05216071	Shorthorn	British Isles	England	NE. England	Wiki
+SAMN05216032	Simmental	Alps	Switzerland		Wiki
+SAMN05216030	Simmental	Alps	Switzerland		Wiki
+SAMN05216027	Simmental	Alps	Switzerland		Wiki
+SAMN05216101	Tarentaise	Alps	France	French Alps	Wiki
+SAMN05216102	Tarentaise	Alps	France	French Alps	Wiki
+SAMN05216104	Tarentaise	Alps	France	French Alps	Wiki
+SAMEA5159846	Tuxer	Alps	Austria	W. Austria	Wiki
+SAMEA5159888	Tyrolean Grey	Alps	Austria, Italy	Austria, N. Italy	Wiki
+SAMEA5159889	Tyrolean Grey	Alps	Austria, Italy	Austria, N. Italy	Wiki
+SAMEA5159887	Tyrolean Grey	Alps	Austria, Italy	Austria, N. Italy	Wiki
+SAMN10131258	Vechur	India	India		Wiki
+SAMEA4827191	Western Fincattle	Finnoscandia	Finland	W. Finland	Wiki
+SAMEA4827188	Western Fincattle	Finnoscandia	Finland	W. Finland	Wiki
+SAMEA4827189	Western Fincattle	Finnoscandia	Finland	W. Finland	Wiki
