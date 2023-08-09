@@ -2,6 +2,8 @@ import pysam
 import logging
 import argparse
 import sys
+import re
+import os
 from Bio.SeqRecord import SeqRecord
 from Bio import AlignIO
 from Bio.Align import MultipleSeqAlignment
@@ -13,7 +15,7 @@ def parse_bed(bed_file_location):
     :param bed_file_location: Path to the BED file
     :return: List[dict]: List of intervals in the format [{"chrom": contig, "start": pos, "end": pos}, ...]
     """
-    logging.info(f"Going to read BED file")
+    logging.info(f"Going to read BED file from {bed_file_location}")
     intervals = []
     with open(bed_file_location, 'r') as bedfile:
         for line in bedfile:
@@ -23,6 +25,7 @@ def parse_bed(bed_file_location):
                 start = int(parts[1])
                 end = int(parts[2])
                 intervals.append({"chrom": chrom, "start": start, "end": end})
+    logging.debug(intervals)
     return intervals
 
 
@@ -31,19 +34,62 @@ def parse_breeds_table(file_location):
     Parses the TSV file that contains the curated list of breeds. Returns the IDs of the breeds, i.e. the first
     column sans header.
     :param file_location: Path to the TSV file
-    :return: List: List of sample IDs
+    :return: Dictionary: List of sample IDs
     """
     logging.info(f"Going to read breeds table from {file_location}")
-    breeds = []
+    breeds = {}
     with open(file_location, 'r') as file:
         next(file)  # Skip header
         for line in file:
             stripped_line = line.strip()  # Remove leading/trailing whitespaces
             if stripped_line:  # Check if line is not blank
-                breed = stripped_line.split('\t')[0]  # Get first column
-                breeds.append(breed)
+                fields = stripped_line.split('\t')  # Get fields
+                breeds[fields[0]] = fields[2]
+    logging.debug(breeds)
     return breeds
 
+
+def parse_parchment_vcf(vcf_file, sequences):
+    logging.info(f"Going to read parchment VCF from {vcf_file}")
+
+    # "constant" indices in the VCF
+    pos_idx = 1
+    ref_idx = 3
+    alt_idx = 4
+
+    # generate sample name and initialize list
+    basename = os.path.basename(vcf_file)  # Gets "P1_vcf.vcf.gz"
+    stem = os.path.splitext(basename)[0]  # Gets "P1_vcf.vcf"
+    sample = os.path.splitext(stem)[0]  # Gets "P1_vcf"
+    sequences[sample] = []
+
+    # start reading file
+    with open(vcf_file, 'r') as file:
+        for line in file:
+
+            # skip header lines
+            if line.startswith('#'):
+                continue
+
+            # skip blank lines
+            stripped_line = line.strip()
+            if stripped_line:
+                fields = stripped_line.split('\t')
+                allele = fields[alt_idx]
+
+                # grow the list to wherever we're going to insert
+                pos = int(fields[pos_idx])
+                while len(sequences[sample]) <= pos:
+                    sequences[sample].append('N')
+
+                match = re.match(r'^(.+?),', allele)
+                if match:
+                    result = match.group(1)
+                    sequences[sample][pos] = result
+                else:
+                    sequences[sample][pos] = fields[ref_idx]
+
+    return sequences
 
 def interpolate_sequences(vcf_file, reference_file, samples=None, contig='M', sequences=None):
     """
@@ -59,18 +105,26 @@ def interpolate_sequences(vcf_file, reference_file, samples=None, contig='M', se
     """
     # Load reference sequence and VCF
     with pysam.FastaFile(reference_file) as ref:
+        logging.info(f"Going to read reference sequence from {reference_file}")
         reference_sequence = ref.fetch(contig)
+    logging.info(f"Going to read SNPs from VCF file {vcf_file}")
     vcf = pysam.VariantFile(vcf_file)
 
     # Create samples list if not defined. This is variable so that in one pass we can use the curated list
     # of breeds, and in another pass we let the script extract the ID of the parchment sample.
     if samples is None:
-        samples = vcf.header.samples
+        samples = list(vcf.header.samples)
+        logging.debug(f"No list of samples provided, read from VCF header: {samples}")
+    else:
+        logging.debug(f"Provided list of samples: {samples}")
 
     # Dictionary to store sequences for each sample. This is variable so that in one pass we instantiate the
     # dictionary, and in the next we grow it by adding the parchment sample.
     if sequences is None:
+        logging.info("Initializing new set of sequences")
         sequences = {sample: list(reference_sequence) for sample in samples}
+    else:
+        logging.info("Expanding existing set of sequences")
 
     # Iterate over variants (SNPs etc.)
     for record in vcf:
@@ -78,15 +132,11 @@ def interpolate_sequences(vcf_file, reference_file, samples=None, contig='M', se
         # Iterate over samples for that SNP, possibly restricting ourselves to the curated set.
         for sample, sample_data in record.samples.items():
             if sample in samples:
-                allele_index = sample_data.allele_indices[0]  # It's mtDNA so we treat it as homozygous.
-                if allele_index is not None:  # XXX dunno why this sometimes craps out. Maybe no data due to low cover?
-                    sequences[sample][record.pos] = record.alleles[allele_index]
-
-    # Once we've done two passes of this function, we're going to have to do the following:
-    # 3. Then do:
-    # Convert lists back to strings
-    #    for sample, seq in sequences.items():
-    #        sequences[sample] = ''.join(seq)
+                indices = sample_data.allele_indices
+                if len(indices) > 0:
+                    index = indices[0]  # It's mtDNA so we treat it as homozygous.
+                    if index is not None:
+                        sequences[sample][record.pos] = record.alleles[index]
 
     return sequences
 
@@ -154,7 +204,9 @@ def write_output(sequences, outformat):
     alignment = MultipleSeqAlignment([])
     for sample in sequences.keys():
         seq = ''.join(sequences[sample])
-        alignment.append(SeqRecord(seq, id=sample))
+        sr = SeqRecord(seq, id=sample)
+        sr.annotations["molecule_type"] = "DNA"
+        alignment.append(sr)
     AlignIO.write(alignment, sys.stdout, outformat)
 
 
@@ -186,9 +238,12 @@ def main():
     outformat = args.outformat
 
     # log results
-    logging.info(f"BED file location: {bed_file}")
-    logging.info(f"VCF SNP panel file location: {vcf_snp_file}")
-    logging.info(f"VCF parchment sample file location: {vcf_parchment_file}")
+    logging.debug(f"BED file location: {bed_file}")
+    logging.debug(f"VCF SNP panel file location: {vcf_snp_file}")
+    logging.debug(f"VCF parchment sample file location: {vcf_parchment_file}")
+    logging.debug(f"FASTA reference sequence location: {ref_file}")
+    logging.debug(f"TSV breeds file location: {breeds_file}")
+    logging.debug(f"Output format: {outformat}")
 
     return bed_file, vcf_snp_file, vcf_parchment_file, breeds_file, ref_file, outformat
 
@@ -199,15 +254,19 @@ if __name__ == "__main__":
     breeds = parse_breeds_table(breeds_f)
     intervals = parse_bed(bed_f)
 
-    # call interpolation twice, to merge the files
-    sequences = interpolate_sequences(snp_f, ref_f, breeds)
-    sequences = interpolate_sequences(parchment_f, ref_f, sequences=sequences)
+    # call interpolation, then merge the parchment into it using homegrown VCF parser :-(
+    sequences = interpolate_sequences(snp_f, ref_f, list(breeds.keys()))
+    sequences = parse_parchment_vcf(parchment_f, sequences)
 
     # filter the interpolated sequences to retain intervals
     sequences = filter_sites(sequences, intervals)
 
     # pad the indels
-    sequences = pad_indels(sequences)
+    #sequences = pad_indels(sequences)
 
     # write output
-    write_output(sequences, outformat)
+    #write_output(sequences, outformat)
+    for sample in sequences.keys():
+        print(f">{sample}")
+        seq = ''.join(sequences[sample])
+        print(f"{seq}")
