@@ -29,33 +29,42 @@ def parse_bed(bed_file_location):
     return intervals
 
 
-def parse_breeds_table(file_location):
+def parse_samples_table(file_location):
     """
-    Parses the TSV file that contains the curated list of breeds. Returns the IDs of the breeds, i.e. the first
-    column sans header.
-    :param file_location: Path to the TSV file
-    :return: Dictionary: List of sample IDs
+    Parses the TSV file that contains the curated list of samples in ../../doc/Breed_Country_Region.tsv. Returns the
+    IDs of the samples, i.e. the first column sans header as well as the third column, which contains the broad
+    geographic origin ('Superregion').
+    :param file_location: Path to the TSV file.
+    :return: Dictionary: List of sample IDs.
     """
     logging.info(f"Going to read breeds table from {file_location}")
-    breeds = {}
+    samples = {}
     with open(file_location, 'r') as file:
         next(file)  # Skip header
         for line in file:
             stripped_line = line.strip()  # Remove leading/trailing whitespaces
             if stripped_line:  # Check if line is not blank
                 fields = stripped_line.split('\t')  # Get fields
-                breeds[fields[0]] = fields[2]
-    logging.debug(breeds)
-    return breeds
+                samples[fields[0]] = fields[2]
+    logging.debug(samples)
+    return samples
 
 
 def parse_parchment_vcf(vcf_file, sequences):
+    """
+    Hand-rolled parser of the (single-sample) VCF files coming out of Galaxy. Reads the positions, ref alleles and alt
+    alleles to construct an array of nucleotides that is added to the sequences dictionary keyed on the file sten of
+    the sample's VCF file.
+    :param vcf_file: Location of a single-sample VCF file from Galaxy.
+    :param sequences: A dictionary keyed on sample names, whose values are lists of nucleotides.
+    :return:
+    """
     logging.info(f"Going to read parchment VCF from {vcf_file}")
 
     # "constant" indices in the VCF
-    pos_idx = 1
-    ref_idx = 3
-    alt_idx = 4
+    pos_idx = 1 # genomic startcoordinate
+    ref_idx = 3 # reference allele
+    alt_idx = 4 # alternative alleles, will assume homozygous because mtDNA
 
     # generate sample name and initialize list
     basename = os.path.basename(vcf_file)  # Gets "P1_vcf.vcf.gz"
@@ -75,21 +84,22 @@ def parse_parchment_vcf(vcf_file, sequences):
             stripped_line = line.strip()
             if stripped_line:
                 fields = stripped_line.split('\t')
-                allele = fields[alt_idx]
+                pos = int(fields[pos_idx]) - 1
+                alt_allele = fields[alt_idx]
+                ref_allele = fields[ref_idx]
 
                 # grow the list to wherever we're going to insert
-                pos = int(fields[pos_idx])
                 while len(sequences[sample]) <= pos:
                     sequences[sample].append('N')
 
-                match = re.match(r'^(.+?),', allele)
+                match = re.match(r'^(.+?),', alt_allele) # e.g. 'G,<*>'
                 if match:
                     result = match.group(1)
                     sequences[sample][pos] = result
                 else:
-                    sequences[sample][pos] = fields[ref_idx]
-
+                    sequences[sample][pos] = ref_allele
     return sequences
+
 
 def interpolate_sequences(vcf_file, reference_file, samples=None, contig='M', sequences=None):
     """
@@ -159,6 +169,48 @@ def filter_sites(sequences, intervals):
     return filtered
 
 
+def filter_indels(sequences):
+    """
+    Removes all sites where at least one variant's length != 1 (i.e. indels). This then ought to mean that the result
+    does not need to be realigned, and we get around the weird semantics of indels in haplotype networks.
+    :param sequences: Dictionary where key is sample, value is list of nucleotides
+    :return: Filtered sequence dictionary
+    """
+    # make an empty copy, to which we will append the sites inside the intervals
+    filtered = {sample: [] for sample in sequences.keys()}
+
+    # calculate nchar and do sanity check
+    nchar = None
+    for sample in sequences.keys():
+        if nchar is None:
+            nchar = len(sequences[sample])
+            continue
+        else:
+            length = len(sequences[sample])
+            if nchar != length:
+                logging.error(f"{nchar} != {length} in sample {sample}")
+
+    # iterate over sites while toggling indel boolean to continue to next site
+    indel = False
+    for i in range(nchar):
+        for sample in sequences.keys():
+            if len(sequences[sample][i]) != 1:
+                indel = True
+                break
+        if indel:
+            indel = False
+            continue
+        else:
+            for sample in sequences.keys():
+                base = sequences[sample][i]
+                if base in [ 'A', 'C', 'G', 'T']:
+                    filtered[sample].append(base)
+                else:
+                    filtered[sample].append('N')
+
+    return filtered
+
+
 def main():
     parser = argparse.ArgumentParser(description="Process BED and VCF files.")
 
@@ -197,15 +249,16 @@ def main():
 if __name__ == "__main__":
     # preprocess input files from command line arguments
     bed_f, snp_f, parchment_f, breeds_f, ref_f = main()
-    breeds = parse_breeds_table(breeds_f)
+    breeds = parse_samples_table(breeds_f)
     intervals = parse_bed(bed_f)
 
     # call interpolation, then merge the parchment into it using homegrown VCF parser :-(
     sequences = interpolate_sequences(snp_f, ref_f, list(breeds.keys()))
     sequences = parse_parchment_vcf(parchment_f, sequences)
 
-    # filter the interpolated sequences to retain intervals
+    # filter the interpolated sequences to retain intervals, remove indels
     sequences = filter_sites(sequences, intervals)
+    sequences = filter_indels(sequences)
 
     # write output
     for sample in sequences.keys():
