@@ -2,17 +2,13 @@
 [written Wed Aug 16 17:44:29 CEST 2023 by Mesquite  version 3.70 (build 940) at Rutgers-MacBook-Pro-2.local/10.125.134.174]
 
 BEGIN TAXA;
-	TITLE Taxa;
 	DIMENSIONS NTAX=106;
 	TAXLABELS
 		SAMEA5577153 SAMN05216009 SAMN05216014 SAMN05216013 SAMN09379745 SAMN09379719 SAMN09379750 SAMEA4051548 SAMN05803879 SAMN05803880 SAMN01915355 SAMN10721585 SAMN05199681 SAMN05199680 SAMN05216095 SAMEA4051550 SAMEA4560541 SAMEA19850668 SAMN05216036 SAMN05216037 SAMN05216038 SAMEA32998168 SAMEA32999668 SAMEA33668668 SAMN05216091 SAMN05216090 SAMN05216089 SAMN02841105 SAMN05803888 SAMN05803883 SAMEA4827182 SAMEA4827183 SAMEA4827184 SAMEA4560538 SAMEA5714967 SAMEA19849168 SAMEA5714969 SAMEA5714968 SAMN05945846 SAMN05945848 SAMN05945849 SAMN05216050 SAMN05216045 SAMN05216047 SAMN05216019 SAMN05216020 SAMN05216018 SAMN08612543 SAMN08612493 SAMN08612470 SAMN10721581 SAMEA5159763 SAMEA19867918 SAMEA32985418 SAMN05216022 SAMN05216024 SAMN05216025 SAMN02843100 SAMN02843069 SAMN05199688 SAMN10721583 SAMN10721580 SAMEA5064546 SAMEA5064547 SAMN09510423 SAMEA33001168 SAMEA6272109 SAMEA6272118 SAMEA6272113 SAMN10721584 SAMN02941217 SAMN01915345 SAMN01915349 SAMEA5159845 SAMN10721582 SAMN05216044 SAMN05216041 SAMN05216042 SAMEA32988418 SAMEA32987668 SAMEA19876168 SAMN05216062 SAMN05216063 SAMN05216061 SAMN10721579 SAMEA5159830 SAMEA5159831 SAMEA5159829 SAMN05216074 SAMN05216072 SAMN05216071 SAMN05216032 SAMN05216030 SAMN05216027 SAMN05216101 SAMN05216102 SAMN05216104 SAMEA5159846 SAMEA5159888 SAMEA5159889 SAMEA5159887 SAMN10131258 SAMEA4827191 SAMEA4827188 SAMEA4827189 'P1_vcf' 
 	;
-
 END;
 
-
 BEGIN CHARACTERS;
-	TITLE  Character_Matrix;
 	DIMENSIONS  NCHAR=71;
 	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
 	MATRIX
@@ -122,172 +118,118 @@ BEGIN CHARACTERS;
 	SAMEA4827188   TTATTGTCCCATGGCTCTACGTCCGAATCTGCTTTTTGTTGAAGGCACTCCCCATTACCTTTCATCCACTT
 	SAMEA4827189   TTATTGTCCCATGGCTCTACGTCCGAATCTGCTTTTTGTTGAAGGCACTCCCCATTACCTTTCATCCACTT
 	'P1_vcf'       TTATTGTCCCATGGCTCTACGTCCGAATCTGCTATTTGTTGAAGGCACTCCCCATTACCTTTCATTCACTT
-
 ;
-
-
-
 END;
 
-BEGIN ASSUMPTIONS;
-	TYPESET * UNTITLED   =  unord:  1- 71;
-
+BEGIN TRAITS;
+  DIMENSIONS NTRAITS=10;
+  FORMAT labels=yes MISSING=? separator=tab;
+  TRAITLABELS Iberia BritishIsles Benelux France Balkan Alps Italy Finnoscandia Germany India;
+  MATRIX
+SAMEA5577153	1	0	0	0	0	0	0	0	0	0
+SAMN05216009	0	1	0	0	0	0	0	0	0	0
+SAMN05216014	0	1	0	0	0	0	0	0	0	0
+SAMN05216013	0	1	0	0	0	0	0	0	0	0
+SAMN09379745	0	0	1	0	0	0	0	0	0	0
+SAMN09379719	0	0	1	0	0	0	0	0	0	0
+SAMN09379750	0	0	1	0	0	0	0	0	0	0
+SAMEA4051548	0	1	0	0	0	0	0	0	0	0
+SAMN05803879	0	1	0	0	0	0	0	0	0	0
+SAMN05803880	0	1	0	0	0	0	0	0	0	0
+SAMN01915355	0	0	0	1	0	0	0	0	0	0
+SAMN10721585	0	0	0	0	1	0	0	0	0	0
+SAMN05199681	0	0	0	0	0	1	0	0	0	0
+SAMN05199680	0	0	0	0	0	1	0	0	0	0
+SAMN05216095	0	0	0	0	0	1	0	0	0	0
+SAMEA4051550	0	0	0	0	0	1	0	0	0	0
+SAMEA4560541	0	0	0	0	0	1	0	0	0	0
+SAMEA19850668	0	0	0	0	0	1	0	0	0	0
+SAMN05216036	0	0	0	1	0	0	0	0	0	0
+SAMN05216037	0	0	0	1	0	0	0	0	0	0
+SAMN05216038	0	0	0	1	0	0	0	0	0	0
+SAMEA32998168	0	0	0	0	0	0	1	0	0	0
+SAMEA32999668	0	0	0	0	0	0	1	0	0	0
+SAMEA33668668	0	0	0	0	0	0	1	0	0	0
+SAMN05216091	0	0	0	0	0	0	1	0	0	0
+SAMN05216090	0	0	0	0	0	0	1	0	0	0
+SAMN05216089	0	0	0	0	0	0	1	0	0	0
+SAMN02841105	0	1	0	0	0	0	0	0	0	0
+SAMN05803888	0	1	0	0	0	0	0	0	0	0
+SAMN05803883	0	1	0	0	0	0	0	0	0	0
+SAMEA4827182	0	0	0	0	0	0	0	1	0	0
+SAMEA4827183	0	0	0	0	0	0	0	1	0	0
+SAMEA4827184	0	0	0	0	0	0	0	1	0	0
+SAMEA4560538	0	0	0	0	0	1	0	0	0	0
+SAMEA5714967	0	0	0	0	0	1	0	0	0	0
+SAMEA19849168	0	0	0	0	0	1	0	0	0	0
+SAMEA5714969	0	0	0	0	0	1	0	0	0	0
+SAMEA5714968	0	0	0	0	0	1	0	0	0	0
+SAMN05945846	0	0	0	0	0	1	0	0	0	0
+SAMN05945848	0	0	0	0	0	1	0	0	0	0
+SAMN05945849	0	0	0	0	0	1	0	0	0	0
+SAMN05216050	0	0	0	0	0	0	0	0	1	0
+SAMN05216045	0	0	0	0	0	0	0	0	1	0
+SAMN05216047	0	0	0	0	0	0	0	0	1	0
+SAMN05216019	0	1	0	0	0	0	0	0	0	0
+SAMN05216020	0	1	0	0	0	0	0	0	0	0
+SAMN05216018	0	1	0	0	0	0	0	0	0	0
+SAMN08612543	0	1	0	0	0	0	0	0	0	0
+SAMN08612493	0	1	0	0	0	0	0	0	0	0
+SAMN08612470	0	1	0	0	0	0	0	0	0	0
+SAMN10721581	1	0	0	0	0	0	0	0	0	0
+SAMEA5159763	0	0	0	1	0	0	0	0	0	0
+SAMEA19867918	0	0	0	1	0	0	0	0	0	0
+SAMEA32985418	0	0	0	1	0	0	0	0	0	0
+SAMN05216022	0	0	0	1	0	0	0	0	0	0
+SAMN05216024	0	0	0	1	0	0	0	0	0	0
+SAMN05216025	0	0	0	1	0	0	0	0	0	0
+SAMN02843100	0	0	0	1	0	0	0	0	0	0
+SAMN02843069	0	0	0	1	0	0	0	0	0	0
+SAMN05199688	0	0	0	1	0	0	0	0	0	0
+SAMN10721583	0	0	0	0	0	0	1	0	0	0
+SAMN10721580	1	0	0	0	0	0	0	0	0	0
+SAMEA5064546	0	0	0	0	0	0	0	1	0	0
+SAMEA5064547	0	0	0	0	0	0	0	1	0	0
+SAMN09510423	0	0	0	0	0	0	0	1	0	0
+SAMEA33001168	0	0	0	1	0	0	0	0	0	0
+SAMEA6272109	0	0	0	0	0	1	0	0	0	0
+SAMEA6272118	0	0	0	0	0	1	0	0	0	0
+SAMEA6272113	0	0	0	0	0	1	0	0	0	0
+SAMN10721584	0	0	0	0	0	0	1	0	0	0
+SAMN02941217	0	0	0	0	0	0	1	0	0	0
+SAMN01915345	0	0	0	0	0	0	1	0	0	0
+SAMN01915349	0	0	0	0	0	0	1	0	0	0
+SAMEA5159845	0	0	0	0	0	1	0	0	0	0
+SAMN10721582	0	0	0	0	0	0	1	0	0	0
+SAMN05216044	0	1	0	0	0	0	0	0	0	0
+SAMN05216041	0	1	0	0	0	0	0	0	0	0
+SAMN05216042	0	1	0	0	0	0	0	0	0	0
+SAMEA32988418	0	0	0	0	0	0	1	0	0	0
+SAMEA32987668	0	0	0	0	0	0	1	0	0	0
+SAMEA19876168	0	0	0	0	0	0	1	0	0	0
+SAMN05216062	0	0	0	1	0	0	0	0	0	0
+SAMN05216063	0	0	0	1	0	0	0	0	0	0
+SAMN05216061	0	0	0	1	0	0	0	0	0	0
+SAMN10721579	1	0	0	0	0	0	0	0	0	0
+SAMEA5159830	0	1	0	0	0	0	0	0	0	0
+SAMEA5159831	0	1	0	0	0	0	0	0	0	0
+SAMEA5159829	0	1	0	0	0	0	0	0	0	0
+SAMN05216074	0	1	0	0	0	0	0	0	0	0
+SAMN05216072	0	1	0	0	0	0	0	0	0	0
+SAMN05216071	0	1	0	0	0	0	0	0	0	0
+SAMN05216032	0	0	0	0	0	1	0	0	0	0
+SAMN05216030	0	0	0	0	0	1	0	0	0	0
+SAMN05216027	0	0	0	0	0	1	0	0	0	0
+SAMN05216101	0	0	0	0	0	1	0	0	0	0
+SAMN05216102	0	0	0	0	0	1	0	0	0	0
+SAMN05216104	0	0	0	0	0	1	0	0	0	0
+SAMEA5159846	0	0	0	0	0	1	0	0	0	0
+SAMEA5159888	0	0	0	0	0	1	0	0	0	0
+SAMEA5159889	0	0	0	0	0	1	0	0	0	0
+SAMEA5159887	0	0	0	0	0	1	0	0	0	0
+SAMN10131258	0	0	0	0	0	0	0	0	0	1
+SAMEA4827191	0	0	0	0	0	0	0	1	0	0
+SAMEA4827188	0	0	0	0	0	0	0	1	0	0
+SAMEA4827189	0	0	0	0	0	0	0	1	0	0
+;
 END;
-
-BEGIN NOTES;
-
-	TAXABITS   NAME = newlyAddedTaxon on =  1 -  106;
-
-END;
-
-BEGIN CODONS;
-	CODESET * UNTITLED   =  universal:  1- 71;
-
-
-END;
-
-BEGIN MESQUITECHARMODELS;
-	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1- 71;
-END;
-
-Begin MESQUITE;
-		MESQUITESCRIPTVERSION 2;
-		TITLE AUTO;
-		tell ProjectCoordinator;
-		timeSaved 1692200669449;
-		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
-		tell It;
-			setID 0 8478498710606891159;
-		endTell;
-		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
-		tell It;
-			setID 0 2759822289833726932;
-			mqVersion 370;
-			checksumv 0 3 1406995767 null  getNumChars 71 numChars 71 getNumTaxa 106 numTaxa 106   short true   bits 15   states 15   sumSquaresStatesOnly 208955.0 sumSquares 208955.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
-			mqVersion;
-		endTell;
-		getWindow;
-		tell It;
-			suppress;
-			setResourcesState false false 170;
-			setPopoutState 300;
-			setExplanationSize 0;
-			setAnnotationSize 0;
-			setFontIncAnnot 0;
-			setFontIncExp 0;
-			setSize 1784 1031;
-			setLocation 8 25;
-			setFont SanSerif;
-			setFontSize 10;
-			getToolPalette;
-			tell It;
-			endTell;
-			desuppress;
-		endTell;
-		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
-		tell It;
-			showDataWindow #2759822289833726932 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
-			tell It;
-				getWindow;
-				tell It;
-					setExplanationSize 30;
-					setAnnotationSize 20;
-					setFontIncAnnot 0;
-					setFontIncExp 0;
-					setSize 1614 959;
-					setLocation 8 25;
-					setFont SanSerif;
-					setFontSize 10;
-					getToolPalette;
-					tell It;
-						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
-					endTell;
-					setActive;
-					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
-					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
-				tell It;
-					setStateLimit 9;
-					toggleUniformMaximum on;
-				endTell;
-					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
-					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
-					colorText  #mesquite.charMatrices.NoColor.NoColor;
-					setBackground White;
-					toggleShowNames on;
-					toggleShowTaxonNames on;
-					toggleTight off;
-					toggleThinRows off;
-					toggleShowChanges off;
-					toggleSeparateLines off;
-					toggleShowStates on;
-					toggleReduceCellBorders off;
-					toggleAutoWCharNames off;
-					toggleAutoTaxonNames off;
-					toggleShowDefaultCharNames off;
-					toggleConstrainCW on;
-					toggleBirdsEye off;
-					toggleColorOnlyTaxonNames off;
-					toggleShowPaleGrid off;
-					toggleShowPaleCellColors off;
-					toggleShowPaleExcluded off;
-					togglePaleInapplicable on;
-					togglePaleMissing off;
-					toggleShowBoldCellText off;
-					toggleAllowAutosize off;
-					toggleColorsPanel off;
-					toggleLinkedScrolling on;
-					toggleScrollLinkedTables off;
-				endTell;
-				showWindow;
-				getWindow;
-				tell It;
-					forceAutosize;
-				endTell;
-				getEmployee #mesquite.charMatrices.AlterData.AlterData;
-				tell It;
-					toggleBySubmenus off;
-				endTell;
-				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
-				tell It;
-					setColor Red;
-					removeColor off;
-				endTell;
-				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
-				tell It;
-					showStrip off;
-				endTell;
-				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
-				tell It;
-					togglePanel off;
-				endTell;
-				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
-				tell It;
-					showStrip off;
-				endTell;
-				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
-				tell It;
-					autotabOff;
-				endTell;
-				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
-				tell It;
-					showStrip off;
-				endTell;
-				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
-				tell It;
-					gapCosts 16 6 1 1;
-					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
-				endTell;
-				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
-				tell It;
-					emphasizeDegeneracy off;
-				endTell;
-				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
-				tell It;
-					panelOpen false;
-				endTell;
-			endTell;
-		endTell;
-		endTell;
-end;
-
-
